@@ -1,0 +1,9 @@
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/uninstall.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/blue_demos_uninstall.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/test.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/edit_cache.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/rebuild_cache.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/list_install_components.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/install.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/install/local.dir
+/home/blue/ws_blue/build/blue_demos/CMakeFiles/install/strip.dir

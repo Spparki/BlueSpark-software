@@ -1,0 +1,43 @@
+[0.034s] Invoking command in '/home/blue/ws_blue/build/message_transforms_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/mobile_to_maritime/message_transforms_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/message_transforms_demos
+[0.247s] -- The C compiler identification is GNU 11.4.0
+[0.444s] -- The CXX compiler identification is GNU 11.4.0
+[0.464s] -- Detecting C compiler ABI info
+[0.745s] -- Detecting C compiler ABI info - done
+[0.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.754s] -- Detecting C compile features
+[0.758s] -- Detecting C compile features - done
+[0.766s] -- Detecting CXX compiler ABI info
+[1.149s] -- Detecting CXX compiler ABI info - done
+[1.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.174s] -- Detecting CXX compile features
+[1.175s] -- Detecting CXX compile features - done
+[1.181s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.701s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.147s] -- Configuring done
+[2.154s] -- Generating done
+[2.163s] -- Build files have been written to: /home/blue/ws_blue/build/message_transforms_demos
+[2.189s] Invoked command in '/home/blue/ws_blue/build/message_transforms_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/mobile_to_maritime/message_transforms_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/message_transforms_demos
+[2.190s] Invoking command in '/home/blue/ws_blue/build/message_transforms_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/message_transforms_demos -- -j4 -l4
+[2.353s] Invoked command in '/home/blue/ws_blue/build/message_transforms_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/message_transforms_demos -- -j4 -l4
+[2.592s] Invoking command in '/home/blue/ws_blue/build/message_transforms_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/message_transforms_demos
+[2.613s] -- Install configuration: ""
+[2.622s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/launch
+[2.623s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/launch/demo.launch.yaml
+[2.624s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/config
+[2.624s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/config/demo.yaml
+[2.625s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/package_run_dependencies/message_transforms_demos
+[2.626s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/parent_prefix_path/message_transforms_demos
+[2.627s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/ament_prefix_path.sh
+[2.627s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/ament_prefix_path.dsv
+[2.628s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/path.sh
+[2.628s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/path.dsv
+[2.629s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.bash
+[2.630s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.sh
+[2.630s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.zsh
+[2.631s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.dsv
+[2.631s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/package.dsv
+[2.632s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/packages/message_transforms_demos
+[2.633s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/cmake/message_transforms_demosConfig.cmake
+[2.633s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/cmake/message_transforms_demosConfig-version.cmake
+[2.634s] -- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/package.xml
+[2.649s] Invoked command in '/home/blue/ws_blue/build/message_transforms_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/message_transforms_demos

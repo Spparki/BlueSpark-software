@@ -1,0 +1,87 @@
+[0.044s] Invoking command in '/home/blue/ws_blue/build/message_transforms': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/mobile_to_maritime/message_transforms -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/message_transforms
+[0.279s] -- The C compiler identification is GNU 11.4.0
+[0.466s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.750s] -- Detecting C compiler ABI info - done
+[0.755s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.755s] -- Detecting C compile features
+[0.756s] -- Detecting C compile features - done
+[0.763s] -- Detecting CXX compiler ABI info
+[1.003s] -- Detecting CXX compiler ABI info - done
+[1.012s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.013s] -- Detecting CXX compile features
+[1.014s] -- Detecting CXX compile features - done
+[1.025s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[1.386s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.615s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.639s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.050s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.055s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.486s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.574s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.094s] -- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[3.308s] -- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)
+[3.526s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[3.702s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[4.058s] -- Found tf2_geometry_msgs: 0.31.8 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[4.113s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[4.127s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.128s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.935s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/iron/share/generate_parameter_library/cmake)
+[4.944s] -- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+[5.156s] -- Configuring done
+[5.225s] -- Generating done
+[5.229s] -- Build files have been written to: /home/blue/ws_blue/build/message_transforms
+[5.286s] Invoked command in '/home/blue/ws_blue/build/message_transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/mobile_to_maritime/message_transforms -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/message_transforms
+[5.286s] Invoking command in '/home/blue/ws_blue/build/message_transforms': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/message_transforms -- -j4 -l4
+[5.492s] [ 16%] Running `/opt/ros/iron/bin/generate_parameter_library_cpp /home/blue/ws_blue/build/message_transforms/message_transforms_parameters/include//message_transforms_parameters.hpp /home/blue/ws_blue/src/mobile_to_maritime/message_transforms/src/message_transforms_parameters.yaml `
+[5.540s] [ 33%] Building CXX object CMakeFiles/message_transforms.dir/rclcpp_components/node_main_message_transforms.cpp.o
+[6.365s] [ 33%] Built target message_transforms_parameters
+[6.502s] [ 50%] Building CXX object CMakeFiles/message_transforms_library.dir/src/message_transforms_node.cpp.o
+[6.512s] [ 66%] Building CXX object CMakeFiles/message_transforms_library.dir/src/transforms.cpp.o
+[14.005s] [ 83%] Linking CXX executable message_transforms
+[14.448s] [ 83%] Built target message_transforms
+[40.534s] [100%] Linking CXX shared library libmessage_transforms_library.so
+[42.110s] [100%] Built target message_transforms_library
+[42.121s] Invoked command in '/home/blue/ws_blue/build/message_transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/message_transforms -- -j4 -l4
+[42.153s] Invoking command in '/home/blue/ws_blue/build/message_transforms': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/message_transforms
+[42.160s] -- Install configuration: ""
+[42.160s] -- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters
+[42.160s] -- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters/message_transforms_parameters.hpp
+[42.161s] -- Installing: /home/blue/ws_blue/install/message_transforms/lib/message_transforms/message_transforms
+[42.162s] -- Set runtime path of "/home/blue/ws_blue/install/message_transforms/lib/message_transforms/message_transforms" to ""
+[42.162s] -- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms
+[42.162s] -- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms
+[42.163s] -- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/message_transforms_node.hpp
+[42.163s] -- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/transforms.hpp
+[42.163s] -- Installing: /home/blue/ws_blue/install/message_transforms/lib/libmessage_transforms_library.so
+[42.216s] -- Set runtime path of "/home/blue/ws_blue/install/message_transforms/lib/libmessage_transforms_library.so" to ""
+[42.216s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch
+[42.216s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/tf.launch.yaml
+[42.216s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/message_transforms.launch.py
+[42.217s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.sh
+[42.217s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.dsv
+[42.218s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/package_run_dependencies/message_transforms
+[42.218s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/parent_prefix_path/message_transforms
+[42.218s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.sh
+[42.219s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.dsv
+[42.219s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.sh
+[42.219s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.dsv
+[42.220s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.bash
+[42.220s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.sh
+[42.220s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.zsh
+[42.221s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.dsv
+[42.221s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.dsv
+[42.222s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/packages/message_transforms
+[42.222s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/rclcpp_components/message_transforms
+[42.222s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport.cmake
+[42.223s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport-noconfig.cmake
+[42.223s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_targets-extras.cmake
+[42.223s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.224s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig.cmake
+[42.224s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig-version.cmake
+[42.224s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.xml
+[42.227s] Invoked command in '/home/blue/ws_blue/build/message_transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/message_transforms

@@ -1,0 +1,83 @@
+[0.107s] Invoking command in '/home/blue/ws_blue/build/thruster_allocation_matrix_controller': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/thruster_allocation_matrix_controller -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/thruster_allocation_matrix_controller
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.291s] -- The CXX compiler identification is GNU 11.4.0
+[0.301s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.551s] -- Detecting CXX compiler ABI info
+[0.853s] -- Detecting CXX compiler ABI info - done
+[0.860s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.881s] -- Detecting CXX compile features
+[0.882s] -- Detecting CXX compile features - done
+[0.890s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[1.293s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.601s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.652s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.185s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.191s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.606s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.652s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.237s] -- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[3.529s] -- Found controller_interface: 3.28.1 (/opt/ros/iron/share/controller_interface/cmake)
+[5.060s] -- Found realtime_tools: 2.6.0 (/opt/ros/iron/share/realtime_tools/cmake)
+[5.385s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[5.399s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.401s] -- Found auv_control_msgs: 0.0.1 (/home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake)
+[5.490s] -- Found hydrodynamics: 0.0.1 (/home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake)
+[5.497s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/iron/share/generate_parameter_library/cmake)
+[5.507s] -- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+[5.552s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[5.671s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.672s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/blue/ws_blue/src/auv_controllers/thruster_allocation_matrix_controller/include>
+[5.672s] -- Configured cppcheck exclude dirs and/or files: 
+[5.674s] -- Added test 'lint_cmake' to check CMake code style
+[5.675s] -- Added test 'xmllint' to check XML markup files
+[5.680s] -- Configuring done
+[5.715s] -- Generating done
+[5.719s] -- Build files have been written to: /home/blue/ws_blue/build/thruster_allocation_matrix_controller
+[5.733s] Invoked command in '/home/blue/ws_blue/build/thruster_allocation_matrix_controller' returned '0': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/thruster_allocation_matrix_controller -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/thruster_allocation_matrix_controller
+[5.735s] Invoking command in '/home/blue/ws_blue/build/thruster_allocation_matrix_controller': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_allocation_matrix_controller -- -j4 -l4
+[5.890s] [ 33%] Running `/opt/ros/iron/bin/generate_parameter_library_cpp /home/blue/ws_blue/build/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller_parameters/include//thruster_allocation_matrix_controller_parameters.hpp /home/blue/ws_blue/src/auv_controllers/thruster_allocation_matrix_controller/src/thruster_allocation_matrix_controller_parameters.yaml `
+[6.348s] [ 33%] Built target thruster_allocation_matrix_controller_parameters
+[6.426s] [ 66%] Building CXX object CMakeFiles/thruster_allocation_matrix_controller.dir/src/thruster_allocation_matrix_controller.cpp.o
+[34.432s] [100%] Linking CXX shared library libthruster_allocation_matrix_controller.so
+[36.092s] [100%] Built target thruster_allocation_matrix_controller
+[36.128s] Invoked command in '/home/blue/ws_blue/build/thruster_allocation_matrix_controller' returned '0': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_allocation_matrix_controller -- -j4 -l4
+[36.382s] Invoking command in '/home/blue/ws_blue/build/thruster_allocation_matrix_controller': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_allocation_matrix_controller
+[36.412s] -- Install configuration: ""
+[36.421s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller_parameters
+[36.422s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller_parameters/thruster_allocation_matrix_controller_parameters.hpp
+[36.423s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller.xml
+[36.423s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller
+[36.433s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller
+[36.434s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller.hpp
+[36.434s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/lib/libthruster_allocation_matrix_controller.so
+[36.469s] -- Set runtime path of "/home/blue/ws_blue/install/thruster_allocation_matrix_controller/lib/libthruster_allocation_matrix_controller.so" to ""
+[36.470s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/library_path.sh
+[36.470s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/library_path.dsv
+[36.470s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/package_run_dependencies/thruster_allocation_matrix_controller
+[36.471s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/parent_prefix_path/thruster_allocation_matrix_controller
+[36.471s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/ament_prefix_path.sh
+[36.471s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/ament_prefix_path.dsv
+[36.472s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/path.sh
+[36.472s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/path.dsv
+[36.472s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.bash
+[36.473s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.sh
+[36.473s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.zsh
+[36.489s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.dsv
+[36.489s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/package.dsv
+[36.489s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/packages/thruster_allocation_matrix_controller
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/thruster_allocation_matrix_controller
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/export_thruster_allocation_matrix_controllerExport.cmake
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/export_thruster_allocation_matrix_controllerExport-noconfig.cmake
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/ament_cmake_export_targets-extras.cmake
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/thruster_allocation_matrix_controllerConfig.cmake
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/thruster_allocation_matrix_controllerConfig-version.cmake
+[36.490s] -- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/package.xml
+[36.501s] Invoked command in '/home/blue/ws_blue/build/thruster_allocation_matrix_controller' returned '0': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_allocation_matrix_controller

@@ -1,0 +1,6 @@
+Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/blue/blue_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/blue_demos
+Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/blue/blue_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/blue_demos
+Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_demos -- -j4 -l4
+Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_demos -- -j4 -l4
+Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_demos
+Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_demos

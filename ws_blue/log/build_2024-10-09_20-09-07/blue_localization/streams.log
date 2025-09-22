@@ -1,0 +1,47 @@
+[1.032s] Invoking command in '/home/blue/ws_blue/src/blue/blue_localization': PYTHONPATH=/home/blue/ws_blue/build/blue_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/blue_localization build --build-base /home/blue/ws_blue/build/blue_localization/build install --record /home/blue/ws_blue/build/blue_localization/install.log --single-version-externally-managed install_data
+[1.527s] running egg_info
+[1.528s] creating ../../../build/blue_localization/blue_localization.egg-info
+[1.528s] writing ../../../build/blue_localization/blue_localization.egg-info/PKG-INFO
+[1.529s] writing dependency_links to ../../../build/blue_localization/blue_localization.egg-info/dependency_links.txt
+[1.529s] writing entry points to ../../../build/blue_localization/blue_localization.egg-info/entry_points.txt
+[1.529s] writing requirements to ../../../build/blue_localization/blue_localization.egg-info/requires.txt
+[1.530s] writing top-level names to ../../../build/blue_localization/blue_localization.egg-info/top_level.txt
+[1.530s] writing manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'
+[1.532s] reading manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'
+[1.537s] adding license file 'LICENSE'
+[1.538s] writing manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'
+[1.538s] running build
+[1.538s] running build_py
+[1.539s] creating /home/blue/ws_blue/build/blue_localization/build
+[1.539s] creating /home/blue/ws_blue/build/blue_localization/build/lib
+[1.539s] creating /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization
+[1.539s] copying blue_localization/localizer.py -> /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization
+[1.539s] copying blue_localization/__init__.py -> /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization
+[1.540s] copying blue_localization/source.py -> /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization
+[1.540s] running install
+[1.540s] running install_lib
+[1.541s] creating /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization
+[1.542s] copying /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization/localizer.py -> /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization
+[1.542s] copying /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization/__init__.py -> /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization
+[1.542s] copying /home/blue/ws_blue/build/blue_localization/build/lib/blue_localization/source.py -> /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization
+[1.543s] byte-compiling /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization/localizer.py to localizer.cpython-310.pyc
+[1.547s] byte-compiling /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization/__init__.py to __init__.cpython-310.pyc
+[1.547s] byte-compiling /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization/source.py to source.cpython-310.pyc
+[1.562s] running install_data
+[1.562s] creating /home/blue/ws_blue/install/blue_localization/share/ament_index
+[1.562s] creating /home/blue/ws_blue/install/blue_localization/share/ament_index/resource_index
+[1.563s] creating /home/blue/ws_blue/install/blue_localization/share/ament_index/resource_index/packages
+[1.563s] copying resource/blue_localization -> /home/blue/ws_blue/install/blue_localization/share/ament_index/resource_index/packages
+[1.563s] copying package.xml -> /home/blue/ws_blue/install/blue_localization/share/blue_localization
+[1.563s] copying launch/localization.launch.py -> /home/blue/ws_blue/install/blue_localization/share/blue_localization
+[1.563s] copying launch/markers.launch.py -> /home/blue/ws_blue/install/blue_localization/share/blue_localization
+[1.563s] running install_egg_info
+[1.566s] Copying ../../../build/blue_localization/blue_localization.egg-info to /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization-0.0.1-py3.10.egg-info
+[1.568s] running install_scripts
+[1.612s] Installing aruco_marker_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[1.613s] Installing camera script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[1.613s] Installing gazebo_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[1.614s] Installing qualisys_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[1.614s] Installing qualisys_mocap script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[1.615s] writing list of installed files to '/home/blue/ws_blue/build/blue_localization/install.log'
+[1.649s] Invoked command in '/home/blue/ws_blue/src/blue/blue_localization' returned '0': PYTHONPATH=/home/blue/ws_blue/build/blue_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/blue_localization build --build-base /home/blue/ws_blue/build/blue_localization/build install --record /home/blue/ws_blue/build/blue_localization/install.log --single-version-externally-managed install_data

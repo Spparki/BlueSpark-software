@@ -1,0 +1,2 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/worlds

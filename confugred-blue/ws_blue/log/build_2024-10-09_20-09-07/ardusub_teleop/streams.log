@@ -1,0 +1,60 @@
+[0.052s] Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/ardusub_driver/ardusub_teleop -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/ardusub_teleop
+[0.187s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.618s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.618s] -- Detecting C compile features
+[0.619s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.920s] -- Detecting CXX compiler ABI info - done
+[0.927s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.936s] -- Detecting CXX compile features
+[0.937s] -- Detecting CXX compile features - done
+[0.949s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.149s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.343s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[1.411s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.432s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.867s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.873s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.387s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.857s] -- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+[3.034s] -- Found mavros_msgs: 2.8.0 (/opt/ros/iron/share/mavros_msgs/cmake)
+[5.039s] -- Configuring done
+[5.078s] -- Generating done
+[5.081s] -- Build files have been written to: /home/blue/ws_blue/build/ardusub_teleop
+[5.114s] Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/ardusub_driver/ardusub_teleop -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/ardusub_teleop
+[5.115s] Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_teleop -- -j4 -l4
+[5.283s] [ 50%] Building CXX object CMakeFiles/joy_interface.dir/src/joy_interface.cpp.o
+[21.067s] [100%] Linking CXX executable joy_interface
+[22.214s] [100%] Built target joy_interface
+[22.278s] Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_teleop -- -j4 -l4
+[22.543s] Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_teleop
+[22.567s] -- Install configuration: ""
+[22.567s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface
+[22.583s] -- Set runtime path of "/home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface" to ""
+[22.584s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config
+[22.593s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config/joy_teleop.yaml
+[22.593s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch
+[22.593s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch/teleop.launch.yaml
+[22.594s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/package_run_dependencies/ardusub_teleop
+[22.594s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/parent_prefix_path/ardusub_teleop
+[22.595s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.sh
+[22.595s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.dsv
+[22.596s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.sh
+[22.602s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.dsv
+[22.602s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.bash
+[22.603s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.sh
+[22.603s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.zsh
+[22.604s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.dsv
+[22.616s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.dsv
+[22.617s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/packages/ardusub_teleop
+[22.618s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig.cmake
+[22.618s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig-version.cmake
+[22.628s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.xml
+[22.638s] Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_teleop

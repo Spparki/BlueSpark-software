@@ -1,0 +1,27 @@
+[0.205s] Invoking command in '/home/blue/ws_blue/build/ardusub_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_manager -- -j18 -l18
+[0.713s] [ 33%] Built target ardusub_manager_parameters
+[0.713s] [100%] Built target ardusub_manager
+[0.842s] Invoked command in '/home/blue/ws_blue/build/ardusub_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_manager -- -j18 -l18
+[1.139s] Invoking command in '/home/blue/ws_blue/build/ardusub_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_manager
+[1.174s] -- Install configuration: ""
+[1.174s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters
+[1.174s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters/ardusub_manager_parameters.hpp
+[1.175s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager
+[1.175s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch
+[1.175s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch/ardusub_manager.launch.py
+[1.175s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/package_run_dependencies/ardusub_manager
+[1.176s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/parent_prefix_path/ardusub_manager
+[1.176s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.sh
+[1.176s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.dsv
+[1.176s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.sh
+[1.176s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.dsv
+[1.176s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.bash
+[1.177s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.sh
+[1.177s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.zsh
+[1.177s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.dsv
+[1.177s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.dsv
+[1.178s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/packages/ardusub_manager
+[1.178s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig.cmake
+[1.179s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig-version.cmake
+[1.179s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.xml
+[1.367s] Invoked command in '/home/blue/ws_blue/build/ardusub_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_manager

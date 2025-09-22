@@ -1,0 +1,28 @@
+[2.164s] Invoking command in '/home/blue/ws_blue/src/blue/blue_localization': PYTHONPATH=/home/blue/ws_blue/build/blue_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/blue_localization build --build-base /home/blue/ws_blue/build/blue_localization/build install --record /home/blue/ws_blue/build/blue_localization/install.log --single-version-externally-managed install_data
+[2.633s] /home/blue/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.633s]   warnings.warn(msg)
+[2.914s] running egg_info
+[2.950s] writing ../../../build/blue_localization/blue_localization.egg-info/PKG-INFO
+[2.954s] writing dependency_links to ../../../build/blue_localization/blue_localization.egg-info/dependency_links.txt
+[2.954s] writing entry points to ../../../build/blue_localization/blue_localization.egg-info/entry_points.txt
+[2.954s] writing requirements to ../../../build/blue_localization/blue_localization.egg-info/requires.txt
+[2.954s] writing top-level names to ../../../build/blue_localization/blue_localization.egg-info/top_level.txt
+[3.058s] reading manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'
+[3.058s] adding license file 'LICENSE'
+[3.059s] writing manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'
+[3.059s] running build
+[3.059s] running build_py
+[3.059s] running install
+[3.059s] running install_lib
+[3.142s] running install_data
+[3.150s] running install_egg_info
+[3.200s] removing '/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization-0.0.1-py3.10.egg-info' (and everything under it)
+[3.202s] Copying ../../../build/blue_localization/blue_localization.egg-info to /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization-0.0.1-py3.10.egg-info
+[3.210s] running install_scripts
+[3.671s] Installing aruco_marker_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[3.672s] Installing camera script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[3.672s] Installing gazebo_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[3.673s] Installing qualisys_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[3.673s] Installing qualisys_mocap script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization
+[3.674s] writing list of installed files to '/home/blue/ws_blue/build/blue_localization/install.log'
+[3.750s] Invoked command in '/home/blue/ws_blue/src/blue/blue_localization' returned '0': PYTHONPATH=/home/blue/ws_blue/build/blue_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/blue_localization build --build-base /home/blue/ws_blue/build/blue_localization/build install --record /home/blue/ws_blue/build/blue_localization/install.log --single-version-externally-managed install_data

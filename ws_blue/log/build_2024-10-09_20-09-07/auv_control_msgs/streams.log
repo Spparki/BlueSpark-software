@@ -1,0 +1,232 @@
+[0.025s] Invoking command in '/home/blue/ws_blue/build/auv_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/auv_control_msgs -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/auv_control_msgs
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.399s] -- Detecting C compile features
+[0.400s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.546s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.558s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.950s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[1.025s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.054s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.121s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.277s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.328s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.901s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[2.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.806s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.811s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.837s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.837s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.838s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.838s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.871s] -- Found PythonExtra: .so  
+[2.976s] -- Configuring done
+[3.042s] -- Generating done
+[3.048s] -- Build files have been written to: /home/blue/ws_blue/build/auv_control_msgs
+[3.059s] Invoked command in '/home/blue/ws_blue/build/auv_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/auv_control_msgs -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/auv_control_msgs
+[3.059s] Invoking command in '/home/blue/ws_blue/build/auv_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/auv_control_msgs -- -j4 -l4
+[3.169s] [  2%] Generating type hashes for ROS interfaces
+[3.196s] [  2%] Built target ament_cmake_python_copy_auv_control_msgs
+[3.545s] running egg_info
+[3.546s] creating auv_control_msgs.egg-info
+[3.546s] writing auv_control_msgs.egg-info/PKG-INFO
+[3.547s] writing dependency_links to auv_control_msgs.egg-info/dependency_links.txt
+[3.547s] writing top-level names to auv_control_msgs.egg-info/top_level.txt
+[3.547s] writing manifest file 'auv_control_msgs.egg-info/SOURCES.txt'
+[3.550s] reading manifest file 'auv_control_msgs.egg-info/SOURCES.txt'
+[3.551s] writing manifest file 'auv_control_msgs.egg-info/SOURCES.txt'
+[3.583s] [  2%] Built target ament_cmake_python_build_auv_control_msgs_egg
+[3.783s] [  2%] Built target auv_control_msgs__rosidl_generator_type_description
+[3.802s] [  5%] Generating C code for ROS interfaces
+[3.862s] [  8%] Generating C++ code for ROS interfaces
+[4.463s] [  8%] Built target auv_control_msgs__cpp
+[4.523s] [ 11%] Building C object CMakeFiles/auv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_control_msgs/msg/detail/multi_actuator_state_stamped__functions.c.o
+[4.549s] [ 14%] Building C object CMakeFiles/auv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_control_msgs/msg/detail/multi_actuator_state_stamped__description.c.o
+[4.571s] [ 17%] Building C object CMakeFiles/auv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.c.o
+[4.755s] [ 20%] Linking C shared library libauv_control_msgs__rosidl_generator_c.so
+[4.815s] [ 20%] Built target auv_control_msgs__rosidl_generator_c
+[4.837s] [ 23%] Generating C introspection for ROS interfaces
+[4.846s] [ 26%] Generating C++ type support for eProsima Fast-RTPS
+[4.878s] [ 29%] Generating C++ introspection for ROS interfaces
+[4.895s] [ 32%] Generating C type support dispatch for ROS interfaces
+[5.451s] [ 35%] Building CXX object CMakeFiles/auv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_control_msgs/msg/detail/dds_fastrtps/multi_actuator_state_stamped__type_support.cpp.o
+[6.041s] [ 38%] Building C object CMakeFiles/auv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.c.o
+[6.200s] [ 41%] Building CXX object CMakeFiles/auv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_control_msgs/msg/multi_actuator_state_stamped__type_support.cpp.o
+[6.218s] [ 44%] Building CXX object CMakeFiles/auv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.cpp.o
+[6.239s] [ 47%] Linking C shared library libauv_control_msgs__rosidl_typesupport_introspection_c.so
+[6.336s] [ 50%] Linking CXX shared library libauv_control_msgs__rosidl_typesupport_c.so
+[6.356s] [ 50%] Built target auv_control_msgs__rosidl_typesupport_introspection_c
+[6.427s] [ 52%] Generating C++ type support dispatch for ROS interfaces
+[6.461s] [ 52%] Built target auv_control_msgs__rosidl_typesupport_c
+[6.493s] [ 55%] Linking CXX shared library libauv_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.527s] [ 58%] Generating C type support for eProsima Fast-RTPS
+[6.751s] [ 58%] Built target auv_control_msgs__rosidl_typesupport_fastrtps_cpp
+[7.026s] [ 61%] Linking CXX shared library libauv_control_msgs__rosidl_typesupport_introspection_cpp.so
+[7.121s] [ 61%] Built target auv_control_msgs__rosidl_typesupport_introspection_cpp
+[7.121s] [ 64%] Building CXX object CMakeFiles/auv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_control_msgs/msg/multi_actuator_state_stamped__type_support.cpp.o
+[7.432s] [ 67%] Building CXX object CMakeFiles/auv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support_c.cpp.o
+[7.802s] [ 70%] Linking CXX shared library libauv_control_msgs__rosidl_typesupport_cpp.so
+[7.942s] [ 70%] Built target auv_control_msgs__rosidl_typesupport_cpp
+[8.026s] [ 73%] Linking CXX shared library libauv_control_msgs__rosidl_typesupport_fastrtps_c.so
+[8.130s] [ 73%] Built target auv_control_msgs__rosidl_typesupport_fastrtps_c
+[8.177s] [ 73%] Built target auv_control_msgs
+[8.224s] [ 76%] Generating Python code for ROS interfaces
+[9.172s] [ 76%] Built target auv_control_msgs__py
+[9.277s] [ 79%] Building C object CMakeFiles/auv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/auv_control_msgs/msg/_multi_actuator_state_stamped_s.c.o
+[9.625s] [ 82%] Linking C shared library rosidl_generator_py/auv_control_msgs/libauv_control_msgs__rosidl_generator_py.so
+[9.761s] [ 82%] Built target auv_control_msgs__rosidl_generator_py
+[9.858s] [ 85%] Building C object CMakeFiles/auv_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[9.861s] [ 88%] Building C object CMakeFiles/auv_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[9.892s] [ 91%] Building C object CMakeFiles/auv_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_c.c.o
+[10.114s] [ 94%] Linking C shared library rosidl_generator_py/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.207s] [ 97%] Linking C shared library rosidl_generator_py/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.232s] [ 97%] Built target auv_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.276s] [100%] Linking C shared library rosidl_generator_py/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.355s] [100%] Built target auv_control_msgs__rosidl_typesupport_introspection_c__pyext
+[10.396s] [100%] Built target auv_control_msgs__rosidl_typesupport_c__pyext
+[10.451s] Invoked command in '/home/blue/ws_blue/build/auv_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/auv_control_msgs -- -j4 -l4
+[10.671s] Invoking command in '/home/blue/ws_blue/build/auv_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/auv_control_msgs
+[10.690s] -- Install configuration: ""
+[10.690s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/rosidl_interfaces/auv_control_msgs
+[10.691s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/msg/MultiActuatorStateStamped.json
+[10.691s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs
+[10.691s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg
+[10.692s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.692s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail
+[10.692s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__functions.h
+[10.692s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__description.c
+[10.693s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__struct.h
+[10.693s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__functions.c
+[10.694s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.c
+[10.694s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.h
+[10.694s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/multi_actuator_state_stamped.h
+[10.695s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/library_path.sh
+[10.695s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/library_path.dsv
+[10.696s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_generator_c.so
+[10.696s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_generator_c.so" to ""
+[10.697s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs
+[10.697s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg
+[10.697s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail
+[10.697s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_fastrtps_c.h
+[10.697s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.698s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_fastrtps_c.so
+[10.698s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.699s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs
+[10.699s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg
+[10.712s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail
+[10.712s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__traits.hpp
+[10.712s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__struct.hpp
+[10.713s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__builder.hpp
+[10.713s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/multi_actuator_state_stamped.hpp
+[10.713s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs
+[10.714s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg
+[10.714s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail
+[10.714s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[10.714s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/dds_fastrtps
+[10.714s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.715s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.716s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.716s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs
+[10.716s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg
+[10.716s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail
+[10.716s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_introspection_c.h
+[10.716s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.c
+[10.717s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.717s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_introspection_c.so
+[10.718s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.718s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_c.so
+[10.719s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_c.so" to ""
+[10.719s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs
+[10.719s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg
+[10.719s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail
+[10.720s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[10.720s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.cpp
+[10.720s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_introspection_cpp.so
+[10.721s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.721s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_cpp.so
+[10.722s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_cpp.so" to ""
+[10.722s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/pythonpath.sh
+[10.722s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/pythonpath.dsv
+[10.726s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info
+[10.726s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[10.726s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[10.726s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[10.727s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[10.727s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs
+[10.727s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.728s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.728s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/libauv_control_msgs__rosidl_generator_py.so
+[10.729s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.729s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg
+[10.729s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/_multi_actuator_state_stamped_s.c
+[10.730s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/__init__.py
+[10.730s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/_multi_actuator_state_stamped.py
+[10.730s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/__init__.py
+[10.731s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_c.c
+[10.731s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.731s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.795s] Listing '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs'...
+[10.795s] Compiling '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/__init__.py'...
+[10.795s] Listing '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg'...
+[10.795s] Compiling '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/__init__.py'...
+[10.795s] Compiling '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/_multi_actuator_state_stamped.py'...
+[10.800s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.807s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.807s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.807s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.807s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.807s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.807s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_generator_py.so
+[10.808s] -- Set runtime path of "/home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_generator_py.so" to ""
+[10.808s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/msg/MultiActuatorStateStamped.idl
+[10.808s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/msg/MultiActuatorStateStamped.msg
+[10.808s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/package_run_dependencies/auv_control_msgs
+[10.808s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/parent_prefix_path/auv_control_msgs
+[10.808s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/ament_prefix_path.sh
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/ament_prefix_path.dsv
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/path.sh
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/path.dsv
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.bash
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.sh
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.zsh
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.dsv
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/package.dsv
+[10.809s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/packages/auv_control_msgs
+[10.810s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_cExport.cmake
+[10.810s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.811s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.811s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.812s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_cppExport.cmake
+[10.812s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.812s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.813s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.813s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.814s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cExport.cmake
+[10.814s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.815s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.815s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.816s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cppExport.cmake
+[10.816s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.816s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_pyExport.cmake
+[10.819s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.819s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/rosidl_cmake-extras.cmake
+[10.820s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.820s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.820s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.821s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.821s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.822s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.823s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgsConfig.cmake
+[10.823s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgsConfig-version.cmake
+[10.824s] -- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/package.xml
+[10.831s] Invoked command in '/home/blue/ws_blue/build/auv_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/auv_control_msgs

@@ -1,0 +1,1 @@
+Warning [Utils.cc:132] [/sdf/plugin[@name="gz::sim::systems::ShaderParam"]:<data-string>:L1]: XML Element[plugin], child of element[sdf], not defined in SDF. Copying[plugin] as children of [sdf].

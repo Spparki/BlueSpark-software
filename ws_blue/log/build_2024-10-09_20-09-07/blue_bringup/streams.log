@@ -1,0 +1,49 @@
+[0.075s] Invoking command in '/home/blue/ws_blue/build/blue_bringup': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/blue/blue_bringup -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/blue_bringup
+[0.295s] -- The C compiler identification is GNU 11.4.0
+[0.508s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.655s] -- Detecting C compiler ABI info - done
+[0.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.663s] -- Detecting C compile features
+[0.663s] -- Detecting C compile features - done
+[0.669s] -- Detecting CXX compiler ABI info
+[0.814s] -- Detecting CXX compiler ABI info - done
+[0.823s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.824s] -- Detecting CXX compile features
+[0.825s] -- Detecting CXX compile features - done
+[0.831s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.206s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.658s] -- Configuring done
+[1.664s] -- Generating done
+[1.672s] -- Build files have been written to: /home/blue/ws_blue/build/blue_bringup
+[1.695s] Invoked command in '/home/blue/ws_blue/build/blue_bringup' returned '0': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/blue/blue_bringup -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/blue_bringup
+[1.695s] Invoking command in '/home/blue/ws_blue/build/blue_bringup': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_bringup -- -j4 -l4
+[1.855s] Invoked command in '/home/blue/ws_blue/build/blue_bringup' returned '0': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_bringup -- -j4 -l4
+[2.046s] Invoking command in '/home/blue/ws_blue/build/blue_bringup': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_bringup
+[2.059s] -- Install configuration: ""
+[2.059s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch
+[2.060s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy
+[2.060s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy/bluerov2_heavy.launch.yaml
+[2.061s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy/thrusters.launch.yaml
+[2.061s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy_reach
+[2.062s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy_reach/thrusters.launch.yaml
+[2.062s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy_reach/bluerov2_heavy_reach.launch.yaml
+[2.063s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2
+[2.063s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2/bluerov2.launch.yaml
+[2.063s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2/thrusters.launch.yaml
+[2.064s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/ament_index/resource_index/package_run_dependencies/blue_bringup
+[2.065s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/ament_index/resource_index/parent_prefix_path/blue_bringup
+[2.066s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/ament_prefix_path.sh
+[2.066s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/ament_prefix_path.dsv
+[2.067s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/path.sh
+[2.068s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/path.dsv
+[2.068s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.bash
+[2.069s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.sh
+[2.070s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.zsh
+[2.070s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.dsv
+[2.071s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/package.dsv
+[2.071s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/ament_index/resource_index/packages/blue_bringup
+[2.072s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/cmake/blue_bringupConfig.cmake
+[2.073s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/cmake/blue_bringupConfig-version.cmake
+[2.073s] -- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/package.xml
+[2.083s] Invoked command in '/home/blue/ws_blue/build/blue_bringup' returned '0': AMENT_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blue/ws_blue/install/blue_description:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_bringup

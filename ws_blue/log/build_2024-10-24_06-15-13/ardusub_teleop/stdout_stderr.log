@@ -1,0 +1,40 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+-- Found mavros_msgs: 2.9.0 (/opt/ros/iron/share/mavros_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blue/ws_blue/build/ardusub_teleop
+Consolidate compiler generated dependencies of target joy_interface
+[ 50%] Building CXX object CMakeFiles/joy_interface.dir/src/joy_interface.cpp.o
+[100%] Linking CXX executable joy_interface
+[100%] Built target joy_interface
+-- Install configuration: ""
+-- Installing: /home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface
+-- Set runtime path of "/home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface" to ""
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config/joy_teleop.yaml
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch/teleop.launch.yaml
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/package_run_dependencies/ardusub_teleop
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/parent_prefix_path/ardusub_teleop
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.bash
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.zsh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.dsv
+-- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/packages/ardusub_teleop
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig.cmake
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig-version.cmake
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.xml

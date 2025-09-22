@@ -1,0 +1,6 @@
+repositories:
+
+  hydrodynamics:
+    type: git
+    url: https://github.com/Robotic-Decision-Making-Lab/hydrodynamics.git
+    version: main

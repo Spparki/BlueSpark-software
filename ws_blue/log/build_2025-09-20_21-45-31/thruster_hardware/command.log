@@ -1,0 +1,4 @@
+Invoking command in '/home/blue/ws_blue/build/thruster_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_hardware -- -j18 -l18
+Invoked command in '/home/blue/ws_blue/build/thruster_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_hardware -- -j18 -l18
+Invoking command in '/home/blue/ws_blue/build/thruster_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_hardware
+Invoked command in '/home/blue/ws_blue/build/thruster_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_hardware

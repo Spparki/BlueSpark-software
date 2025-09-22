@@ -1,0 +1,41 @@
+[0.057s] Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_demos -- -j4 -l4
+[0.195s] Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_demos -- -j4 -l4
+[0.387s] Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_demos
+[0.403s] -- Install configuration: ""
+[0.403s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch
+[0.403s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_heavy_controllers.launch.py
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_demo.launch.yaml
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_heavy_demo.launch.yaml
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_controllers.launch.py
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/bluerov2_controllers.yaml
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/transforms.yaml
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/bluerov2_heavy_controllers.yaml
+[0.415s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description
+[0.416s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control
+[0.416s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control/bluerov2.ros2_control.xacro
+[0.416s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control/bluerov2_heavy.ros2_control.xacro
+[0.419s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf
+[0.419s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf/bluerov2.config.xacro
+[0.420s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf/bluerov2_heavy.config.xacro
+[0.421s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/launch
+[0.421s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/launch/joy_teleop.launch.yaml
+[0.435s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config
+[0.435s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config/joy_teleop.yaml
+[0.435s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config/transforms.yaml
+[0.435s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/package_run_dependencies/blue_demos
+[0.447s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/parent_prefix_path/blue_demos
+[0.455s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/ament_prefix_path.sh
+[0.456s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/ament_prefix_path.dsv
+[0.456s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/path.sh
+[0.457s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/path.dsv
+[0.458s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.bash
+[0.458s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.sh
+[0.467s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.zsh
+[0.467s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.dsv
+[0.467s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/package.dsv
+[0.468s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/packages/blue_demos
+[0.468s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/cmake/blue_demosConfig.cmake
+[0.469s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/cmake/blue_demosConfig-version.cmake
+[0.470s] -- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/package.xml
+[0.483s] Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_demos

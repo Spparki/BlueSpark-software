@@ -1,0 +1,44 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found generate_parameter_library: 0.3.8 (/opt/ros/iron/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+-- Found mavros_msgs: 2.9.0 (/opt/ros/iron/share/mavros_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blue/ws_blue/build/ardusub_manager
+[ 33%] Built target ardusub_manager_parameters
+Consolidate compiler generated dependencies of target ardusub_manager
+[ 66%] Building CXX object CMakeFiles/ardusub_manager.dir/src/ardusub_manager.cpp.o
+[100%] Linking CXX executable ardusub_manager
+[100%] Built target ardusub_manager
+-- Install configuration: ""
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters/ardusub_manager_parameters.hpp
+-- Installing: /home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager
+-- Set runtime path of "/home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager" to ""
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch/ardusub_manager.launch.py
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/package_run_dependencies/ardusub_manager
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/parent_prefix_path/ardusub_manager
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.bash
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.zsh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.dsv
+-- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/packages/ardusub_manager
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig.cmake
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig-version.cmake
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.xml

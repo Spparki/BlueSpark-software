@@ -1,0 +1,3 @@
+source;share/hydrodynamics/environment/ament_prefix_path.sh
+source;share/hydrodynamics/environment/library_path.sh
+source;share/hydrodynamics/environment/path.sh

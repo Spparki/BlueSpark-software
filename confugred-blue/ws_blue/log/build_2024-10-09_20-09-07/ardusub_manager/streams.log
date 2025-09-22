@@ -1,0 +1,65 @@
+[0.018s] Invoking command in '/home/blue/ws_blue/build/ardusub_manager': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/ardusub_driver/ardusub_manager -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/ardusub_manager
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.290s] -- The CXX compiler identification is GNU 11.4.0
+[0.301s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.422s] -- Detecting CXX compiler ABI info
+[0.730s] -- Detecting CXX compiler ABI info - done
+[0.738s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.751s] -- Detecting CXX compile features
+[0.752s] -- Detecting CXX compile features - done
+[0.777s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.197s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.390s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/iron/share/generate_parameter_library/cmake)
+[1.395s] -- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+[1.497s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.529s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.702s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.727s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.285s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.364s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.172s] -- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[4.479s] -- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+[4.754s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[5.925s] -- Found mavros_msgs: 2.8.0 (/opt/ros/iron/share/mavros_msgs/cmake)
+[7.948s] -- Configuring done
+[7.983s] -- Generating done
+[7.986s] -- Build files have been written to: /home/blue/ws_blue/build/ardusub_manager
+[7.999s] Invoked command in '/home/blue/ws_blue/build/ardusub_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/ardusub_driver/ardusub_manager -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/ardusub_manager
+[8.001s] Invoking command in '/home/blue/ws_blue/build/ardusub_manager': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_manager -- -j4 -l4
+[8.107s] [ 33%] Running `/opt/ros/iron/bin/generate_parameter_library_cpp /home/blue/ws_blue/build/ardusub_manager/ardusub_manager_parameters/include//ardusub_manager_parameters.hpp /home/blue/ws_blue/src/ardusub_driver/ardusub_manager/src/ardusub_manager_parameters.yaml `
+[8.520s] [ 33%] Built target ardusub_manager_parameters
+[8.548s] [ 66%] Building CXX object CMakeFiles/ardusub_manager.dir/src/ardusub_manager.cpp.o
+[25.287s] [100%] Linking CXX executable ardusub_manager
+[26.035s] [100%] Built target ardusub_manager
+[26.077s] Invoked command in '/home/blue/ws_blue/build/ardusub_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_manager -- -j4 -l4
+[26.334s] Invoking command in '/home/blue/ws_blue/build/ardusub_manager': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_manager
+[26.345s] -- Install configuration: ""
+[26.345s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters
+[26.346s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters/ardusub_manager_parameters.hpp
+[26.346s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager
+[26.379s] -- Set runtime path of "/home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager" to ""
+[26.379s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch
+[26.380s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch/ardusub_manager.launch.py
+[26.381s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/package_run_dependencies/ardusub_manager
+[26.381s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/parent_prefix_path/ardusub_manager
+[26.382s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.sh
+[26.383s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.dsv
+[26.383s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.sh
+[26.384s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.dsv
+[26.384s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.bash
+[26.385s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.sh
+[26.385s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.zsh
+[26.386s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.dsv
+[26.386s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.dsv
+[26.387s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/packages/ardusub_manager
+[26.387s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig.cmake
+[26.388s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig-version.cmake
+[26.388s] -- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.xml
+[26.398s] Invoked command in '/home/blue/ws_blue/build/ardusub_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_manager

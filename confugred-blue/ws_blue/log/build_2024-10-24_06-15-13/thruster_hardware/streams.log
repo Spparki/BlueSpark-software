@@ -1,0 +1,59 @@
+[0.118s] Invoking command in '/home/blue/ws_blue/build/thruster_hardware': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_hardware -- -j4 -l4
+[0.230s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.750s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.879s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.914s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.975s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.364s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.368s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.105s] -- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[2.458s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[2.518s] -- Found hardware_interface: 3.28.1 (/opt/ros/iron/share/hardware_interface/cmake)
+[4.556s] -- Found mavros_msgs: 2.9.0 (/opt/ros/iron/share/mavros_msgs/cmake)
+[7.228s] -- Found realtime_tools: 2.6.0 (/opt/ros/iron/share/realtime_tools/cmake)
+[7.427s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[7.630s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.630s] -- Added test 'lint_cmake' to check CMake code style
+[7.630s] -- Added test 'xmllint' to check XML markup files
+[7.650s] -- Configuring done
+[7.820s] -- Generating done
+[7.830s] -- Build files have been written to: /home/blue/ws_blue/build/thruster_hardware
+[7.952s] Consolidate compiler generated dependencies of target thruster_hardware
+[8.021s] [ 50%] Building CXX object CMakeFiles/thruster_hardware.dir/src/hardware.cpp.o
+[20.661s] [100%] Linking CXX shared library libthruster_hardware.so
+[21.513s] [100%] Built target thruster_hardware
+[21.551s] Invoked command in '/home/blue/ws_blue/build/thruster_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_hardware -- -j4 -l4
+[21.678s] Invoking command in '/home/blue/ws_blue/build/thruster_hardware': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_hardware
+[21.697s] -- Install configuration: ""
+[21.697s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/thruster_hardware.xml
+[21.706s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware
+[21.706s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware/thruster_hardware
+[21.707s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware/thruster_hardware/hardware.hpp
+[21.718s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware/thruster_hardware/visibility_control.h
+[21.723s] -- Installing: /home/blue/ws_blue/install/thruster_hardware/lib/libthruster_hardware.so
+[21.729s] -- Set runtime path of "/home/blue/ws_blue/install/thruster_hardware/lib/libthruster_hardware.so" to ""
+[21.730s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/library_path.sh
+[21.735s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/library_path.dsv
+[21.736s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/package_run_dependencies/thruster_hardware
+[21.737s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/parent_prefix_path/thruster_hardware
+[21.738s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/ament_prefix_path.sh
+[21.739s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/ament_prefix_path.dsv
+[21.740s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/path.sh
+[21.741s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/path.dsv
+[21.742s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.bash
+[21.743s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.sh
+[21.744s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.zsh
+[21.746s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.dsv
+[21.747s] -- Installing: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/package.dsv
+[21.748s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/packages/thruster_hardware
+[21.748s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/thruster_hardware
+[21.751s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/export_thruster_hardwareExport.cmake
+[21.752s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/export_thruster_hardwareExport-noconfig.cmake
+[21.753s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/ament_cmake_export_targets-extras.cmake
+[21.755s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.756s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/thruster_hardwareConfig.cmake
+[21.757s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/thruster_hardwareConfig-version.cmake
+[21.759s] -- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/package.xml
+[21.770s] Invoked command in '/home/blue/ws_blue/build/thruster_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_hardware

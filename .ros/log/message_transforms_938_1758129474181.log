@@ -1,0 +1,2 @@
+[INFO] [1758129474.869365974] [control_integration.message_transforms]: Transforming messages of type geometry_msgs/msg/TwistStamped from the topic /mavros/local_position/velocity_body and republishing to the topic /integral_sliding_mode_controller/system_state
+[INFO] [1758129568.796432549] [rclcpp]: signal_handler(signum=2)

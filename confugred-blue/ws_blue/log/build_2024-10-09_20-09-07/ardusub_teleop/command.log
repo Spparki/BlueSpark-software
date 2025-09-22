@@ -1,0 +1,6 @@
+Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/ardusub_driver/ardusub_teleop -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/ardusub_teleop
+Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/ardusub_driver/ardusub_teleop -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/ardusub_teleop
+Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_teleop -- -j4 -l4
+Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_teleop -- -j4 -l4
+Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_teleop
+Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_teleop

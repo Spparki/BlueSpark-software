@@ -1,0 +1,8 @@
+source;share/message_transforms_demos/hook/cmake_prefix_path.ps1
+source;share/message_transforms_demos/hook/cmake_prefix_path.dsv
+source;share/message_transforms_demos/hook/cmake_prefix_path.sh
+source;share/message_transforms_demos/local_setup.bash
+source;share/message_transforms_demos/local_setup.dsv
+source;share/message_transforms_demos/local_setup.ps1
+source;share/message_transforms_demos/local_setup.sh
+source;share/message_transforms_demos/local_setup.zsh

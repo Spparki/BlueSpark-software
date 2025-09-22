@@ -1,0 +1,36 @@
+[0.301s] Invoking command in '/home/blue/ws_blue/build/thruster_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_controllers -- -j18 -l18
+[1.154s] [ 33%] Built target polynomial_thrust_curve_controller_parameters
+[1.322s] [100%] Built target thruster_controllers
+[1.406s] Invoked command in '/home/blue/ws_blue/build/thruster_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_controllers -- -j18 -l18
+[1.541s] Invoking command in '/home/blue/ws_blue/build/thruster_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_controllers
+[1.561s] -- Install configuration: ""
+[1.561s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/polynomial_thrust_curve_controller_parameters
+[1.570s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/polynomial_thrust_curve_controller_parameters/polynomial_thrust_curve_controller_parameters.hpp
+[1.598s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/thruster_controllers.xml
+[1.622s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/thruster_controllers
+[1.632s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/thruster_controllers/thruster_controllers
+[1.632s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/thruster_controllers/thruster_controllers/polynomial_thrust_curve_controller.hpp
+[1.670s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/lib/libthruster_controllers.so
+[1.820s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/library_path.sh
+[1.861s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/library_path.dsv
+[1.879s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/package_run_dependencies/thruster_controllers
+[1.890s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/parent_prefix_path/thruster_controllers
+[1.903s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/ament_prefix_path.sh
+[1.917s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/ament_prefix_path.dsv
+[1.983s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/path.sh
+[1.986s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/path.dsv
+[1.988s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.bash
+[1.991s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.sh
+[2.009s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.zsh
+[2.021s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.dsv
+[2.077s] -- Installing: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/package.dsv
+[2.088s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/packages/thruster_controllers
+[2.090s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/thruster_controllers
+[2.141s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/export_thruster_controllersExport.cmake
+[2.149s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/export_thruster_controllersExport-noconfig.cmake
+[2.157s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[2.241s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.242s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/thruster_controllersConfig.cmake
+[2.242s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/thruster_controllersConfig-version.cmake
+[2.242s] -- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/package.xml
+[2.410s] Invoked command in '/home/blue/ws_blue/build/thruster_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_controllers

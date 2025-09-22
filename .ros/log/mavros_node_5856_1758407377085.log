@@ -1,0 +1,205 @@
+[INFO] [1758407377.150830561] [mavros_node]: Starting mavros_node container
+[INFO] [1758407377.150931041] [mavros_node]: FCU URL: tcp://localhost
+[INFO] [1758407377.150946085] [mavros_node]: GCS URL: udp://@localhost:14550
+[INFO] [1758407377.150951254] [mavros_node]: UAS Prefix: /uas1
+[INFO] [1758407377.150955527] [mavros_node]: Starting mavros router node
+[INFO] [1758407377.326471321] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758407377.326527286] [mavros_router]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758407377.326540716] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758407377.326546904] [mavros_router]: MAVROS Router started
+[INFO] [1758407377.326590597] [mavros_router]: Requested to add endpoint: type: 0, url: tcp://localhost
+[INFO] [1758407377.326703580] [mavros_router]: Endpoint link[1000] created
+[INFO] [1758407377.342725203] [mavros_router]: link[1000] opened successfully
+[INFO] [1758407377.344860390] [mavros_router]: Requested to add endpoint: type: 1, url: udp://@localhost:14550
+[INFO] [1758407377.345086656] [mavros_router]: Endpoint link[1001] created
+[INFO] [1758407377.345789866] [mavros_router]: link[1001] opened successfully
+[INFO] [1758407377.346056589] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1758407377.346096723] [mavros_router]: Endpoint link[1002] created
+[INFO] [1758407377.354025056] [mavros_router]: link[1002] opened successfully
+[INFO] [1758407377.354224024] [mavros_node]: Starting mavros uas node
+[INFO] [1758407377.465715751] [mavros]: Plugin actuator_control ignored
+[INFO] [1758407377.465805027] [mavros]: Plugin adsb ignored
+[INFO] [1758407377.465733026] [mavros]: UAS Executor started, threads: 16
+[INFO] [1758407377.509195247] [mavros]: Plugin altitude created
+[INFO] [1758407377.509316649] [mavros]: Plugin altitude initialized
+[INFO] [1758407377.509332983] [mavros]: Plugin cam_imu_sync ignored
+[INFO] [1758407377.509338303] [mavros]: Plugin camera ignored
+[INFO] [1758407377.509342783] [mavros]: Plugin cellular_status ignored
+[INFO] [1758407377.582441858] [mavros]: Plugin command created
+[INFO] [1758407377.582555732] [mavros]: Plugin command initialized
+[INFO] [1758407377.582574031] [mavros]: Plugin companion_process_status ignored
+[INFO] [1758407377.582581062] [mavros]: Plugin debug_value ignored
+[INFO] [1758407377.653314544] [mavros.distance_sensor]: DS: Plugin not configured!
+[INFO] [1758407377.654175618] [mavros]: Plugin distance_sensor created
+[INFO] [1758407377.654252242] [mavros]: Plugin distance_sensor initialized
+[INFO] [1758407377.654268375] [mavros]: Plugin esc_status ignored
+[INFO] [1758407377.654276933] [mavros]: Plugin esc_telemetry ignored
+[INFO] [1758407377.654285293] [mavros]: Plugin fake_gps ignored
+[INFO] [1758407377.654294025] [mavros]: Plugin ftp ignored
+[INFO] [1758407377.654302097] [mavros]: Plugin geofence ignored
+[INFO] [1758407377.654309398] [mavros]: Plugin gimbal_control ignored
+[INFO] [1758407377.773826950] [mavros]: Plugin global_position created
+[INFO] [1758407377.773948769] [mavros]: Plugin global_position initialized
+[INFO] [1758407377.773962432] [mavros]: Plugin gps_input ignored
+[INFO] [1758407377.773966857] [mavros]: Plugin gps_rtk ignored
+[INFO] [1758407377.773970162] [mavros]: Plugin gps_status ignored
+[INFO] [1758407377.773973471] [mavros]: Plugin guided_target ignored
+[INFO] [1758407377.773976757] [mavros]: Plugin hil ignored
+[INFO] [1758407377.773980086] [mavros]: Plugin home_position ignored
+[INFO] [1758407377.833111674] [mavros]: Plugin imu created
+[INFO] [1758407377.833279270] [mavros]: Plugin imu initialized
+[INFO] [1758407377.833310123] [mavros]: Plugin landing_target ignored
+[INFO] [1758407377.908720907] [mavros]: Plugin local_position created
+[INFO] [1758407377.908893958] [mavros]: Plugin local_position initialized
+[INFO] [1758407377.908925402] [mavros]: Plugin log_transfer ignored
+[INFO] [1758407377.908938121] [mavros]: Plugin mag_calibration_status ignored
+[INFO] [1758407377.909061004] [mavros]: Plugin manual_control ignored
+[INFO] [1758407377.909098839] [mavros]: Plugin mocap_pose_estimate ignored
+[INFO] [1758407377.909106349] [mavros]: Plugin mount_control ignored
+[INFO] [1758407377.909111243] [mavros]: Plugin nav_controller_output ignored
+[INFO] [1758407377.909116392] [mavros]: Plugin obstacle_distance ignored
+[INFO] [1758407377.909120990] [mavros]: Plugin odometry ignored
+[INFO] [1758407377.909125902] [mavros]: Plugin onboard_computer_status ignored
+[INFO] [1758407377.909130661] [mavros]: Plugin optical_flow ignored
+[INFO] [1758407377.953529587] [mavros]: Plugin param created
+[INFO] [1758407377.953672506] [mavros]: Plugin param initialized
+[INFO] [1758407377.953684823] [mavros]: Plugin play_tune ignored
+[INFO] [1758407377.953689036] [mavros]: Plugin px4flow ignored
+[INFO] [1758407377.953692631] [mavros]: Plugin rallypoint ignored
+[INFO] [1758407378.006489647] [mavros]: Plugin rangefinder created
+[INFO] [1758407378.006978634] [mavros]: Plugin rangefinder initialized
+[INFO] [1758407378.062923501] [mavros]: Plugin rc_io created
+[INFO] [1758407378.063039727] [mavros]: Plugin rc_io initialized
+[INFO] [1758407378.109585816] [mavros]: Plugin setpoint_accel created
+[INFO] [1758407378.109662226] [mavros]: Plugin setpoint_accel initialized
+[INFO] [1758407378.239650837] [mavros]: Plugin setpoint_attitude created
+[INFO] [1758407378.239762551] [mavros]: Plugin setpoint_attitude initialized
+[INFO] [1758407378.289070174] [mavros]: Plugin setpoint_position created
+[INFO] [1758407378.289215878] [mavros]: Plugin setpoint_position initialized
+[INFO] [1758407378.347403338] [mavros]: Plugin setpoint_raw created
+[INFO] [1758407378.347496824] [mavros]: Plugin setpoint_raw initialized
+[INFO] [1758407378.396389166] [mavros]: Plugin setpoint_trajectory created
+[INFO] [1758407378.396470000] [mavros]: Plugin setpoint_trajectory initialized
+[INFO] [1758407378.454261067] [mavros]: Plugin setpoint_velocity created
+[INFO] [1758407378.454341977] [mavros]: Plugin setpoint_velocity initialized
+[INFO] [1758407378.679298681] [mavros]: Plugin sys_status created
+[INFO] [1758407378.679409753] [mavros]: Plugin sys_status initialized
+[INFO] [1758407378.679427117] [mavros]: Plugin sys_time ignored
+[INFO] [1758407378.679432675] [mavros]: Plugin tdr_radio ignored
+[INFO] [1758407378.679437542] [mavros]: Plugin terrain ignored
+[INFO] [1758407378.679441827] [mavros]: Plugin trajectory ignored
+[INFO] [1758407378.679446234] [mavros]: Plugin tunnel ignored
+[INFO] [1758407378.679450464] [mavros]: Plugin vfr_hud ignored
+[INFO] [1758407378.679454756] [mavros]: Plugin vibration ignored
+[INFO] [1758407378.728958649] [mavros]: Plugin vision_pose created
+[INFO] [1758407378.729052847] [mavros]: Plugin vision_pose initialized
+[INFO] [1758407378.772223831] [mavros]: Plugin vision_speed created
+[INFO] [1758407378.772322829] [mavros]: Plugin vision_speed initialized
+[INFO] [1758407378.772336640] [mavros]: Plugin waypoint ignored
+[INFO] [1758407378.772340766] [mavros]: Plugin wheel_odometry ignored
+[INFO] [1758407378.772344076] [mavros]: Plugin wind_estimation ignored
+[INFO] [1758407378.777976059] [mavros]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758407378.778033296] [mavros]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758407378.778038215] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758407378.778041279] [mavros]: MAVROS UAS via /uas1 started. MY ID 255.191, TARGET ID 1.1
+[INFO] [1758407379.616281032] [mavros_router]: link[1002] detected remote address 255.191
+[WARN] [1758407380.687031492] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[WARN] [1758407381.683609628] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[WARN] [1758407382.685489733] [mavros.sys]: VER: unicast request timeout, retries left 2
+[INFO] [1758407383.182622870] [mavros_router]: link[1000] detected remote address 1.1
+[INFO] [1758407383.417747697] [mavros.sys]: FCU: Calibrating barometer
+[WARN] [1758407383.704730979] [mavros.sys]: VER: unicast request timeout, retries left 1
+[WARN] [1758407384.691268084] [mavros.sys]: VER: unicast request timeout, retries left 0
+[WARN] [1758407385.706457221] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+[INFO] [1758407386.709158305] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[INFO] [1758407386.710383871] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000f9e7
+[INFO] [1758407386.710431582] [mavros.sys]: VER: 1.1: Flight software:     04060000 (92693e02)
+[INFO] [1758407386.710466755] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[INFO] [1758407386.710482757] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[INFO] [1758407386.710492968] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[INFO] [1758407386.710501220] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[INFO] [1758407386.710509027] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[INFO] [1758407389.348231435] [mavros.sys]: FCU: Barometer 1 calibration complete
+[INFO] [1758407389.348406203] [mavros.sys]: FCU: Barometer 2 calibration complete
+[INFO] [1758407389.396405575] [mavros.sys]: FCU: ArduPilot Ready
+[INFO] [1758407389.396595471] [mavros.sys]: FCU: AHRS: DCM active
+[ERROR] [1758407390.381229757] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758407390.382660957] [mavros.rc]: RC_CHANNELS message detected!
+[INFO] [1758407390.383032111] [mavros.imu]: IMU: Raw IMU message used.
+[ERROR] [1758407391.590863170] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407392.750180231] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407396.844630772] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407397.941701508] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407399.035079212] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758407399.247332521] [mavros.sys]: FCU: EKF3 IMU0 initialised
+[INFO] [1758407399.247585851] [mavros.sys]: FCU: EKF3 IMU1 initialised
+[INFO] [1758407399.250212033] [mavros.sys]: FCU: AHRS: EKF3 active
+[INFO] [1758407399.623760843] [mavros.sys]: FCU: ArduSub V4.6.0-dev (92693e02)
+[INFO] [1758407399.624035368] [mavros.sys]: FCU: e44de74ebc794be39dcc3db8339bc5f2
+[INFO] [1758407399.624213018] [mavros.sys]: FCU: Frame: VECTORED
+[INFO] [1758407400.497142955] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[INFO] [1758407400.500907845] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[INFO] [1758407402.149455457] [mavros.param]: PR: parameters list received
+[ERROR] [1758407402.150813293] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758407402.151025338] [mavros.imu]: IMU: Attitude quaternion IMU detected!
+[ERROR] [1758407403.258520418] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407404.337454185] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758407404.579868355] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+[INFO] [1758407404.580022132] [mavros.sys]: FCU: EKF3 IMU1 is using external nav data
+[INFO] [1758407404.580051583] [mavros.sys]: FCU: EKF3 IMU1 initial pos NED = 1.3,-0.1,0.5 (m)
+[INFO] [1758407404.583043639] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+[INFO] [1758407404.583157964] [mavros.sys]: FCU: EKF3 IMU0 is using external nav data
+[INFO] [1758407404.583182258] [mavros.sys]: FCU: EKF3 IMU0 initial pos NED = 1.3,-0.1,0.5 (m)
+[INFO] [1758407404.721718825] [mavros.sys]: FCU: EKF3 IMU0 yaw aligned
+[INFO] [1758407404.721854305] [mavros.sys]: FCU: EKF3 IMU1 yaw aligned
+[ERROR] [1758407405.415503672] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407406.544407742] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407407.639298576] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407408.820481541] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407410.110507724] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407411.177049331] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407412.405737603] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407413.572459216] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407414.673563428] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407415.758100022] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407416.897900275] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758407417.587379223] [mavros.sys]: FCU: GPS 1: probing for u-blox at 230400 baud
+[INFO] [1758407417.649395462] [mavros.sys]: FCU: GPS 1: detected u-blox
+[ERROR] [1758407418.007377349] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407419.194056376] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407420.326115780] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407421.460924834] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407422.693871753] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407424.007679968] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407425.303225839] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407427.083026963] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407428.266161165] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407429.676269510] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407430.857247118] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407432.098817983] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407433.277816522] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407434.439145618] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407435.675344603] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407436.797714966] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407437.988777335] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407439.322196800] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407440.544596986] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407441.794177602] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407443.082748639] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407448.692735044] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407449.872461342] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407451.128501991] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407452.366862817] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407453.622137131] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407455.045355460] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407456.377990904] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407457.815426402] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407459.089116668] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407460.399303627] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407461.737178403] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407463.169071326] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407464.431834798] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407465.767625090] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407467.039001740] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758407468.277030215] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758407468.791072525] [rclcpp]: signal_handler(signum=2)

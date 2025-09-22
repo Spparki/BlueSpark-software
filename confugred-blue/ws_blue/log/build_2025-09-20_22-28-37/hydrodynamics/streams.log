@@ -1,0 +1,32 @@
+[0.257s] Invoking command in '/home/blue/ws_blue/build/hydrodynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/hydrodynamics -- -j18 -l18
+[0.783s] [100%] Built target hydrodynamics
+[0.851s] Invoked command in '/home/blue/ws_blue/build/hydrodynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/hydrodynamics -- -j18 -l18
+[1.118s] Invoking command in '/home/blue/ws_blue/build/hydrodynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/hydrodynamics
+[1.189s] -- Install configuration: ""
+[1.189s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics
+[1.189s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics
+[1.189s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics/hydrodynamics.hpp
+[1.190s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics/eigen.hpp
+[1.190s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/lib/libhydrodynamics.so
+[1.191s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/library_path.sh
+[1.191s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/library_path.dsv
+[1.191s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/package_run_dependencies/hydrodynamics
+[1.191s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/parent_prefix_path/hydrodynamics
+[1.191s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/ament_prefix_path.sh
+[1.191s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/ament_prefix_path.dsv
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/path.sh
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/path.dsv
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.bash
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.sh
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.zsh
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.dsv
+[1.192s] -- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/package.dsv
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/packages/hydrodynamics
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/export_hydrodynamicsExport.cmake
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/export_hydrodynamicsExport-noconfig.cmake
+[1.192s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/ament_cmake_export_targets-extras.cmake
+[1.193s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.193s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/hydrodynamicsConfig.cmake
+[1.193s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/hydrodynamicsConfig-version.cmake
+[1.193s] -- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/package.xml
+[1.273s] Invoked command in '/home/blue/ws_blue/build/hydrodynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/hydrodynamics

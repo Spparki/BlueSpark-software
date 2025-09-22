@@ -1,0 +1,1181 @@
+[0.000000] (-) TimerEvent: {}
+[0.006232] (ardusub_bringup) JobQueued: {'identifier': 'ardusub_bringup', 'dependencies': OrderedDict()}
+[0.006297] (ardusub_manager) JobQueued: {'identifier': 'ardusub_manager', 'dependencies': OrderedDict()}
+[0.006330] (ardusub_teleop) JobQueued: {'identifier': 'ardusub_teleop', 'dependencies': OrderedDict()}
+[0.006359] (auv_control_demos) JobQueued: {'identifier': 'auv_control_demos', 'dependencies': OrderedDict()}
+[0.006385] (auv_control_msgs) JobQueued: {'identifier': 'auv_control_msgs', 'dependencies': OrderedDict()}
+[0.006411] (blue_demos) JobQueued: {'identifier': 'blue_demos', 'dependencies': OrderedDict()}
+[0.006436] (blue_description) JobQueued: {'identifier': 'blue_description', 'dependencies': OrderedDict()}
+[0.006459] (blue_localization) JobQueued: {'identifier': 'blue_localization', 'dependencies': OrderedDict()}
+[0.006482] (hydrodynamics) JobQueued: {'identifier': 'hydrodynamics', 'dependencies': OrderedDict()}
+[0.006506] (message_transforms) JobQueued: {'identifier': 'message_transforms', 'dependencies': OrderedDict()}
+[0.006529] (message_transforms_demos) JobQueued: {'identifier': 'message_transforms_demos', 'dependencies': OrderedDict()}
+[0.006555] (thruster_controllers) JobQueued: {'identifier': 'thruster_controllers', 'dependencies': OrderedDict()}
+[0.006579] (thruster_hardware) JobQueued: {'identifier': 'thruster_hardware', 'dependencies': OrderedDict()}
+[0.006611] (blue_bringup) JobQueued: {'identifier': 'blue_bringup', 'dependencies': OrderedDict([('blue_description', '/home/blue/ws_blue/install/blue_description')])}
+[0.006642] (thruster_allocation_matrix_controller) JobQueued: {'identifier': 'thruster_allocation_matrix_controller', 'dependencies': OrderedDict([('auv_control_msgs', '/home/blue/ws_blue/install/auv_control_msgs'), ('hydrodynamics', '/home/blue/ws_blue/install/hydrodynamics')])}
+[0.006672] (velocity_controllers) JobQueued: {'identifier': 'velocity_controllers', 'dependencies': OrderedDict([('hydrodynamics', '/home/blue/ws_blue/install/hydrodynamics')])}
+[0.006698] (auv_controllers) JobQueued: {'identifier': 'auv_controllers', 'dependencies': OrderedDict([('auv_control_msgs', '/home/blue/ws_blue/install/auv_control_msgs'), ('hydrodynamics', '/home/blue/ws_blue/install/hydrodynamics'), ('thruster_controllers', '/home/blue/ws_blue/install/thruster_controllers'), ('thruster_allocation_matrix_controller', '/home/blue/ws_blue/install/thruster_allocation_matrix_controller'), ('velocity_controllers', '/home/blue/ws_blue/install/velocity_controllers')])}
+[0.006731] (hydrodynamics) JobStarted: {'identifier': 'hydrodynamics'}
+[0.018458] (auv_control_msgs) JobStarted: {'identifier': 'auv_control_msgs'}
+[0.031105] (blue_description) JobStarted: {'identifier': 'blue_description'}
+[0.038471] (thruster_controllers) JobStarted: {'identifier': 'thruster_controllers'}
+[0.050348] (hydrodynamics) JobProgress: {'identifier': 'hydrodynamics', 'progress': 'cmake'}
+[0.050418] (hydrodynamics) JobProgress: {'identifier': 'hydrodynamics', 'progress': 'build'}
+[0.050455] (hydrodynamics) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/hydrodynamics', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/hydrodynamics', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/hydrodynamics'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.054828] (auv_control_msgs) JobProgress: {'identifier': 'auv_control_msgs', 'progress': 'cmake'}
+[0.055633] (auv_control_msgs) JobProgress: {'identifier': 'auv_control_msgs', 'progress': 'build'}
+[0.055967] (auv_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/auv_control_msgs', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/auv_control_msgs', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/auv_control_msgs'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.074329] (blue_description) JobProgress: {'identifier': 'blue_description', 'progress': 'cmake'}
+[0.074401] (blue_description) JobProgress: {'identifier': 'blue_description', 'progress': 'build'}
+[0.074436] (blue_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/blue_description', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/blue_description', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/blue_description'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.102618] (thruster_controllers) JobProgress: {'identifier': 'thruster_controllers', 'progress': 'cmake'}
+[0.102713] (-) TimerEvent: {}
+[0.102748] (thruster_controllers) JobProgress: {'identifier': 'thruster_controllers', 'progress': 'build'}
+[0.102783] (thruster_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/thruster_controllers', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/thruster_controllers', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/thruster_controllers'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.194242] (hydrodynamics) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target hydrodynamics\n'}
+[0.202811] (-) TimerEvent: {}
+[0.231383] (blue_description) CommandEnded: {'returncode': 0}
+[0.246359] (hydrodynamics) StdoutLine: {'line': b'[100%] Built target hydrodynamics\n'}
+[0.263107] (auv_control_msgs) StdoutLine: {'line': b'[  2%] Built target auv_control_msgs__rosidl_generator_type_description\n'}
+[0.280463] (hydrodynamics) CommandEnded: {'returncode': 0}
+[0.305127] (-) TimerEvent: {}
+[0.342266] (blue_description) JobProgress: {'identifier': 'blue_description', 'progress': 'install'}
+[0.366500] (blue_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/blue_description'], 'cwd': '/home/blue/ws_blue/build/blue_description', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/blue_description'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.374798] (thruster_controllers) StdoutLine: {'line': b'[ 33%] Built target polynomial_thrust_curve_controller_parameters\n'}
+[0.375009] (auv_control_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_auv_control_msgs\n'}
+[0.390375] (blue_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.390558] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config\n'}
+[0.390647] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2_heavy\n'}
+[0.390737] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2_heavy/localization.yaml\n'}
+[0.394029] (hydrodynamics) JobProgress: {'identifier': 'hydrodynamics', 'progress': 'install'}
+[0.394068] (hydrodynamics) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/hydrodynamics'], 'cwd': '/home/blue/ws_blue/build/hydrodynamics', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/hydrodynamics'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.403543] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2_heavy/ardusub.parm\n'}
+[0.406371] (-) TimerEvent: {}
+[0.410434] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2_heavy_reach\n'}
+[0.410913] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2_heavy_reach/localization.yaml\n'}
+[0.414452] (hydrodynamics) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.414751] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics\n'}
+[0.415103] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2_heavy_reach/ardusub.parm\n'}
+[0.418877] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/ardusub\n'}
+[0.421101] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_generator_c\n'}
+[0.423111] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics\n'}
+[0.423256] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics/eigen.hpp\n'}
+[0.423678] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/ardusub/mavros.yaml\n'}
+[0.424758] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/ardusub/ardusub_manager.yaml\n'}
+[0.425589] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2\n'}
+[0.426046] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2/localization.yaml\n'}
+[0.426494] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics/hydrodynamics.hpp\n'}
+[0.427516] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2/ardusub.parm\n'}
+[0.428320] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/lib/libhydrodynamics.so\n'}
+[0.428460] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo\n'}
+[0.428691] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models\n'}
+[0.428800] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap\n'}
+[0.429002] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/meshes\n'}
+[0.429205] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/meshes/sandseabed.dae\n'}
+[0.432671] (thruster_controllers) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target thruster_controllers\n'}
+[0.435583] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/library_path.sh\n'}
+[0.438347] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/library_path.dsv\n'}
+[0.438484] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/package_run_dependencies/hydrodynamics\n'}
+[0.442313] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/parent_prefix_path/hydrodynamics\n'}
+[0.442585] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/ament_prefix_path.sh\n'}
+[0.442898] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/ament_prefix_path.dsv\n'}
+[0.443733] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/path.sh\n'}
+[0.444380] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/path.dsv\n'}
+[0.445457] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.bash\n'}
+[0.446303] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.sh\n'}
+[0.448752] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.zsh\n'}
+[0.451491] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.dsv\n'}
+[0.452157] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/meshes/License and source for textures.txt\n'}
+[0.453633] (hydrodynamics) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/package.dsv\n'}
+[0.453759] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/packages/hydrodynamics\n'}
+[0.453867] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/export_hydrodynamicsExport.cmake\n'}
+[0.454767] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/export_hydrodynamicsExport-noconfig.cmake\n'}
+[0.455686] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.456517] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.457356] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/hydrodynamicsConfig.cmake\n'}
+[0.458860] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/hydrodynamicsConfig-version.cmake\n'}
+[0.459203] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/meshes/heightmap.dae\n'}
+[0.460031] (hydrodynamics) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/package.xml\n'}
+[0.466312] (auv_control_msgs) StdoutLine: {'line': b'[ 17%] Built target auv_control_msgs__rosidl_generator_c\n'}
+[0.466485] (hydrodynamics) CommandEnded: {'returncode': 0}
+[0.507262] (-) TimerEvent: {}
+[0.519689] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/meshes/soil_sand_0045_01.jpg\n'}
+[0.519883] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/model.sdf\n'}
+[0.519995] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/materials\n'}
+[0.520103] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/materials/flat_normal.png\n'}
+[0.520211] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/materials/soil_sand_0045_01.jpg\n'}
+[0.521448] (thruster_controllers) StdoutLine: {'line': b'[100%] Built target thruster_controllers\n'}
+[0.529585] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/models/sand_heightmap/model.config\n'}
+[0.530314] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/worlds\n'}
+[0.530557] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/worlds/underwater.world\n'}
+[0.531299] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes\n'}
+[0.531523] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/t200\n'}
+[0.531733] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/t200/cw_prop.dae\n'}
+[0.538435] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/t200/ccw_prop.dae\n'}
+[0.540892] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/bluerov2_heavy\n'}
+[0.541367] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/bluerov2_heavy/bluerov2_heavy.dae\n'}
+[0.558372] (thruster_controllers) CommandEnded: {'returncode': 0}
+[0.596353] (hydrodynamics) JobEnded: {'identifier': 'hydrodynamics', 'rc': 0}
+[0.602775] (velocity_controllers) JobStarted: {'identifier': 'velocity_controllers'}
+[0.607577] (-) TimerEvent: {}
+[0.661184] (velocity_controllers) JobProgress: {'identifier': 'velocity_controllers', 'progress': 'cmake'}
+[0.662429] (velocity_controllers) JobProgress: {'identifier': 'velocity_controllers', 'progress': 'build'}
+[0.663561] (velocity_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/velocity_controllers', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/velocity_controllers', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/home/blue/ws_blue/install/hydrodynamics/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/velocity_controllers'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/opt/ros/iron')]), 'shell': False}
+[0.682788] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/bluerov2_heavy_reach\n'}
+[0.682951] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/bluerov2_heavy_reach/bluerov2_heavy_reach.dae\n'}
+[0.707672] (-) TimerEvent: {}
+[0.771704] (thruster_controllers) JobProgress: {'identifier': 'thruster_controllers', 'progress': 'install'}
+[0.771773] (thruster_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/thruster_controllers'], 'cwd': '/home/blue/ws_blue/build/thruster_controllers', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/thruster_controllers'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.794823] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/bluerov2\n'}
+[0.795056] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/meshes/bluerov2/bluerov2.dae\n'}
+[0.797508] (thruster_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.797947] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/polynomial_thrust_curve_controller_parameters\n'}
+[0.798671] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/polynomial_thrust_curve_controller_parameters/polynomial_thrust_curve_controller_parameters.hpp\n'}
+[0.803321] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/thruster_controllers.xml\n'}
+[0.806944] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/thruster_controllers\n'}
+[0.807412] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/thruster_controllers/thruster_controllers\n'}
+[0.807752] (-) TimerEvent: {}
+[0.807934] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/include/thruster_controllers/thruster_controllers/polynomial_thrust_curve_controller.hpp\n'}
+[0.817120] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/lib/libthruster_controllers.so\n'}
+[0.847609] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/library_path.sh\n'}
+[0.847940] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description\n'}
+[0.848236] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/camera\n'}
+[0.848357] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/camera/urdf.xacro\n'}
+[0.854434] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/camera/gazebo.xacro\n'}
+[0.854585] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/t200\n'}
+[0.854719] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/t200/urdf.xacro\n'}
+[0.855281] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/t200/gazebo.xacro\n'}
+[0.855407] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy\n'}
+[0.855521] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy/urdf.xacro\n'}
+[0.855631] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy/config.xacro\n'}
+[0.855742] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy/gazebo.xacro\n'}
+[0.855855] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy_reach\n'}
+[0.855970] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy_reach/urdf.xacro\n'}
+[0.856379] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/library_path.dsv\n'}
+[0.862349] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy_reach/config.xacro\n'}
+[0.862521] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2_heavy_reach/gazebo.xacro\n'}
+[0.862644] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2\n'}
+[0.862740] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2/urdf.xacro\n'}
+[0.862826] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2/config.xacro\n'}
+[0.862909] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/description/bluerov2/gazebo.xacro\n'}
+[0.862994] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/rviz\n'}
+[0.863748] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/rviz/bluerov2_heavy_reach.rviz\n'}
+[0.864297] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/rviz/bluerov2.rviz\n'}
+[0.864413] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/rviz/bluerov2_heavy.rviz\n'}
+[0.864825] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/environment/hooks.dsv\n'}
+[0.864955] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/package_run_dependencies/thruster_controllers\n'}
+[0.870330] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/ament_index/resource_index/package_run_dependencies/blue_description\n'}
+[0.871692] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/parent_prefix_path/thruster_controllers\n'}
+[0.882623] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/ament_prefix_path.sh\n'}
+[0.882812] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/ament_index/resource_index/parent_prefix_path/blue_description\n'}
+[0.887358] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/ament_prefix_path.dsv\n'}
+[0.887906] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/environment/ament_prefix_path.sh\n'}
+[0.888783] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/path.sh\n'}
+[0.898484] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/environment/path.dsv\n'}
+[0.899008] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/environment/ament_prefix_path.dsv\n'}
+[0.899771] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.bash\n'}
+[0.906804] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.sh\n'}
+[0.907358] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/environment/path.sh\n'}
+[0.907867] (-) TimerEvent: {}
+[0.908179] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.zsh\n'}
+[0.910984] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/local_setup.dsv\n'}
+[0.911403] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/environment/path.dsv\n'}
+[0.915969] (thruster_controllers) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/package.dsv\n'}
+[0.916126] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/packages/thruster_controllers\n'}
+[0.916241] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/thruster_controllers\n'}
+[0.917453] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/export_thruster_controllersExport.cmake\n'}
+[0.917941] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/local_setup.bash\n'}
+[0.918616] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/export_thruster_controllersExport-noconfig.cmake\n'}
+[0.919309] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.920142] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.922552] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/thruster_controllersConfig.cmake\n'}
+[0.926500] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/cmake/thruster_controllersConfig-version.cmake\n'}
+[0.928723] (thruster_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_controllers/share/thruster_controllers/package.xml\n'}
+[0.931413] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/local_setup.sh\n'}
+[0.938383] (thruster_controllers) CommandEnded: {'returncode': 0}
+[0.974071] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/local_setup.zsh\n'}
+[1.000934] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/local_setup.dsv\n'}
+[1.001141] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/package.dsv\n'}
+[1.001273] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/ament_index/resource_index/packages/blue_description\n'}
+[1.001386] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/cmake/blue_descriptionConfig.cmake\n'}
+[1.001485] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/cmake/blue_descriptionConfig-version.cmake\n'}
+[1.001588] (blue_description) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_description/share/blue_description/package.xml\n'}
+[1.001690] (velocity_controllers) StdoutLine: {'line': b'[ 33%] Built target integral_sliding_mode_controller_parameters\n'}
+[1.001836] (blue_description) CommandEnded: {'returncode': 0}
+[1.018727] (-) TimerEvent: {}
+[1.031280] (velocity_controllers) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target velocity_controllers\n'}
+[1.082235] (velocity_controllers) StdoutLine: {'line': b'[100%] Built target velocity_controllers\n'}
+[1.111152] (velocity_controllers) CommandEnded: {'returncode': 0}
+[1.118824] (-) TimerEvent: {}
+[1.162335] (thruster_controllers) JobEnded: {'identifier': 'thruster_controllers', 'rc': 0}
+[1.164723] (ardusub_bringup) JobStarted: {'identifier': 'ardusub_bringup'}
+[1.202365] (auv_control_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.203005] (auv_control_msgs) StdoutLine: {'line': b'writing auv_control_msgs.egg-info/PKG-INFO\n'}
+[1.203137] (auv_control_msgs) StdoutLine: {'line': b'writing dependency_links to auv_control_msgs.egg-info/dependency_links.txt\n'}
+[1.203252] (auv_control_msgs) StdoutLine: {'line': b'writing top-level names to auv_control_msgs.egg-info/top_level.txt\n'}
+[1.216503] (blue_description) JobEnded: {'identifier': 'blue_description', 'rc': 0}
+[1.218767] (ardusub_manager) JobStarted: {'identifier': 'ardusub_manager'}
+[1.222226] (-) TimerEvent: {}
+[1.235072] (ardusub_bringup) JobProgress: {'identifier': 'ardusub_bringup', 'progress': 'cmake'}
+[1.235861] (ardusub_bringup) JobProgress: {'identifier': 'ardusub_bringup', 'progress': 'build'}
+[1.236174] (ardusub_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/ardusub_bringup', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/ardusub_bringup', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/ardusub_bringup'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.263650] (ardusub_manager) JobProgress: {'identifier': 'ardusub_manager', 'progress': 'cmake'}
+[1.264529] (ardusub_manager) JobProgress: {'identifier': 'ardusub_manager', 'progress': 'build'}
+[1.264886] (ardusub_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/ardusub_manager', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/ardusub_manager', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/ardusub_manager'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.314643] (auv_control_msgs) StdoutLine: {'line': b"reading manifest file 'auv_control_msgs.egg-info/SOURCES.txt'\n"}
+[1.322362] (auv_control_msgs) StdoutLine: {'line': b"writing manifest file 'auv_control_msgs.egg-info/SOURCES.txt'\n"}
+[1.322554] (-) TimerEvent: {}
+[1.348540] (velocity_controllers) JobProgress: {'identifier': 'velocity_controllers', 'progress': 'install'}
+[1.348654] (velocity_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/velocity_controllers'], 'cwd': '/home/blue/ws_blue/build/velocity_controllers', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/home/blue/ws_blue/install/hydrodynamics/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/velocity_controllers'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/opt/ros/iron')]), 'shell': False}
+[1.366858] (ardusub_manager) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.369824] (velocity_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.370302] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/include/integral_sliding_mode_controller_parameters\n'}
+[1.370931] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/include/integral_sliding_mode_controller_parameters/integral_sliding_mode_controller_parameters.hpp\n'}
+[1.375859] (ardusub_bringup) CommandEnded: {'returncode': 0}
+[1.382115] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/velocity_controllers.xml\n'}
+[1.382303] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/include/velocity_controllers\n'}
+[1.382405] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/include/velocity_controllers/velocity_controllers\n'}
+[1.382498] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/include/velocity_controllers/velocity_controllers/integral_sliding_mode_controller.hpp\n'}
+[1.382592] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/lib/libvelocity_controllers.so\n'}
+[1.393943] (auv_control_msgs) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_auv_control_msgs_egg\n'}
+[1.422663] (-) TimerEvent: {}
+[1.439761] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/environment/library_path.sh\n'}
+[1.440645] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/environment/library_path.dsv\n'}
+[1.441440] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/ament_index/resource_index/package_run_dependencies/velocity_controllers\n'}
+[1.450997] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/ament_index/resource_index/parent_prefix_path/velocity_controllers\n'}
+[1.452179] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/environment/ament_prefix_path.sh\n'}
+[1.453013] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/environment/ament_prefix_path.dsv\n'}
+[1.453596] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/environment/path.sh\n'}
+[1.454488] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/environment/path.dsv\n'}
+[1.455430] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/local_setup.bash\n'}
+[1.461109] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/local_setup.sh\n'}
+[1.461284] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/local_setup.zsh\n'}
+[1.461394] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/local_setup.dsv\n'}
+[1.462585] (velocity_controllers) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/package.dsv\n'}
+[1.466398] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/ament_index/resource_index/packages/velocity_controllers\n'}
+[1.467080] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/velocity_controllers\n'}
+[1.467304] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport.cmake\n'}
+[1.467424] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport-noconfig.cmake\n'}
+[1.467535] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.467629] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_c\n'}
+[1.467993] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.470777] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig.cmake\n'}
+[1.475103] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig-version.cmake\n'}
+[1.482543] (velocity_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/velocity_controllers/share/velocity_controllers/package.xml\n'}
+[1.492773] (velocity_controllers) CommandEnded: {'returncode': 0}
+[1.526605] (ardusub_bringup) JobProgress: {'identifier': 'ardusub_bringup', 'progress': 'install'}
+[1.526675] (-) TimerEvent: {}
+[1.526706] (ardusub_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/ardusub_bringup'], 'cwd': '/home/blue/ws_blue/build/ardusub_bringup', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/ardusub_bringup'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.530475] (auv_control_msgs) StdoutLine: {'line': b'[ 26%] Built target auv_control_msgs__rosidl_typesupport_c\n'}
+[1.551324] (ardusub_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.551791] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/launch\n'}
+[1.552494] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/launch/ardusub.launch.yaml\n'}
+[1.555034] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/launch/sitl.launch.yaml\n'}
+[1.558506] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ament_index/resource_index/package_run_dependencies/ardusub_bringup\n'}
+[1.560267] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ament_index/resource_index/parent_prefix_path/ardusub_bringup\n'}
+[1.561432] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/environment/ament_prefix_path.sh\n'}
+[1.566473] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/environment/ament_prefix_path.dsv\n'}
+[1.567426] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/environment/path.sh\n'}
+[1.568424] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/environment/path.dsv\n'}
+[1.569408] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/local_setup.bash\n'}
+[1.570936] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/local_setup.sh\n'}
+[1.572181] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/local_setup.zsh\n'}
+[1.573307] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/local_setup.dsv\n'}
+[1.574471] (ardusub_bringup) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/package.dsv\n'}
+[1.575236] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ament_index/resource_index/packages/ardusub_bringup\n'}
+[1.575758] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/cmake/ardusub_bringupConfig.cmake\n'}
+[1.576969] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/cmake/ardusub_bringupConfig-version.cmake\n'}
+[1.578701] (ardusub_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_bringup/share/ardusub_bringup/package.xml\n'}
+[1.602230] (ardusub_bringup) CommandEnded: {'returncode': 0}
+[1.608021] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.630230] (-) TimerEvent: {}
+[1.654604] (auv_control_msgs) StdoutLine: {'line': b'[ 35%] Built target auv_control_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.692819] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_introspection_c\n'}
+[1.730287] (velocity_controllers) JobEnded: {'identifier': 'velocity_controllers', 'rc': 0}
+[1.730940] (-) TimerEvent: {}
+[1.731217] (ardusub_teleop) JobStarted: {'identifier': 'ardusub_teleop'}
+[1.771375] (ardusub_manager) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.8 (/opt/ros/iron/share/generate_parameter_library/cmake)\n'}
+[1.771543] (ardusub_manager) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)\n'}
+[1.771657] (auv_control_msgs) StdoutLine: {'line': b'[ 44%] Built target auv_control_msgs__rosidl_typesupport_introspection_c\n'}
+[1.799567] (ardusub_bringup) JobEnded: {'identifier': 'ardusub_bringup', 'rc': 0}
+[1.800883] (auv_control_demos) JobStarted: {'identifier': 'auv_control_demos'}
+[1.838075] (auv_control_msgs) StdoutLine: {'line': b'[ 47%] Built target auv_control_msgs__cpp\n'}
+[1.838319] (-) TimerEvent: {}
+[1.838354] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.838470] (ardusub_teleop) JobProgress: {'identifier': 'ardusub_teleop', 'progress': 'cmake'}
+[1.838503] (ardusub_teleop) JobProgress: {'identifier': 'ardusub_teleop', 'progress': 'build'}
+[1.838533] (ardusub_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/ardusub_teleop', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/ardusub_teleop', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/ardusub_teleop'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.850275] (auv_control_demos) JobProgress: {'identifier': 'auv_control_demos', 'progress': 'cmake'}
+[1.850339] (auv_control_demos) JobProgress: {'identifier': 'auv_control_demos', 'progress': 'build'}
+[1.850374] (auv_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/auv_control_demos', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/auv_control_demos', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/auv_control_demos'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.854590] (auv_control_msgs) StdoutLine: {'line': b'[ 55%] Built target auv_control_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.858318] (ardusub_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.878366] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_cpp\n'}
+[1.899169] (ardusub_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.914400] (auv_control_msgs) StdoutLine: {'line': b'[ 64%] Built target auv_control_msgs__rosidl_typesupport_cpp\n'}
+[1.938400] (ardusub_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.938617] (-) TimerEvent: {}
+[1.968271] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.969971] (auv_control_demos) CommandEnded: {'returncode': 0}
+[1.982881] (ardusub_teleop) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.999434] (ardusub_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.000943] (auv_control_msgs) StdoutLine: {'line': b'[ 73%] Built target auv_control_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.038732] (-) TimerEvent: {}
+[2.090084] (auv_control_msgs) StdoutLine: {'line': b'[ 73%] Built target auv_control_msgs\n'}
+[2.126666] (auv_control_demos) JobProgress: {'identifier': 'auv_control_demos', 'progress': 'install'}
+[2.126741] (auv_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/auv_control_demos'], 'cwd': '/home/blue/ws_blue/build/auv_control_demos', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/auv_control_demos'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.142313] (-) TimerEvent: {}
+[2.145797] (auv_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.146296] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch\n'}
+[2.146998] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch/individual.launch.py\n'}
+[2.150887] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config\n'}
+[2.151336] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config/individual_controller.yaml\n'}
+[2.152387] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro\n'}
+[2.152829] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_ros2_control.xacro\n'}
+[2.154099] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_urdf.xacro\n'}
+[2.155287] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_config.xacro\n'}
+[2.156107] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch\n'}
+[2.156437] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch/chaining.launch.py\n'}
+[2.157317] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config\n'}
+[2.157651] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config/chained_controllers.yaml\n'}
+[2.158765] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro\n'}
+[2.159121] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_config.xacro\n'}
+[2.160161] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_urdf.xacro\n'}
+[2.161234] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_ros2_control.xacro\n'}
+[2.174522] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/package_run_dependencies/auv_control_demos\n'}
+[2.175863] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/parent_prefix_path/auv_control_demos\n'}
+[2.176379] (auv_control_msgs) StdoutLine: {'line': b'[ 76%] Built target auv_control_msgs__py\n'}
+[2.177131] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/ament_prefix_path.sh\n'}
+[2.178100] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/ament_prefix_path.dsv\n'}
+[2.179035] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/path.sh\n'}
+[2.179974] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/path.dsv\n'}
+[2.186474] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.bash\n'}
+[2.188093] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.sh\n'}
+[2.189278] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.zsh\n'}
+[2.190162] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.dsv\n'}
+[2.191136] (auv_control_demos) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/package.dsv\n'}
+[2.191883] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/packages/auv_control_demos\n'}
+[2.192412] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/cmake/auv_control_demosConfig.cmake\n'}
+[2.202900] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/cmake/auv_control_demosConfig-version.cmake\n'}
+[2.204100] (auv_control_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/package.xml\n'}
+[2.214276] (auv_control_demos) CommandEnded: {'returncode': 0}
+[2.267982] (-) TimerEvent: {}
+[2.290859] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_generator_py\n'}
+[2.324761] (ardusub_teleop) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.368097] (-) TimerEvent: {}
+[2.390408] (auv_control_msgs) StdoutLine: {'line': b'[ 82%] Built target auv_control_msgs__rosidl_generator_py\n'}
+[2.410540] (auv_control_demos) JobEnded: {'identifier': 'auv_control_demos', 'rc': 0}
+[2.411819] (blue_demos) JobStarted: {'identifier': 'blue_demos'}
+[2.447010] (ardusub_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.447224] (ardusub_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.468059] (blue_demos) JobProgress: {'identifier': 'blue_demos', 'progress': 'cmake'}
+[2.468126] (-) TimerEvent: {}
+[2.468160] (blue_demos) JobProgress: {'identifier': 'blue_demos', 'progress': 'build'}
+[2.468193] (blue_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/blue_demos', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/blue_demos', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/blue_demos'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.476534] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.494328] (ardusub_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.511250] (ardusub_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.513451] (ardusub_manager) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.561312] (auv_control_msgs) StdoutLine: {'line': b'[ 88%] Built target auv_control_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.570245] (-) TimerEvent: {}
+[2.586229] (ardusub_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.606989] (blue_demos) CommandEnded: {'returncode': 0}
+[2.626821] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_c__pyext\n'}
+[2.646352] (auv_control_msgs) StdoutLine: {'line': b'[ 94%] Built target auv_control_msgs__rosidl_typesupport_c__pyext\n'}
+[2.678260] (-) TimerEvent: {}
+[2.678483] (auv_control_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target auv_control_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.718589] (auv_control_msgs) StdoutLine: {'line': b'[100%] Built target auv_control_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.761275] (auv_control_msgs) CommandEnded: {'returncode': 0}
+[2.778346] (-) TimerEvent: {}
+[2.798385] (blue_demos) JobProgress: {'identifier': 'blue_demos', 'progress': 'install'}
+[2.798453] (blue_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/blue_demos'], 'cwd': '/home/blue/ws_blue/build/blue_demos', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/blue_demos'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.814531] (blue_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.814847] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch\n'}
+[2.815243] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_heavy_controllers.launch.py\n'}
+[2.826388] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_demo.launch.yaml\n'}
+[2.826553] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_heavy_demo.launch.yaml\n'}
+[2.826664] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_controllers.launch.py\n'}
+[2.826773] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config\n'}
+[2.826884] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/bluerov2_controllers.yaml\n'}
+[2.826983] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/transforms.yaml\n'}
+[2.827086] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/bluerov2_heavy_controllers.yaml\n'}
+[2.827184] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description\n'}
+[2.827295] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control\n'}
+[2.827390] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control/bluerov2.ros2_control.xacro\n'}
+[2.827585] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control/bluerov2_heavy.ros2_control.xacro\n'}
+[2.830781] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf\n'}
+[2.831017] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf/bluerov2.config.xacro\n'}
+[2.831881] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf/bluerov2_heavy.config.xacro\n'}
+[2.832890] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/launch\n'}
+[2.833152] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/launch/joy_teleop.launch.yaml\n'}
+[2.846387] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config\n'}
+[2.846557] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config/joy_teleop.yaml\n'}
+[2.846675] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config/transforms.yaml\n'}
+[2.846876] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/package_run_dependencies/blue_demos\n'}
+[2.858331] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/parent_prefix_path/blue_demos\n'}
+[2.866391] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/ament_prefix_path.sh\n'}
+[2.867034] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/ament_prefix_path.dsv\n'}
+[2.868052] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/path.sh\n'}
+[2.868785] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/path.dsv\n'}
+[2.869434] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.bash\n'}
+[2.870017] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.sh\n'}
+[2.870677] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.zsh\n'}
+[2.878495] (-) TimerEvent: {}
+[2.878533] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.dsv\n'}
+[2.878875] (blue_demos) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/package.dsv\n'}
+[2.879403] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/packages/blue_demos\n'}
+[2.879712] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/cmake/blue_demosConfig.cmake\n'}
+[2.881105] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/cmake/blue_demosConfig-version.cmake\n'}
+[2.881808] (blue_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_demos/share/blue_demos/package.xml\n'}
+[2.894223] (blue_demos) CommandEnded: {'returncode': 0}
+[2.982251] (-) TimerEvent: {}
+[3.067355] (ardusub_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.086333] (-) TimerEvent: {}
+[3.103408] (blue_demos) JobEnded: {'identifier': 'blue_demos', 'rc': 0}
+[3.104485] (blue_localization) JobStarted: {'identifier': 'blue_localization'}
+[3.125280] (ardusub_teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.135598] (ardusub_teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.186433] (-) TimerEvent: {}
+[3.286626] (-) TimerEvent: {}
+[3.386823] (-) TimerEvent: {}
+[3.487024] (-) TimerEvent: {}
+[3.578325] (auv_control_msgs) JobProgress: {'identifier': 'auv_control_msgs', 'progress': 'install'}
+[3.578405] (auv_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/auv_control_msgs'], 'cwd': '/home/blue/ws_blue/build/auv_control_msgs', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/auv_control_msgs'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[3.591678] (-) TimerEvent: {}
+[3.602687] (ardusub_teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.618709] (auv_control_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.618879] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/rosidl_interfaces/auv_control_msgs\n'}
+[3.619005] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/msg/MultiActuatorStateStamped.json\n'}
+[3.619108] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs\n'}
+[3.619211] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg\n'}
+[3.619312] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.619415] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail\n'}
+[3.619770] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__functions.h\n'}
+[3.621009] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__description.c\n'}
+[3.621900] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__struct.h\n'}
+[3.622755] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__functions.c\n'}
+[3.623803] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.c\n'}
+[3.624528] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.h\n'}
+[3.630893] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/multi_actuator_state_stamped.h\n'}
+[3.631793] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/library_path.sh\n'}
+[3.632843] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/library_path.dsv\n'}
+[3.634285] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_generator_c.so\n'}
+[3.635916] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs\n'}
+[3.636266] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg\n'}
+[3.636569] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail\n'}
+[3.636897] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[3.642776] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.644324] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.645603] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs\n'}
+[3.645943] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg\n'}
+[3.646284] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail\n'}
+[3.646640] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__traits.hpp\n'}
+[3.647690] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__struct.hpp\n'}
+[3.648677] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__builder.hpp\n'}
+[3.649755] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/multi_actuator_state_stamped.hpp\n'}
+[3.650794] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs\n'}
+[3.651117] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg\n'}
+[3.651419] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail\n'}
+[3.651751] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.658946] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/dds_fastrtps\n'}
+[3.659428] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.660924] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.662560] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs\n'}
+[3.670407] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg\n'}
+[3.670747] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail\n'}
+[3.671106] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_introspection_c.h\n'}
+[3.681066] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.c\n'}
+[3.681260] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.682290] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.683855] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_c.so\n'}
+[3.685233] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs\n'}
+[3.685547] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg\n'}
+[3.685842] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail\n'}
+[3.686171] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.687229] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/include/auv_control_msgs/auv_control_msgs/msg/detail/multi_actuator_state_stamped__type_support.cpp\n'}
+[3.688945] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.690769] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_typesupport_cpp.so\n'}
+[3.691783] (-) TimerEvent: {}
+[3.692351] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/pythonpath.sh\n'}
+[3.693424] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/pythonpath.dsv\n'}
+[3.694273] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info\n'}
+[3.694956] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[3.695612] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[3.696257] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[3.696909] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[3.697629] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs\n'}
+[3.698090] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.698382] (ardusub_manager) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)\n'}
+[3.699125] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.699996] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/libauv_control_msgs__rosidl_generator_py.so\n'}
+[3.701006] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.702229] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg\n'}
+[3.702453] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/_multi_actuator_state_stamped_s.c\n'}
+[3.703493] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/__init__.py\n'}
+[3.704210] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg/_multi_actuator_state_stamped.py\n'}
+[3.704983] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/__init__.py\n'}
+[3.705176] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.706065] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/_auv_control_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.714317] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.791917] (-) TimerEvent: {}
+[3.804575] (auv_control_msgs) StdoutLine: {'line': b"Listing '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs'...\n"}
+[3.804802] (auv_control_msgs) StdoutLine: {'line': b"Listing '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/msg'...\n"}
+[3.828908] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.829108] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.829215] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages/auv_control_msgs/auv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.829315] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/lib/libauv_control_msgs__rosidl_generator_py.so\n'}
+[3.830479] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/msg/MultiActuatorStateStamped.idl\n'}
+[3.832492] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/msg/MultiActuatorStateStamped.msg\n'}
+[3.833805] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/package_run_dependencies/auv_control_msgs\n'}
+[3.835068] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/parent_prefix_path/auv_control_msgs\n'}
+[3.839041] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/ament_prefix_path.sh\n'}
+[3.839905] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/ament_prefix_path.dsv\n'}
+[3.840794] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/path.sh\n'}
+[3.841651] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/environment/path.dsv\n'}
+[3.842594] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.bash\n'}
+[3.843659] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.sh\n'}
+[3.844693] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.zsh\n'}
+[3.845514] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/local_setup.dsv\n'}
+[3.847439] (auv_control_msgs) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/package.dsv\n'}
+[3.847631] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/ament_index/resource_index/packages/auv_control_msgs\n'}
+[3.847750] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_cExport.cmake\n'}
+[3.848754] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.849773] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.850683] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.851689] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.852820] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.853686] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.855168] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.856138] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.857226] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.857936] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.859418] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.860294] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.861377] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.862312] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.863306] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.864175] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/export_auv_control_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.865112] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.865815] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.866663] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.867628] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.868515] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.869343] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.870239] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.871171] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgsConfig.cmake\n'}
+[3.872218] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/cmake/auv_control_msgsConfig-version.cmake\n'}
+[3.873227] (auv_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_control_msgs/share/auv_control_msgs/package.xml\n'}
+[3.882289] (auv_control_msgs) CommandEnded: {'returncode': 0}
+[3.892084] (-) TimerEvent: {}
+[3.992245] (-) TimerEvent: {}
+[4.090271] (ardusub_manager) StdoutLine: {'line': b'-- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)\n'}
+[4.092332] (-) TimerEvent: {}
+[4.192497] (-) TimerEvent: {}
+[4.200342] (ardusub_teleop) StdoutLine: {'line': b'-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[4.292597] (-) TimerEvent: {}
+[4.310229] (ardusub_teleop) StdoutLine: {'line': b'-- Found mavros_msgs: 2.9.0 (/opt/ros/iron/share/mavros_msgs/cmake)\n'}
+[4.344205] (ardusub_manager) StdoutLine: {'line': b'-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)\n'}
+[4.392695] (-) TimerEvent: {}
+[4.492861] (-) TimerEvent: {}
+[4.594489] (-) TimerEvent: {}
+[4.688458] (auv_control_msgs) JobEnded: {'identifier': 'auv_control_msgs', 'rc': 0}
+[4.690804] (thruster_allocation_matrix_controller) JobStarted: {'identifier': 'thruster_allocation_matrix_controller'}
+[4.694561] (-) TimerEvent: {}
+[4.798261] (-) TimerEvent: {}
+[4.830327] (thruster_allocation_matrix_controller) JobProgress: {'identifier': 'thruster_allocation_matrix_controller', 'progress': 'cmake'}
+[4.830396] (thruster_allocation_matrix_controller) JobProgress: {'identifier': 'thruster_allocation_matrix_controller', 'progress': 'build'}
+[4.830433] (thruster_allocation_matrix_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/thruster_allocation_matrix_controller', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/thruster_allocation_matrix_controller', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/thruster_allocation_matrix_controller'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron')]), 'shell': False}
+[4.902262] (-) TimerEvent: {}
+[5.002472] (-) TimerEvent: {}
+[5.106236] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'[ 33%] Built target thruster_allocation_matrix_controller_parameters\n'}
+[5.106464] (-) TimerEvent: {}
+[5.210284] (-) TimerEvent: {}
+[5.252189] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target thruster_allocation_matrix_controller\n'}
+[5.267375] (blue_localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/blue_localization', 'build', '--build-base', '/home/blue/ws_blue/build/blue_localization/build', 'install', '--record', '/home/blue/ws_blue/build/blue_localization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/blue/ws_blue/src/blue/blue_localization', 'env': {'ARDUPILOT_RELEASE': 'master', 'USER': 'blue', 'OTEL_EXPORTER_OTLP_TRACES_PROTOCOL': 'grpc', 'USER_WORKSPACE': '/home/blue/ws_blue', 'SKIP_AP_GRAPHIC_ENV': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/blue', 'SKIP_AP_EXT_ENV': '1', 'ROS_PYTHON_VERSION': '3', 'USER_UID': '1000', 'OTEL_TRACE_PARENT': '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01', 'ROS_DISTRO': 'iron', 'ROS_VERSION': '2', 'USERNAME': 'blue', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'OTEL_EXPORTER_OTLP_TRACES_ENDPOINT': 'unix:///dev/otel-grpc.sock', 'TRACEPARENT': '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01', 'DEBIAN_FRONTEND': 'noninteractive', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/blue/ws_blue/build/blue_localization', 'SKIP_AP_GIT_CHECK': '1', 'PYTHONPATH': '/home/blue/ws_blue/build/blue_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'USER_GID': '1000', 'COLCON': '1', 'OTEL_TRACES_EXPORTER': 'otlp', 'SKIP_AP_COV_ENV': '1'}, 'shell': False}
+[5.314254] (-) TimerEvent: {}
+[5.334428] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'[100%] Built target thruster_allocation_matrix_controller\n'}
+[5.382250] (thruster_allocation_matrix_controller) CommandEnded: {'returncode': 0}
+[5.418247] (-) TimerEvent: {}
+[5.522247] (-) TimerEvent: {}
+[5.573211] (thruster_allocation_matrix_controller) JobProgress: {'identifier': 'thruster_allocation_matrix_controller', 'progress': 'install'}
+[5.573294] (thruster_allocation_matrix_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/thruster_allocation_matrix_controller'], 'cwd': '/home/blue/ws_blue/build/thruster_allocation_matrix_controller', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/thruster_allocation_matrix_controller'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron')]), 'shell': False}
+[5.597057] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.606922] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller_parameters\n'}
+[5.607645] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller_parameters/thruster_allocation_matrix_controller_parameters.hpp\n'}
+[5.609698] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller.xml\n'}
+[5.610955] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller\n'}
+[5.611088] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller\n'}
+[5.611189] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/include/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller/thruster_allocation_matrix_controller.hpp\n'}
+[5.618331] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/lib/libthruster_allocation_matrix_controller.so\n'}
+[5.622325] (-) TimerEvent: {}
+[5.648598] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/library_path.sh\n'}
+[5.649586] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/library_path.dsv\n'}
+[5.650693] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/package_run_dependencies/thruster_allocation_matrix_controller\n'}
+[5.651825] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/parent_prefix_path/thruster_allocation_matrix_controller\n'}
+[5.652699] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/ament_prefix_path.sh\n'}
+[5.653786] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/ament_prefix_path.dsv\n'}
+[5.654737] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/path.sh\n'}
+[5.655653] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/environment/path.dsv\n'}
+[5.656477] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.bash\n'}
+[5.657281] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.sh\n'}
+[5.658269] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.zsh\n'}
+[5.660487] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/local_setup.dsv\n'}
+[5.662141] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/package.dsv\n'}
+[5.662301] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/packages/thruster_allocation_matrix_controller\n'}
+[5.662406] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/thruster_allocation_matrix_controller\n'}
+[5.663611] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/export_thruster_allocation_matrix_controllerExport.cmake\n'}
+[5.664517] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/export_thruster_allocation_matrix_controllerExport-noconfig.cmake\n'}
+[5.665264] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.666053] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.666823] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/thruster_allocation_matrix_controllerConfig.cmake\n'}
+[5.667577] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/cmake/thruster_allocation_matrix_controllerConfig-version.cmake\n'}
+[5.668341] (thruster_allocation_matrix_controller) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_allocation_matrix_controller/share/thruster_allocation_matrix_controller/package.xml\n'}
+[5.678293] (thruster_allocation_matrix_controller) CommandEnded: {'returncode': 0}
+[5.730246] (-) TimerEvent: {}
+[5.736915] (blue_localization) StderrLine: {'line': b"/home/blue/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.737168] (blue_localization) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.737404] (ardusub_manager) StdoutLine: {'line': b'-- Found mavros_msgs: 2.9.0 (/opt/ros/iron/share/mavros_msgs/cmake)\n'}
+[5.834269] (-) TimerEvent: {}
+[5.934461] (-) TimerEvent: {}
+[6.018351] (blue_localization) StdoutLine: {'line': b'running egg_info\n'}
+[6.034547] (-) TimerEvent: {}
+[6.054332] (blue_localization) StdoutLine: {'line': b'writing ../../../build/blue_localization/blue_localization.egg-info/PKG-INFO\n'}
+[6.058322] (blue_localization) StdoutLine: {'line': b'writing dependency_links to ../../../build/blue_localization/blue_localization.egg-info/dependency_links.txt\n'}
+[6.058471] (blue_localization) StdoutLine: {'line': b'writing entry points to ../../../build/blue_localization/blue_localization.egg-info/entry_points.txt\n'}
+[6.058563] (blue_localization) StdoutLine: {'line': b'writing requirements to ../../../build/blue_localization/blue_localization.egg-info/requires.txt\n'}
+[6.058646] (blue_localization) StdoutLine: {'line': b'writing top-level names to ../../../build/blue_localization/blue_localization.egg-info/top_level.txt\n'}
+[6.114733] (thruster_allocation_matrix_controller) JobEnded: {'identifier': 'thruster_allocation_matrix_controller', 'rc': 0}
+[6.115571] (message_transforms) JobStarted: {'identifier': 'message_transforms'}
+[6.135663] (-) TimerEvent: {}
+[6.162630] (blue_localization) StdoutLine: {'line': b"reading manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'\n"}
+[6.162838] (blue_localization) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.162960] (blue_localization) StdoutLine: {'line': b"writing manifest file '../../../build/blue_localization/blue_localization.egg-info/SOURCES.txt'\n"}
+[6.163066] (blue_localization) StdoutLine: {'line': b'running build\n'}
+[6.163155] (blue_localization) StdoutLine: {'line': b'running build_py\n'}
+[6.163241] (blue_localization) StdoutLine: {'line': b'running install\n'}
+[6.163809] (blue_localization) StdoutLine: {'line': b'running install_lib\n'}
+[6.164543] (message_transforms) JobProgress: {'identifier': 'message_transforms', 'progress': 'cmake'}
+[6.165444] (message_transforms) JobProgress: {'identifier': 'message_transforms', 'progress': 'build'}
+[6.165825] (message_transforms) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/message_transforms', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/message_transforms', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/message_transforms'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[6.235782] (-) TimerEvent: {}
+[6.246401] (blue_localization) StdoutLine: {'line': b'running install_data\n'}
+[6.254350] (blue_localization) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.304651] (blue_localization) StdoutLine: {'line': b"removing '/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[6.306030] (blue_localization) StdoutLine: {'line': b'Copying ../../../build/blue_localization/blue_localization.egg-info to /home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization-0.0.1-py3.10.egg-info\n'}
+[6.314319] (blue_localization) StdoutLine: {'line': b'running install_scripts\n'}
+[6.338359] (-) TimerEvent: {}
+[6.406433] (message_transforms) StdoutLine: {'line': b'[ 16%] Built target message_transforms_parameters\n'}
+[6.438464] (-) TimerEvent: {}
+[6.479304] (message_transforms) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target message_transforms\n'}
+[6.530420] (message_transforms) StdoutLine: {'line': b'[ 50%] Built target message_transforms\n'}
+[6.546247] (-) TimerEvent: {}
+[6.634422] (message_transforms) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target message_transforms_library\n'}
+[6.647076] (-) TimerEvent: {}
+[6.686446] (message_transforms) StdoutLine: {'line': b'[100%] Built target message_transforms_library\n'}
+[6.725969] (message_transforms) CommandEnded: {'returncode': 0}
+[6.748825] (-) TimerEvent: {}
+[6.775124] (blue_localization) StdoutLine: {'line': b'Installing aruco_marker_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization\n'}
+[6.776013] (blue_localization) StdoutLine: {'line': b'Installing camera script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization\n'}
+[6.776515] (blue_localization) StdoutLine: {'line': b'Installing gazebo_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization\n'}
+[6.776997] (blue_localization) StdoutLine: {'line': b'Installing qualisys_localizer script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization\n'}
+[6.777467] (blue_localization) StdoutLine: {'line': b'Installing qualisys_mocap script to /home/blue/ws_blue/install/blue_localization/lib/blue_localization\n'}
+[6.778250] (blue_localization) StdoutLine: {'line': b"writing list of installed files to '/home/blue/ws_blue/build/blue_localization/install.log'\n"}
+[6.850254] (-) TimerEvent: {}
+[6.854345] (blue_localization) CommandEnded: {'returncode': 0}
+[6.861358] (blue_localization) JobEnded: {'identifier': 'blue_localization', 'rc': 0}
+[6.866823] (message_transforms_demos) JobStarted: {'identifier': 'message_transforms_demos'}
+[6.880050] (message_transforms_demos) JobProgress: {'identifier': 'message_transforms_demos', 'progress': 'cmake'}
+[6.880783] (message_transforms_demos) JobProgress: {'identifier': 'message_transforms_demos', 'progress': 'build'}
+[6.881072] (message_transforms_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/message_transforms_demos', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/message_transforms_demos', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/message_transforms_demos'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[6.950361] (-) TimerEvent: {}
+[7.007960] (message_transforms_demos) CommandEnded: {'returncode': 0}
+[7.030587] (message_transforms) JobProgress: {'identifier': 'message_transforms', 'progress': 'install'}
+[7.030649] (message_transforms) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/message_transforms'], 'cwd': '/home/blue/ws_blue/build/message_transforms', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/message_transforms'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[7.050431] (-) TimerEvent: {}
+[7.053498] (message_transforms) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.053731] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters\n'}
+[7.054051] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters/message_transforms_parameters.hpp\n'}
+[7.066310] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/lib/message_transforms/message_transforms\n'}
+[7.070736] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms\n'}
+[7.070959] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms\n'}
+[7.071205] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/message_transforms_node.hpp\n'}
+[7.082327] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/transforms.hpp\n'}
+[7.082469] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/lib/libmessage_transforms_library.so\n'}
+[7.150551] (-) TimerEvent: {}
+[7.186991] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch\n'}
+[7.187788] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/tf.launch.yaml\n'}
+[7.191098] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/message_transforms.launch.py\n'}
+[7.192453] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.sh\n'}
+[7.193810] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.dsv\n'}
+[7.195162] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/package_run_dependencies/message_transforms\n'}
+[7.234454] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/parent_prefix_path/message_transforms\n'}
+[7.234671] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.sh\n'}
+[7.234784] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.dsv\n'}
+[7.234893] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.sh\n'}
+[7.235093] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.dsv\n'}
+[7.238351] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.bash\n'}
+[7.238494] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.sh\n'}
+[7.238594] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.zsh\n'}
+[7.242318] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.dsv\n'}
+[7.242456] (message_transforms) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.dsv\n'}
+[7.242575] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/packages/message_transforms\n'}
+[7.242672] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/rclcpp_components/message_transforms\n'}
+[7.242758] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport.cmake\n'}
+[7.246501] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport-noconfig.cmake\n'}
+[7.247527] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.250312] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.250451] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig.cmake\n'}
+[7.250574] (-) TimerEvent: {}
+[7.250601] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig-version.cmake\n'}
+[7.251495] (message_transforms) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.xml\n'}
+[7.258531] (message_transforms) CommandEnded: {'returncode': 0}
+[7.322596] (message_transforms_demos) JobProgress: {'identifier': 'message_transforms_demos', 'progress': 'install'}
+[7.322694] (message_transforms_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/message_transforms_demos'], 'cwd': '/home/blue/ws_blue/build/message_transforms_demos', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/message_transforms_demos'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[7.346797] (message_transforms_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.347034] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/launch\n'}
+[7.347148] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/launch/demo.launch.yaml\n'}
+[7.354227] (-) TimerEvent: {}
+[7.355081] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/config\n'}
+[7.355211] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/config/demo.yaml\n'}
+[7.366311] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/package_run_dependencies/message_transforms_demos\n'}
+[7.374307] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/parent_prefix_path/message_transforms_demos\n'}
+[7.374523] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/ament_prefix_path.sh\n'}
+[7.375591] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/ament_prefix_path.dsv\n'}
+[7.378309] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/path.sh\n'}
+[7.378447] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/path.dsv\n'}
+[7.378573] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.bash\n'}
+[7.378746] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.sh\n'}
+[7.379408] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.zsh\n'}
+[7.390328] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.dsv\n'}
+[7.390476] (message_transforms_demos) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/package.dsv\n'}
+[7.390588] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/packages/message_transforms_demos\n'}
+[7.390677] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/cmake/message_transforms_demosConfig.cmake\n'}
+[7.390761] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/cmake/message_transforms_demosConfig-version.cmake\n'}
+[7.390852] (message_transforms_demos) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/package.xml\n'}
+[7.402270] (message_transforms_demos) CommandEnded: {'returncode': 0}
+[7.454329] (-) TimerEvent: {}
+[7.555190] (-) TimerEvent: {}
+[7.578235] (message_transforms) JobEnded: {'identifier': 'message_transforms', 'rc': 0}
+[7.580594] (thruster_hardware) JobStarted: {'identifier': 'thruster_hardware'}
+[7.662278] (message_transforms_demos) JobEnded: {'identifier': 'message_transforms_demos', 'rc': 0}
+[7.679290] (-) TimerEvent: {}
+[7.679344] (blue_bringup) JobStarted: {'identifier': 'blue_bringup'}
+[7.698354] (thruster_hardware) JobProgress: {'identifier': 'thruster_hardware', 'progress': 'cmake'}
+[7.698410] (thruster_hardware) JobProgress: {'identifier': 'thruster_hardware', 'progress': 'build'}
+[7.698440] (thruster_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/thruster_hardware', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/thruster_hardware', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/thruster_hardware'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[7.730292] (blue_bringup) JobProgress: {'identifier': 'blue_bringup', 'progress': 'cmake'}
+[7.730362] (blue_bringup) JobProgress: {'identifier': 'blue_bringup', 'progress': 'build'}
+[7.730416] (blue_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/blue_bringup', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/blue_bringup', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/blue_description:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/blue_bringup'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/blue_description:/opt/ros/iron')]), 'shell': False}
+[7.782276] (-) TimerEvent: {}
+[7.810494] (thruster_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[7.878397] (blue_bringup) CommandEnded: {'returncode': 0}
+[7.886234] (-) TimerEvent: {}
+[7.986398] (-) TimerEvent: {}
+[8.086443] (blue_bringup) JobProgress: {'identifier': 'blue_bringup', 'progress': 'install'}
+[8.086518] (-) TimerEvent: {}
+[8.086553] (blue_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/blue_bringup'], 'cwd': '/home/blue/ws_blue/build/blue_bringup', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/blue_description:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/blue_bringup'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/blue_description:/opt/ros/iron')]), 'shell': False}
+[8.102465] (blue_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.102992] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch\n'}
+[8.103774] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy\n'}
+[8.104236] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy/bluerov2_heavy.launch.yaml\n'}
+[8.105535] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy/thrusters.launch.yaml\n'}
+[8.106493] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy_reach\n'}
+[8.106924] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy_reach/thrusters.launch.yaml\n'}
+[8.107889] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2_heavy_reach/bluerov2_heavy_reach.launch.yaml\n'}
+[8.108991] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2\n'}
+[8.109442] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2/bluerov2.launch.yaml\n'}
+[8.110417] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/launch/bluerov2/thrusters.launch.yaml\n'}
+[8.111615] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/ament_index/resource_index/package_run_dependencies/blue_bringup\n'}
+[8.112930] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/ament_index/resource_index/parent_prefix_path/blue_bringup\n'}
+[8.114082] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/ament_prefix_path.sh\n'}
+[8.115225] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/ament_prefix_path.dsv\n'}
+[8.116339] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/path.sh\n'}
+[8.117272] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/environment/path.dsv\n'}
+[8.122794] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.bash\n'}
+[8.123865] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.sh\n'}
+[8.125111] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.zsh\n'}
+[8.126140] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/local_setup.dsv\n'}
+[8.127148] (blue_bringup) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/package.dsv\n'}
+[8.127923] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/ament_index/resource_index/packages/blue_bringup\n'}
+[8.128450] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/cmake/blue_bringupConfig.cmake\n'}
+[8.130156] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/cmake/blue_bringupConfig-version.cmake\n'}
+[8.131900] (blue_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/blue_bringup/share/blue_bringup/package.xml\n'}
+[8.142273] (blue_bringup) CommandEnded: {'returncode': 0}
+[8.190324] (-) TimerEvent: {}
+[8.290622] (-) TimerEvent: {}
+[8.303875] (blue_bringup) JobEnded: {'identifier': 'blue_bringup', 'rc': 0}
+[8.306381] (auv_controllers) JobStarted: {'identifier': 'auv_controllers'}
+[8.330330] (ardusub_teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.330513] (thruster_hardware) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[8.338350] (ardusub_teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[8.338522] (ardusub_teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/blue/ws_blue/build/ardusub_teleop\n'}
+[8.394282] (-) TimerEvent: {}
+[8.457369] (auv_controllers) JobProgress: {'identifier': 'auv_controllers', 'progress': 'cmake'}
+[8.457440] (auv_controllers) JobProgress: {'identifier': 'auv_controllers', 'progress': 'build'}
+[8.457473] (auv_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blue/ws_blue/build/auv_controllers', '--', '-j4', '-l4'], 'cwd': '/home/blue/ws_blue/build/auv_controllers', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/home/blue/ws_blue/install/velocity_controllers/lib:/home/blue/ws_blue/install/thruster_allocation_matrix_controller/lib:/home/blue/ws_blue/install/thruster_controllers/lib:/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/velocity_controllers:/home/blue/ws_blue/install/thruster_allocation_matrix_controller:/home/blue/ws_blue/install/thruster_controllers:/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/auv_controllers'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/velocity_controllers:/home/blue/ws_blue/install/thruster_allocation_matrix_controller:/home/blue/ws_blue/install/thruster_controllers:/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron')]), 'shell': False}
+[8.459039] (thruster_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[8.486202] (ardusub_teleop) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target joy_interface\n'}
+[8.494084] (thruster_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[8.494282] (-) TimerEvent: {}
+[8.555821] (thruster_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.567869] (ardusub_teleop) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/joy_interface.dir/src/joy_interface.cpp.o\n'}
+[8.594612] (auv_controllers) CommandEnded: {'returncode': 0}
+[8.595065] (-) TimerEvent: {}
+[8.610905] (thruster_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.695210] (-) TimerEvent: {}
+[8.784701] (auv_controllers) JobProgress: {'identifier': 'auv_controllers', 'progress': 'install'}
+[8.784773] (auv_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/auv_controllers'], 'cwd': '/home/blue/ws_blue/build/auv_controllers', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/home/blue/ws_blue/install/velocity_controllers/lib:/home/blue/ws_blue/install/thruster_allocation_matrix_controller/lib:/home/blue/ws_blue/install/thruster_controllers/lib:/home/blue/ws_blue/install/hydrodynamics/lib:/home/blue/ws_blue/install/auv_control_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/home/blue/ws_blue/install/velocity_controllers:/home/blue/ws_blue/install/thruster_allocation_matrix_controller:/home/blue/ws_blue/install/thruster_controllers:/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/auv_controllers'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/home/blue/ws_blue/install/auv_control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/home/blue/ws_blue/install/velocity_controllers:/home/blue/ws_blue/install/thruster_allocation_matrix_controller:/home/blue/ws_blue/install/thruster_controllers:/home/blue/ws_blue/install/hydrodynamics:/home/blue/ws_blue/install/auv_control_msgs:/opt/ros/iron')]), 'shell': False}
+[8.795291] (-) TimerEvent: {}
+[8.807157] (auv_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.818781] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/ament_index/resource_index/package_run_dependencies/auv_controllers\n'}
+[8.821090] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/ament_index/resource_index/parent_prefix_path/auv_controllers\n'}
+[8.822145] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/ament_prefix_path.sh\n'}
+[8.822995] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/ament_prefix_path.dsv\n'}
+[8.823823] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/path.sh\n'}
+[8.824616] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/path.dsv\n'}
+[8.825454] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.bash\n'}
+[8.826260] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.sh\n'}
+[8.827035] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.zsh\n'}
+[8.827777] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.dsv\n'}
+[8.828515] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/package.dsv\n'}
+[8.829644] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/ament_index/resource_index/packages/auv_controllers\n'}
+[8.829767] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/cmake/auv_controllersConfig.cmake\n'}
+[8.830522] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/cmake/auv_controllersConfig-version.cmake\n'}
+[8.831262] (auv_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/auv_controllers/share/auv_controllers/package.xml\n'}
+[8.842243] (auv_controllers) CommandEnded: {'returncode': 0}
+[8.895416] (-) TimerEvent: {}
+[8.944796] (thruster_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[8.948760] (thruster_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.995534] (-) TimerEvent: {}
+[9.047441] (auv_controllers) JobEnded: {'identifier': 'auv_controllers', 'rc': 0}
+[9.098273] (-) TimerEvent: {}
+[9.202268] (-) TimerEvent: {}
+[9.290412] (thruster_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.306280] (-) TimerEvent: {}
+[9.358520] (ardusub_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.384858] (ardusub_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[9.388376] (ardusub_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/blue/ws_blue/build/ardusub_manager\n'}
+[9.406385] (-) TimerEvent: {}
+[9.506591] (-) TimerEvent: {}
+[9.530395] (ardusub_manager) StdoutLine: {'line': b'[ 33%] Built target ardusub_manager_parameters\n'}
+[9.606709] (-) TimerEvent: {}
+[9.610529] (ardusub_manager) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ardusub_manager\n'}
+[9.668879] (ardusub_manager) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/ardusub_manager.dir/src/ardusub_manager.cpp.o\n'}
+[9.685914] (thruster_hardware) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)\n'}
+[9.710257] (-) TimerEvent: {}
+[9.810462] (-) TimerEvent: {}
+[9.910679] (-) TimerEvent: {}
+[10.018274] (-) TimerEvent: {}
+[10.038746] (thruster_hardware) StdoutLine: {'line': b'-- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)\n'}
+[10.098451] (thruster_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 3.28.1 (/opt/ros/iron/share/hardware_interface/cmake)\n'}
+[10.126262] (-) TimerEvent: {}
+[10.234277] (-) TimerEvent: {}
+[10.338270] (-) TimerEvent: {}
+[10.438491] (-) TimerEvent: {}
+[10.538723] (-) TimerEvent: {}
+[10.638950] (-) TimerEvent: {}
+[10.746397] (-) TimerEvent: {}
+[10.854278] (-) TimerEvent: {}
+[10.954500] (-) TimerEvent: {}
+[11.054722] (-) TimerEvent: {}
+[11.161213] (-) TimerEvent: {}
+[11.262266] (-) TimerEvent: {}
+[11.362489] (-) TimerEvent: {}
+[11.470266] (-) TimerEvent: {}
+[11.570482] (-) TimerEvent: {}
+[11.670695] (-) TimerEvent: {}
+[11.770926] (-) TimerEvent: {}
+[11.871151] (-) TimerEvent: {}
+[11.971385] (-) TimerEvent: {}
+[12.078277] (-) TimerEvent: {}
+[12.136841] (thruster_hardware) StdoutLine: {'line': b'-- Found mavros_msgs: 2.9.0 (/opt/ros/iron/share/mavros_msgs/cmake)\n'}
+[12.178390] (-) TimerEvent: {}
+[12.282273] (-) TimerEvent: {}
+[12.382502] (-) TimerEvent: {}
+[12.486281] (-) TimerEvent: {}
+[12.590308] (-) TimerEvent: {}
+[12.694270] (-) TimerEvent: {}
+[12.798317] (-) TimerEvent: {}
+[12.902264] (-) TimerEvent: {}
+[13.006270] (-) TimerEvent: {}
+[13.110277] (-) TimerEvent: {}
+[13.210507] (-) TimerEvent: {}
+[13.310729] (-) TimerEvent: {}
+[13.410957] (-) TimerEvent: {}
+[13.511185] (-) TimerEvent: {}
+[13.611414] (-) TimerEvent: {}
+[13.711648] (-) TimerEvent: {}
+[13.811884] (-) TimerEvent: {}
+[13.914270] (-) TimerEvent: {}
+[14.014507] (-) TimerEvent: {}
+[14.114748] (-) TimerEvent: {}
+[14.214978] (-) TimerEvent: {}
+[14.318279] (-) TimerEvent: {}
+[14.418511] (-) TimerEvent: {}
+[14.518741] (-) TimerEvent: {}
+[14.622289] (-) TimerEvent: {}
+[14.722523] (-) TimerEvent: {}
+[14.808121] (thruster_hardware) StdoutLine: {'line': b'-- Found realtime_tools: 2.6.0 (/opt/ros/iron/share/realtime_tools/cmake)\n'}
+[14.830326] (-) TimerEvent: {}
+[14.930583] (-) TimerEvent: {}
+[15.007229] (thruster_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[15.030688] (-) TimerEvent: {}
+[15.130887] (-) TimerEvent: {}
+[15.210502] (thruster_hardware) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.210733] (thruster_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.210849] (thruster_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.230445] (thruster_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.234228] (-) TimerEvent: {}
+[15.334412] (-) TimerEvent: {}
+[15.400475] (thruster_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[15.410379] (thruster_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/blue/ws_blue/build/thruster_hardware\n'}
+[15.434536] (-) TimerEvent: {}
+[15.532183] (thruster_hardware) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target thruster_hardware\n'}
+[15.534650] (-) TimerEvent: {}
+[15.601829] (thruster_hardware) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/thruster_hardware.dir/src/hardware.cpp.o\n'}
+[15.634776] (-) TimerEvent: {}
+[15.735119] (-) TimerEvent: {}
+[15.835348] (-) TimerEvent: {}
+[15.935580] (-) TimerEvent: {}
+[16.038270] (-) TimerEvent: {}
+[16.142276] (-) TimerEvent: {}
+[16.242486] (-) TimerEvent: {}
+[16.342693] (-) TimerEvent: {}
+[16.442914] (-) TimerEvent: {}
+[16.543133] (-) TimerEvent: {}
+[16.643357] (-) TimerEvent: {}
+[16.743596] (-) TimerEvent: {}
+[16.843834] (-) TimerEvent: {}
+[16.946281] (-) TimerEvent: {}
+[17.050271] (-) TimerEvent: {}
+[17.154284] (-) TimerEvent: {}
+[17.254579] (-) TimerEvent: {}
+[17.354821] (-) TimerEvent: {}
+[17.455052] (-) TimerEvent: {}
+[17.558273] (-) TimerEvent: {}
+[17.662271] (-) TimerEvent: {}
+[17.766272] (-) TimerEvent: {}
+[17.870274] (-) TimerEvent: {}
+[17.974275] (-) TimerEvent: {}
+[18.078298] (-) TimerEvent: {}
+[18.182286] (-) TimerEvent: {}
+[18.286279] (-) TimerEvent: {}
+[18.390273] (-) TimerEvent: {}
+[18.494282] (-) TimerEvent: {}
+[18.598286] (-) TimerEvent: {}
+[18.702313] (-) TimerEvent: {}
+[18.806291] (-) TimerEvent: {}
+[18.910271] (-) TimerEvent: {}
+[19.014276] (-) TimerEvent: {}
+[19.118277] (-) TimerEvent: {}
+[19.222275] (-) TimerEvent: {}
+[19.326277] (-) TimerEvent: {}
+[19.430300] (-) TimerEvent: {}
+[19.534273] (-) TimerEvent: {}
+[19.638276] (-) TimerEvent: {}
+[19.742285] (-) TimerEvent: {}
+[19.846274] (-) TimerEvent: {}
+[19.950272] (-) TimerEvent: {}
+[20.054267] (-) TimerEvent: {}
+[20.158269] (-) TimerEvent: {}
+[20.262266] (-) TimerEvent: {}
+[20.366282] (-) TimerEvent: {}
+[20.470270] (-) TimerEvent: {}
+[20.574273] (-) TimerEvent: {}
+[20.678298] (-) TimerEvent: {}
+[20.782279] (-) TimerEvent: {}
+[20.886286] (-) TimerEvent: {}
+[20.990281] (-) TimerEvent: {}
+[21.098275] (-) TimerEvent: {}
+[21.198497] (-) TimerEvent: {}
+[21.306289] (-) TimerEvent: {}
+[21.406516] (-) TimerEvent: {}
+[21.511016] (-) TimerEvent: {}
+[21.611240] (-) TimerEvent: {}
+[21.711470] (-) TimerEvent: {}
+[21.814395] (-) TimerEvent: {}
+[21.918285] (-) TimerEvent: {}
+[22.026355] (-) TimerEvent: {}
+[22.126581] (-) TimerEvent: {}
+[22.226811] (-) TimerEvent: {}
+[22.327039] (-) TimerEvent: {}
+[22.427278] (-) TimerEvent: {}
+[22.527505] (-) TimerEvent: {}
+[22.627736] (-) TimerEvent: {}
+[22.727971] (-) TimerEvent: {}
+[22.828200] (-) TimerEvent: {}
+[22.934264] (-) TimerEvent: {}
+[23.038268] (-) TimerEvent: {}
+[23.142283] (-) TimerEvent: {}
+[23.242498] (-) TimerEvent: {}
+[23.342725] (-) TimerEvent: {}
+[23.450283] (-) TimerEvent: {}
+[23.550508] (-) TimerEvent: {}
+[23.650746] (-) TimerEvent: {}
+[23.758269] (-) TimerEvent: {}
+[23.858486] (-) TimerEvent: {}
+[23.958710] (-) TimerEvent: {}
+[24.062267] (-) TimerEvent: {}
+[24.166283] (-) TimerEvent: {}
+[24.270282] (-) TimerEvent: {}
+[24.370689] (-) TimerEvent: {}
+[24.474267] (-) TimerEvent: {}
+[24.578277] (-) TimerEvent: {}
+[24.682279] (-) TimerEvent: {}
+[24.786270] (-) TimerEvent: {}
+[24.890275] (-) TimerEvent: {}
+[24.994273] (-) TimerEvent: {}
+[25.098274] (-) TimerEvent: {}
+[25.202270] (-) TimerEvent: {}
+[25.302479] (-) TimerEvent: {}
+[25.406270] (-) TimerEvent: {}
+[25.510280] (-) TimerEvent: {}
+[25.614272] (-) TimerEvent: {}
+[25.722270] (-) TimerEvent: {}
+[25.826277] (-) TimerEvent: {}
+[25.930278] (-) TimerEvent: {}
+[26.033161] (-) TimerEvent: {}
+[26.134282] (-) TimerEvent: {}
+[26.238274] (-) TimerEvent: {}
+[26.342273] (-) TimerEvent: {}
+[26.446293] (-) TimerEvent: {}
+[26.550272] (-) TimerEvent: {}
+[26.654300] (-) TimerEvent: {}
+[26.758274] (-) TimerEvent: {}
+[26.762425] (ardusub_teleop) StdoutLine: {'line': b'[100%] Linking CXX executable joy_interface\n'}
+[26.862277] (-) TimerEvent: {}
+[26.962500] (-) TimerEvent: {}
+[27.062723] (-) TimerEvent: {}
+[27.166286] (-) TimerEvent: {}
+[27.274297] (-) TimerEvent: {}
+[27.374508] (-) TimerEvent: {}
+[27.474729] (-) TimerEvent: {}
+[27.574949] (-) TimerEvent: {}
+[27.682276] (-) TimerEvent: {}
+[27.794321] (-) TimerEvent: {}
+[27.874423] (ardusub_teleop) StdoutLine: {'line': b'[100%] Built target joy_interface\n'}
+[27.895637] (-) TimerEvent: {}
+[27.916023] (ardusub_teleop) CommandEnded: {'returncode': 0}
+[27.998342] (-) TimerEvent: {}
+[28.027941] (ardusub_teleop) JobProgress: {'identifier': 'ardusub_teleop', 'progress': 'install'}
+[28.028016] (ardusub_teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/ardusub_teleop'], 'cwd': '/home/blue/ws_blue/build/ardusub_teleop', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/ardusub_teleop'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[28.051954] (ardusub_teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.052411] (ardusub_teleop) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface\n'}
+[28.077346] (ardusub_teleop) StdoutLine: {'line': b'-- Set runtime path of "/home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface" to ""\n'}
+[28.077556] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config\n'}
+[28.077748] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config/joy_teleop.yaml\n'}
+[28.091586] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch\n'}
+[28.091875] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch/teleop.launch.yaml\n'}
+[28.092664] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/package_run_dependencies/ardusub_teleop\n'}
+[28.093885] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/parent_prefix_path/ardusub_teleop\n'}
+[28.095062] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.sh\n'}
+[28.095976] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.dsv\n'}
+[28.106263] (-) TimerEvent: {}
+[28.107036] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.sh\n'}
+[28.108013] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.dsv\n'}
+[28.108967] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.bash\n'}
+[28.109731] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.sh\n'}
+[28.110518] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.zsh\n'}
+[28.111266] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.dsv\n'}
+[28.111976] (ardusub_teleop) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.dsv\n'}
+[28.112473] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/packages/ardusub_teleop\n'}
+[28.112776] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig.cmake\n'}
+[28.113698] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig-version.cmake\n'}
+[28.114289] (ardusub_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.xml\n'}
+[28.138258] (ardusub_teleop) CommandEnded: {'returncode': 0}
+[28.206372] (-) TimerEvent: {}
+[28.241778] (thruster_hardware) StdoutLine: {'line': b'[100%] Linking CXX shared library libthruster_hardware.so\n'}
+[28.306472] (-) TimerEvent: {}
+[28.346310] (ardusub_teleop) JobEnded: {'identifier': 'ardusub_teleop', 'rc': 0}
+[28.406599] (-) TimerEvent: {}
+[28.506809] (-) TimerEvent: {}
+[28.607027] (-) TimerEvent: {}
+[28.710273] (-) TimerEvent: {}
+[28.811374] (-) TimerEvent: {}
+[28.911667] (-) TimerEvent: {}
+[29.011882] (-) TimerEvent: {}
+[29.093335] (thruster_hardware) StdoutLine: {'line': b'[100%] Built target thruster_hardware\n'}
+[29.111974] (-) TimerEvent: {}
+[29.131461] (thruster_hardware) CommandEnded: {'returncode': 0}
+[29.212077] (-) TimerEvent: {}
+[29.258318] (thruster_hardware) JobProgress: {'identifier': 'thruster_hardware', 'progress': 'install'}
+[29.258386] (thruster_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/thruster_hardware'], 'cwd': '/home/blue/ws_blue/build/thruster_hardware', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/thruster_hardware'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[29.277702] (thruster_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.277963] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/thruster_hardware.xml\n'}
+[29.286476] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware\n'}
+[29.286977] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware/thruster_hardware\n'}
+[29.287362] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware/thruster_hardware/hardware.hpp\n'}
+[29.298414] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/include/thruster_hardware/thruster_hardware/visibility_control.h\n'}
+[29.303243] (thruster_hardware) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/thruster_hardware/lib/libthruster_hardware.so\n'}
+[29.309870] (thruster_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/blue/ws_blue/install/thruster_hardware/lib/libthruster_hardware.so" to ""\n'}
+[29.310251] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/library_path.sh\n'}
+[29.314236] (-) TimerEvent: {}
+[29.315064] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/library_path.dsv\n'}
+[29.316322] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/package_run_dependencies/thruster_hardware\n'}
+[29.317593] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/parent_prefix_path/thruster_hardware\n'}
+[29.318914] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/ament_prefix_path.sh\n'}
+[29.319831] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/ament_prefix_path.dsv\n'}
+[29.320769] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/path.sh\n'}
+[29.321712] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/environment/path.dsv\n'}
+[29.322676] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.bash\n'}
+[29.323837] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.sh\n'}
+[29.324822] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.zsh\n'}
+[29.326365] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/local_setup.dsv\n'}
+[29.327583] (thruster_hardware) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/package.dsv\n'}
+[29.328227] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/packages/thruster_hardware\n'}
+[29.328697] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/thruster_hardware\n'}
+[29.331544] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/export_thruster_hardwareExport.cmake\n'}
+[29.332603] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/export_thruster_hardwareExport-noconfig.cmake\n'}
+[29.333938] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.335110] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.336198] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/thruster_hardwareConfig.cmake\n'}
+[29.337755] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/cmake/thruster_hardwareConfig-version.cmake\n'}
+[29.339318] (thruster_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/thruster_hardware/share/thruster_hardware/package.xml\n'}
+[29.350561] (thruster_hardware) CommandEnded: {'returncode': 0}
+[29.414347] (-) TimerEvent: {}
+[29.468297] (thruster_hardware) JobEnded: {'identifier': 'thruster_hardware', 'rc': 0}
+[29.514474] (-) TimerEvent: {}
+[29.614689] (-) TimerEvent: {}
+[29.714910] (-) TimerEvent: {}
+[29.773473] (ardusub_manager) StdoutLine: {'line': b'[100%] Linking CXX executable ardusub_manager\n'}
+[29.818272] (-) TimerEvent: {}
+[29.918482] (-) TimerEvent: {}
+[30.018709] (-) TimerEvent: {}
+[30.120056] (-) TimerEvent: {}
+[30.220287] (-) TimerEvent: {}
+[30.320516] (-) TimerEvent: {}
+[30.420754] (-) TimerEvent: {}
+[30.515208] (ardusub_manager) StdoutLine: {'line': b'[100%] Built target ardusub_manager\n'}
+[30.520844] (-) TimerEvent: {}
+[30.535746] (ardusub_manager) CommandEnded: {'returncode': 0}
+[30.622318] (-) TimerEvent: {}
+[30.663749] (ardusub_manager) JobProgress: {'identifier': 'ardusub_manager', 'progress': 'install'}
+[30.663825] (ardusub_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blue/ws_blue/build/ardusub_manager'], 'cwd': '/home/blue/ws_blue/build/ardusub_manager', 'env': OrderedDict([('ARDUPILOT_RELEASE', 'master'), ('USER', 'blue'), ('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('USER_WORKSPACE', '/home/blue/ws_blue'), ('SKIP_AP_GRAPHIC_ENV', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/blue'), ('SKIP_AP_EXT_ENV', '1'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('OTEL_TRACE_PARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('ROS_DISTRO', 'iron'), ('ROS_VERSION', '2'), ('USERNAME', 'blue'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('TRACEPARENT', '00-5199df870fdf3722566b1c4977531ab3-52362d5b1e6498dc-01'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('GZ_VERSION', 'harmonic'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/blue/ws_blue/build/ardusub_manager'), ('SKIP_AP_GIT_CHECK', '1'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('USER_GID', '1000'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('SKIP_AP_COV_ENV', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[30.681123] (ardusub_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.681328] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters\n'}
+[30.681443] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/include/ardusub_manager_parameters/ardusub_manager_parameters.hpp\n'}
+[30.690354] (ardusub_manager) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager\n'}
+[30.708816] (ardusub_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/blue/ws_blue/install/ardusub_manager/lib/ardusub_manager/ardusub_manager" to ""\n'}
+[30.708973] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch\n'}
+[30.709171] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/launch/ardusub_manager.launch.py\n'}
+[30.710214] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/package_run_dependencies/ardusub_manager\n'}
+[30.711507] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/parent_prefix_path/ardusub_manager\n'}
+[30.712436] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.sh\n'}
+[30.713328] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/ament_prefix_path.dsv\n'}
+[30.714167] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.sh\n'}
+[30.715003] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/environment/path.dsv\n'}
+[30.716209] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.bash\n'}
+[30.717216] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.sh\n'}
+[30.717966] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.zsh\n'}
+[30.718677] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/local_setup.dsv\n'}
+[30.719712] (ardusub_manager) StdoutLine: {'line': b'-- Installing: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.dsv\n'}
+[30.720138] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ament_index/resource_index/packages/ardusub_manager\n'}
+[30.720397] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig.cmake\n'}
+[30.721420] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/cmake/ardusub_managerConfig-version.cmake\n'}
+[30.722337] (ardusub_manager) StdoutLine: {'line': b'-- Up-to-date: /home/blue/ws_blue/install/ardusub_manager/share/ardusub_manager/package.xml\n'}
+[30.722459] (-) TimerEvent: {}
+[30.730235] (ardusub_manager) CommandEnded: {'returncode': 0}
+[30.823271] (-) TimerEvent: {}
+[30.878234] (ardusub_manager) JobEnded: {'identifier': 'ardusub_manager', 'rc': 0}
+[30.878824] (-) EventReactorShutdown: {}

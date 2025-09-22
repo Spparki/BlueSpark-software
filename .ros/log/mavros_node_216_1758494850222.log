@@ -1,0 +1,593 @@
+[INFO] [1758494850.322263965] [mavros_node]: Starting mavros_node container
+[INFO] [1758494850.322377373] [mavros_node]: FCU URL: tcp://localhost
+[INFO] [1758494850.322400688] [mavros_node]: GCS URL: udp://@localhost:14550
+[INFO] [1758494850.322409489] [mavros_node]: UAS Prefix: /uas1
+[INFO] [1758494850.322415117] [mavros_node]: Starting mavros router node
+[INFO] [1758494850.411657284] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758494850.411737421] [mavros_router]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758494850.411754119] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758494850.411760591] [mavros_router]: MAVROS Router started
+[INFO] [1758494850.411821599] [mavros_router]: Requested to add endpoint: type: 0, url: tcp://localhost
+[INFO] [1758494850.411886962] [mavros_router]: Endpoint link[1000] created
+[INFO] [1758494850.415011399] [mavros_router]: link[1000] opened successfully
+[INFO] [1758494850.416999397] [mavros_router]: Requested to add endpoint: type: 1, url: udp://@localhost:14550
+[INFO] [1758494850.417078425] [mavros_router]: Endpoint link[1001] created
+[INFO] [1758494850.417507234] [mavros_router]: link[1001] opened successfully
+[INFO] [1758494850.420338003] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1758494850.420434378] [mavros_router]: Endpoint link[1002] created
+[INFO] [1758494850.460268222] [mavros_router]: link[1002] opened successfully
+[INFO] [1758494850.460471376] [mavros_node]: Starting mavros uas node
+[INFO] [1758494850.694058116] [mavros]: UAS Executor started, threads: 16
+[INFO] [1758494850.694067438] [mavros]: Plugin actuator_control ignored
+[INFO] [1758494850.694241108] [mavros]: Plugin adsb ignored
+[INFO] [1758494850.767849313] [mavros]: Plugin altitude created
+[INFO] [1758494850.767979493] [mavros]: Plugin altitude initialized
+[INFO] [1758494850.767994544] [mavros]: Plugin cam_imu_sync ignored
+[INFO] [1758494850.768000105] [mavros]: Plugin camera ignored
+[INFO] [1758494850.768004085] [mavros]: Plugin cellular_status ignored
+[INFO] [1758494850.833206544] [mavros]: Plugin command created
+[INFO] [1758494850.833362220] [mavros]: Plugin command initialized
+[INFO] [1758494850.833390185] [mavros]: Plugin companion_process_status ignored
+[INFO] [1758494850.833402602] [mavros]: Plugin debug_value ignored
+[INFO] [1758494850.928313685] [mavros.distance_sensor]: DS: Plugin not configured!
+[INFO] [1758494850.929360491] [mavros]: Plugin distance_sensor created
+[INFO] [1758494850.929465572] [mavros]: Plugin distance_sensor initialized
+[INFO] [1758494850.929498069] [mavros]: Plugin esc_status ignored
+[INFO] [1758494850.929512130] [mavros]: Plugin esc_telemetry ignored
+[INFO] [1758494850.929522906] [mavros]: Plugin fake_gps ignored
+[INFO] [1758494850.929533302] [mavros]: Plugin ftp ignored
+[INFO] [1758494850.929543240] [mavros]: Plugin geofence ignored
+[INFO] [1758494850.929553081] [mavros]: Plugin gimbal_control ignored
+[INFO] [1758494851.008459380] [mavros]: Plugin global_position created
+[INFO] [1758494851.008739388] [mavros]: Plugin global_position initialized
+[INFO] [1758494851.008788232] [mavros]: Plugin gps_input ignored
+[INFO] [1758494851.008801236] [mavros]: Plugin gps_rtk ignored
+[INFO] [1758494851.008811218] [mavros]: Plugin gps_status ignored
+[INFO] [1758494851.008820506] [mavros]: Plugin guided_target ignored
+[INFO] [1758494851.008829914] [mavros]: Plugin hil ignored
+[INFO] [1758494851.008839196] [mavros]: Plugin home_position ignored
+[INFO] [1758494851.077117068] [mavros]: Plugin imu created
+[INFO] [1758494851.077234324] [mavros]: Plugin imu initialized
+[INFO] [1758494851.077250331] [mavros]: Plugin landing_target ignored
+[INFO] [1758494851.138534251] [mavros]: Plugin local_position created
+[INFO] [1758494851.138688369] [mavros]: Plugin local_position initialized
+[INFO] [1758494851.138716828] [mavros]: Plugin log_transfer ignored
+[INFO] [1758494851.138728922] [mavros]: Plugin mag_calibration_status ignored
+[INFO] [1758494851.138798371] [mavros]: Plugin manual_control ignored
+[INFO] [1758494851.138811603] [mavros]: Plugin mocap_pose_estimate ignored
+[INFO] [1758494851.138821025] [mavros]: Plugin mount_control ignored
+[INFO] [1758494851.138830060] [mavros]: Plugin nav_controller_output ignored
+[INFO] [1758494851.138839305] [mavros]: Plugin obstacle_distance ignored
+[INFO] [1758494851.138848366] [mavros]: Plugin odometry ignored
+[INFO] [1758494851.138857818] [mavros]: Plugin onboard_computer_status ignored
+[INFO] [1758494851.138866902] [mavros]: Plugin optical_flow ignored
+[INFO] [1758494851.189779521] [mavros]: Plugin param created
+[INFO] [1758494851.189944715] [mavros]: Plugin param initialized
+[INFO] [1758494851.189982917] [mavros]: Plugin play_tune ignored
+[INFO] [1758494851.189995556] [mavros]: Plugin px4flow ignored
+[INFO] [1758494851.190005205] [mavros]: Plugin rallypoint ignored
+[INFO] [1758494851.247182843] [mavros]: Plugin rangefinder created
+[INFO] [1758494851.247372011] [mavros]: Plugin rangefinder initialized
+[INFO] [1758494851.318131472] [mavros]: Plugin rc_io created
+[INFO] [1758494851.318257884] [mavros]: Plugin rc_io initialized
+[INFO] [1758494851.368736156] [mavros]: Plugin setpoint_accel created
+[INFO] [1758494851.368853445] [mavros]: Plugin setpoint_accel initialized
+[INFO] [1758494851.428960116] [mavros]: Plugin setpoint_attitude created
+[INFO] [1758494851.429216883] [mavros]: Plugin setpoint_attitude initialized
+[INFO] [1758494851.528769557] [mavros]: Plugin setpoint_position created
+[INFO] [1758494851.528943908] [mavros]: Plugin setpoint_position initialized
+[INFO] [1758494851.604515843] [mavros]: Plugin setpoint_raw created
+[INFO] [1758494851.604713221] [mavros]: Plugin setpoint_raw initialized
+[INFO] [1758494851.682356152] [mavros]: Plugin setpoint_trajectory created
+[INFO] [1758494851.682470608] [mavros]: Plugin setpoint_trajectory initialized
+[INFO] [1758494851.738828572] [mavros]: Plugin setpoint_velocity created
+[INFO] [1758494851.738948814] [mavros]: Plugin setpoint_velocity initialized
+[INFO] [1758494851.925142754] [mavros]: Plugin sys_status created
+[INFO] [1758494851.925307888] [mavros]: Plugin sys_status initialized
+[INFO] [1758494851.925332579] [mavros]: Plugin sys_time ignored
+[INFO] [1758494851.925340262] [mavros]: Plugin tdr_radio ignored
+[INFO] [1758494851.925346004] [mavros]: Plugin terrain ignored
+[INFO] [1758494851.925351487] [mavros]: Plugin trajectory ignored
+[INFO] [1758494851.925357173] [mavros]: Plugin tunnel ignored
+[INFO] [1758494851.925362198] [mavros]: Plugin vfr_hud ignored
+[INFO] [1758494851.925371463] [mavros]: Plugin vibration ignored
+[INFO] [1758494852.071875974] [mavros]: Plugin vision_pose created
+[INFO] [1758494852.071989770] [mavros]: Plugin vision_pose initialized
+[INFO] [1758494852.128928002] [mavros]: Plugin vision_speed created
+[INFO] [1758494852.129086904] [mavros]: Plugin vision_speed initialized
+[INFO] [1758494852.129148034] [mavros]: Plugin waypoint ignored
+[INFO] [1758494852.129180545] [mavros]: Plugin wheel_odometry ignored
+[INFO] [1758494852.129191299] [mavros]: Plugin wind_estimation ignored
+[INFO] [1758494852.136136616] [mavros]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758494852.136207943] [mavros]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758494852.136216686] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758494852.136222299] [mavros]: MAVROS UAS via /uas1 started. MY ID 255.191, TARGET ID 1.1
+[INFO] [1758494852.885069281] [mavros_router]: link[1002] detected remote address 255.191
+[WARN] [1758494853.928404016] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[WARN] [1758494854.939120561] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[WARN] [1758494855.929168493] [mavros.sys]: VER: unicast request timeout, retries left 2
+[WARN] [1758494856.936492318] [mavros.sys]: VER: unicast request timeout, retries left 1
+[INFO] [1758494857.626509820] [mavros_router]: link[1000] detected remote address 1.1
+[INFO] [1758494857.933532522] [mavros.sys]: FCU: Calibrating barometer
+[WARN] [1758494857.950912427] [mavros.sys]: VER: unicast request timeout, retries left 0
+[WARN] [1758494858.952308888] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+[INFO] [1758494861.221736137] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[INFO] [1758494861.222075317] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000f9e7
+[INFO] [1758494861.222103731] [mavros.sys]: VER: 1.1: Flight software:     04060000 (92693e02)
+[INFO] [1758494861.222114556] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[INFO] [1758494861.222124016] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[INFO] [1758494861.222132684] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[INFO] [1758494861.222141738] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[INFO] [1758494861.222150632] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[INFO] [1758494863.836304275] [mavros.sys]: FCU: Barometer 1 calibration complete
+[INFO] [1758494863.836672924] [mavros.sys]: FCU: Barometer 2 calibration complete
+[INFO] [1758494863.911028969] [mavros.sys]: FCU: ArduPilot Ready
+[INFO] [1758494863.911169509] [mavros.sys]: FCU: AHRS: DCM active
+[ERROR] [1758494864.989284618] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758494864.990521245] [mavros.rc]: RC_CHANNELS message detected!
+[INFO] [1758494864.990707606] [mavros.imu]: IMU: Raw IMU message used.
+[ERROR] [1758494866.284876253] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494867.501471806] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494868.754402382] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494869.946494852] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758494870.407267138] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[INFO] [1758494870.407521491] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[ERROR] [1758494871.090710041] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758494871.231714401] [mavros.sys]: FCU: ArduSub V4.6.0-dev (92693e02)
+[INFO] [1758494871.231989954] [mavros.sys]: FCU: e44de74ebc794be39dcc3db8339bc5f2
+[INFO] [1758494871.232187479] [mavros.sys]: FCU: Frame: VECTORED
+[INFO] [1758494871.342111663] [mavros.sys]: FCU: EKF3 IMU0 initialised
+[INFO] [1758494871.342438271] [mavros.sys]: FCU: EKF3 IMU1 initialised
+[INFO] [1758494871.348715294] [mavros.sys]: FCU: AHRS: EKF3 active
+[INFO] [1758494872.668139150] [mavros.imu]: IMU: Attitude quaternion IMU detected!
+[INFO] [1758494873.924606840] [mavros.param]: PR: parameters list received
+[ERROR] [1758494873.925985455] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494875.158392495] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494876.252465305] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758494876.845487099] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+[INFO] [1758494876.845805054] [mavros.sys]: FCU: EKF3 IMU1 is using external nav data
+[INFO] [1758494876.846003542] [mavros.sys]: FCU: EKF3 IMU1 initial pos NED = 1.3,-0.1,0.5 (m)
+[INFO] [1758494876.850750351] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+[INFO] [1758494876.851082202] [mavros.sys]: FCU: EKF3 IMU0 is using external nav data
+[INFO] [1758494876.851353035] [mavros.sys]: FCU: EKF3 IMU0 initial pos NED = 1.3,-0.1,0.5 (m)
+[INFO] [1758494876.903053019] [mavros.sys]: FCU: EKF3 IMU1 yaw aligned
+[INFO] [1758494876.906035504] [mavros.sys]: FCU: EKF3 IMU0 yaw aligned
+[ERROR] [1758494877.441852204] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494878.630050347] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494879.801431930] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494881.093744148] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494882.307955747] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494883.437748049] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494884.548751225] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494885.792658135] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494887.003031719] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494888.318180321] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494889.468603443] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758494890.431973568] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[INFO] [1758494890.432128170] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[INFO] [1758494890.656998793] [mavros.sys]: FCU: GPS 1: probing for u-blox at 230400 baud
+[INFO] [1758494890.718534868] [mavros.sys]: FCU: GPS 1: detected u-blox
+[ERROR] [1758494890.739211030] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494891.940602451] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494893.093629498] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494894.287129039] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494895.428225824] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494896.655319276] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494897.817202756] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494899.012207459] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494900.391385348] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494901.631253212] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494902.753737025] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494904.019134308] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494905.141506134] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494906.300544111] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494907.511107452] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494908.721744608] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494909.925496860] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494911.151015562] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494912.367694055] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494913.493665490] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494914.706865930] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494915.801778878] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494916.928116277] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494918.114101554] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494919.288511563] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494920.500809469] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494921.679492625] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494922.856213892] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494924.054467228] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494925.430171945] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494926.644462395] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494928.071059146] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494929.564657708] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494930.833325839] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494932.005920251] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494933.315387265] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494934.778895501] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494936.037414739] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494937.279343162] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494938.705990723] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494940.481944700] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494941.874280800] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494943.100967936] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494944.304598334] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494945.633258472] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494946.782032726] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494948.004530816] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494949.370954959] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494950.598575539] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494951.840921048] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494953.097875540] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494954.418866744] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494955.570863969] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494956.789601682] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494958.031113577] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494959.265281053] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494960.589437413] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494961.805362810] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494963.078935819] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494964.454591169] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494965.678875283] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494966.883215260] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494968.154539892] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494969.413683968] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494970.730737899] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494972.044925774] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494973.336531774] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494974.497099297] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494975.875978621] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494977.040267960] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494978.247239640] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494979.548531594] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494980.798352855] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494981.978230715] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494983.354251107] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494984.575472043] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494985.737288368] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494986.955679585] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494988.195766089] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494989.357184243] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494990.693978649] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494991.900862014] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494993.045034553] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494994.424993553] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494995.679136134] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494996.854456128] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494998.108080932] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758494999.354697387] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495000.594938972] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495001.914128917] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495003.193770410] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495004.360952875] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495005.702071235] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495006.987200806] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495008.212515367] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495009.532991209] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495010.771859123] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495011.977909960] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495013.268770652] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495014.527433582] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495015.756894545] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495017.047035218] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495018.267618053] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495019.476204611] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495020.696330299] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495021.983528775] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495023.141341094] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495024.421480767] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495025.796983538] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495027.026695231] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495028.339922805] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495029.569440383] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495030.706998201] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495032.006007822] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495033.207413863] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495034.353365438] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495035.605753194] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495036.803949339] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495038.073307106] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495039.272373413] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495040.536339841] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495041.819119311] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495043.237538129] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495044.523151924] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495045.741421417] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495047.114377486] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495048.359659432] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495049.599341966] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495050.843996533] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495052.107654454] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495053.266382496] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495054.498507783] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495055.642000914] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495056.928404886] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495058.237441716] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495059.524249277] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495060.754743597] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495062.115967655] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495063.360170281] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495064.491713854] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495065.669290660] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495066.866375099] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495068.113880281] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495069.371273159] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495070.654871366] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495071.852145652] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495073.052674099] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495074.373489826] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495075.481892013] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495076.597546103] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495078.024979241] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495079.108952787] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495080.299624485] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495081.557233704] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495082.919003953] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495084.165347618] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495085.492454372] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495086.899820871] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495088.143783880] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495089.479717165] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495090.665404990] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495091.891161400] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495093.166690133] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495094.328259350] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495095.481794301] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495096.769107732] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495097.928339288] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495099.173815893] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495100.494383583] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495101.734097627] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495102.906497189] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495104.173471619] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495105.353943336] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495106.472727071] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495107.857476196] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495109.370584020] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495110.849145485] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495113.133168916] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495115.275565991] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495117.410299039] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495119.850477345] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495122.211114421] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495423.677706525] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495426.197715522] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495428.137510831] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495430.148542199] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495432.095730574] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495434.037545517] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495435.971507275] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495437.900462484] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495439.558911398] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495441.391956610] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495443.252927704] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495445.030213410] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495446.673031089] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495448.487443176] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495450.353798427] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495452.160929472] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495454.117570782] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495457.167823871] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495459.228578512] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495461.313530511] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495463.390225793] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495465.315199779] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495466.906404285] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495468.496046693] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495469.974032407] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495471.440873284] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495474.196647955] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495475.625715657] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495477.514625437] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495479.179134970] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495480.845433062] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495482.628878787] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495484.262309172] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495485.778499423] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495487.333251268] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495488.821575351] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495490.183572330] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495491.712091054] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495493.131490253] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495494.598581068] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495495.956626899] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495497.321793333] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495498.707928820] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495500.441302307] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495502.042203626] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495503.553844488] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495504.975940328] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495509.365498045] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758495510.098382623] [mavros.sys]: FCU: Arming motors
+[ERROR] [1758495510.792439838] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495512.308378774] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495513.612377703] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495515.052167377] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495516.458085450] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495517.913875725] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495519.495628989] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495521.249764445] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495522.751283369] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495524.140941234] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495525.639205016] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495527.128957930] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495528.668143173] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495530.236820207] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495531.689670353] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495532.967903427] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495534.515153561] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495536.283840857] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495537.983268366] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495539.590411617] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495543.948019250] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495545.277544672] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495546.681881625] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495548.243880413] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495549.823083053] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495551.264207444] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495552.648249530] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495553.890060418] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495555.233435973] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495556.683647708] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495557.954816938] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495559.351473698] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495560.800603679] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495562.170464231] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495563.614104166] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495565.023864704] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495566.580647371] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495567.985435544] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495569.405938144] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495570.866490031] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495572.267322012] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495573.631795341] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495574.959653265] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495579.363239798] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495580.957336928] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495582.339176542] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495583.774149527] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495585.224978289] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495586.552042681] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495587.963805037] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495589.479131649] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495590.714818876] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495592.109473161] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495593.537122150] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495594.793210475] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495596.089849148] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495597.595597230] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495599.053090101] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495600.436110210] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495602.158602849] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495603.535250409] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495604.838907268] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495606.626732213] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495608.301149005] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495609.681197164] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495613.929713454] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495615.150121662] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495616.341945216] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495617.727281830] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495619.040676195] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495620.394547911] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495621.722936923] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495623.039641921] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495624.356359529] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495625.825188453] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495627.025695908] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495628.428215877] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495629.915784382] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495631.194248677] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495632.595989317] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495633.965973513] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495635.231310112] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495636.537812330] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495637.979752358] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495639.302616000] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495640.621429403] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495641.918880972] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495643.178733549] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495644.410015633] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495645.769296136] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495649.963092529] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495651.292561921] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495652.634352414] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495653.842898027] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495655.034550304] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495656.304806301] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495657.564648804] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495658.807114479] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495660.122806089] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495661.334845529] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495662.550927344] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495663.882734798] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495665.185855532] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495666.430526296] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495667.658037830] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495668.944096607] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495670.199522640] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495671.558392728] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495672.837524900] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495674.078708797] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495675.421994320] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495676.731516276] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495677.984557265] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495679.338680202] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495680.655552466] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495684.979529041] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495686.301492714] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495687.621031643] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495688.828057978] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495690.163393768] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495691.552947778] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495692.881891782] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495694.220792434] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495695.522154420] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495696.714269044] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495698.066131663] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495699.402633245] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495700.760864311] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495702.249286999] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495703.614222160] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495704.868167847] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495706.296826798] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495707.797538505] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495709.054778014] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495710.355466145] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495711.713908262] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495712.995404114] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495714.347427879] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495715.658273871] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495719.914606512] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495721.258198080] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495722.545114464] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495723.872050415] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495725.256753520] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495726.672532465] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495727.983100205] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495729.358487470] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495730.724074756] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495731.946431301] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495733.300192982] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495734.624444672] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495735.911551488] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495737.202749271] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495738.502921770] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495739.667559534] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495741.100569732] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495742.399163170] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495743.593554794] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495745.030034298] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495746.316385120] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495747.528418002] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495748.837642418] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495750.121208785] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495751.245826341] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495755.408757416] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495756.512327095] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495757.672743813] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495758.955806164] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495760.209263324] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495761.435206910] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495762.595877569] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495763.808829361] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495764.994586422] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495766.177301332] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495767.403306111] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495768.541395151] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495769.834562608] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495771.164168189] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495772.458907522] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495773.758542846] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495775.007247247] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495776.273625756] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495777.431183142] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495778.738998039] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495779.871975056] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495781.067777947] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495782.292811325] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495783.455514660] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495784.666363041] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495785.961639185] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495790.033536670] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[ERROR] [1758495791.286749406] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+[INFO] [1758495792.208117386] [rclcpp]: signal_handler(signum=2)

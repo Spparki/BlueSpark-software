@@ -1,0 +1,11 @@
+source;share/hydrodynamics/hook/cmake_prefix_path.ps1
+source;share/hydrodynamics/hook/cmake_prefix_path.dsv
+source;share/hydrodynamics/hook/cmake_prefix_path.sh
+source;share/hydrodynamics/hook/ld_library_path_lib.ps1
+source;share/hydrodynamics/hook/ld_library_path_lib.dsv
+source;share/hydrodynamics/hook/ld_library_path_lib.sh
+source;share/hydrodynamics/local_setup.bash
+source;share/hydrodynamics/local_setup.dsv
+source;share/hydrodynamics/local_setup.ps1
+source;share/hydrodynamics/local_setup.sh
+source;share/hydrodynamics/local_setup.zsh

@@ -1,0 +1,60 @@
+[0.014s] Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/blue/blue_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/blue_demos
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.398s] -- The CXX compiler identification is GNU 11.4.0
+[0.409s] -- Detecting C compiler ABI info
+[0.514s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.527s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.850s] -- Detecting CXX compile features
+[0.851s] -- Detecting CXX compile features - done
+[0.856s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.061s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.479s] -- Configuring done
+[1.494s] -- Generating done
+[1.496s] -- Build files have been written to: /home/blue/ws_blue/build/blue_demos
+[1.512s] Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/blue/blue_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/blue_demos
+[1.512s] Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_demos -- -j4 -l4
+[1.651s] Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/blue_demos -- -j4 -l4
+[1.793s] Invoking command in '/home/blue/ws_blue/build/blue_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_demos
+[1.812s] -- Install configuration: ""
+[1.814s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch
+[1.818s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_heavy_controllers.launch.py
+[1.818s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_demo.launch.yaml
+[1.819s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_heavy_demo.launch.yaml
+[1.819s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/launch/bluerov2_controllers.launch.py
+[1.820s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config
+[1.820s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/bluerov2_controllers.yaml
+[1.821s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/transforms.yaml
+[1.821s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/config/bluerov2_heavy_controllers.yaml
+[1.822s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description
+[1.822s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control
+[1.823s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control/bluerov2.ros2_control.xacro
+[1.823s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/ros2_control/bluerov2_heavy.ros2_control.xacro
+[1.826s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf
+[1.826s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf/bluerov2.config.xacro
+[1.827s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/control_integration/description/urdf/bluerov2_heavy.config.xacro
+[1.827s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/launch
+[1.828s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/launch/joy_teleop.launch.yaml
+[1.828s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config
+[1.829s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config/joy_teleop.yaml
+[1.830s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/teleoperation/config/transforms.yaml
+[1.831s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/package_run_dependencies/blue_demos
+[1.834s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/parent_prefix_path/blue_demos
+[1.834s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/ament_prefix_path.sh
+[1.835s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/ament_prefix_path.dsv
+[1.836s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/path.sh
+[1.836s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/environment/path.dsv
+[1.838s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.bash
+[1.838s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.sh
+[1.839s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.zsh
+[1.842s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/local_setup.dsv
+[1.842s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/package.dsv
+[1.842s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/ament_index/resource_index/packages/blue_demos
+[1.843s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/cmake/blue_demosConfig.cmake
+[1.843s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/cmake/blue_demosConfig-version.cmake
+[1.844s] -- Installing: /home/blue/ws_blue/install/blue_demos/share/blue_demos/package.xml
+[1.849s] Invoked command in '/home/blue/ws_blue/build/blue_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/blue_demos

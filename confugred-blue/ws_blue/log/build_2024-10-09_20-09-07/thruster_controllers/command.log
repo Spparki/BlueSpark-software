@@ -1,0 +1,6 @@
+Invoking command in '/home/blue/ws_blue/build/thruster_controllers': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/thruster_controllers -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/thruster_controllers
+Invoked command in '/home/blue/ws_blue/build/thruster_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/thruster_controllers -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/thruster_controllers
+Invoking command in '/home/blue/ws_blue/build/thruster_controllers': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_controllers -- -j4 -l4
+Invoked command in '/home/blue/ws_blue/build/thruster_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/thruster_controllers -- -j4 -l4
+Invoking command in '/home/blue/ws_blue/build/thruster_controllers': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_controllers
+Invoked command in '/home/blue/ws_blue/build/thruster_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/thruster_controllers

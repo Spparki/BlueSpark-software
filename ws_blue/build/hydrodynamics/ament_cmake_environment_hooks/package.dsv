@@ -1,0 +1,4 @@
+source;share/hydrodynamics/local_setup.bash
+source;share/hydrodynamics/local_setup.dsv
+source;share/hydrodynamics/local_setup.sh
+source;share/hydrodynamics/local_setup.zsh

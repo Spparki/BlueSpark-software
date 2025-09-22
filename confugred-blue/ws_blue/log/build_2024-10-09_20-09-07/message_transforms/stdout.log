@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)
+-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.31.8 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found generate_parameter_library: 0.3.8 (/opt/ros/iron/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blue/ws_blue/build/message_transforms
+[ 16%] Running `/opt/ros/iron/bin/generate_parameter_library_cpp /home/blue/ws_blue/build/message_transforms/message_transforms_parameters/include//message_transforms_parameters.hpp /home/blue/ws_blue/src/mobile_to_maritime/message_transforms/src/message_transforms_parameters.yaml `
+[ 33%] Building CXX object CMakeFiles/message_transforms.dir/rclcpp_components/node_main_message_transforms.cpp.o
+[ 33%] Built target message_transforms_parameters
+[ 50%] Building CXX object CMakeFiles/message_transforms_library.dir/src/message_transforms_node.cpp.o
+[ 66%] Building CXX object CMakeFiles/message_transforms_library.dir/src/transforms.cpp.o
+[ 83%] Linking CXX executable message_transforms
+[ 83%] Built target message_transforms
+[100%] Linking CXX shared library libmessage_transforms_library.so
+[100%] Built target message_transforms_library
+-- Install configuration: ""
+-- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters
+-- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters/message_transforms_parameters.hpp
+-- Installing: /home/blue/ws_blue/install/message_transforms/lib/message_transforms/message_transforms
+-- Set runtime path of "/home/blue/ws_blue/install/message_transforms/lib/message_transforms/message_transforms" to ""
+-- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms
+-- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms
+-- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/message_transforms_node.hpp
+-- Installing: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/transforms.hpp
+-- Installing: /home/blue/ws_blue/install/message_transforms/lib/libmessage_transforms_library.so
+-- Set runtime path of "/home/blue/ws_blue/install/message_transforms/lib/libmessage_transforms_library.so" to ""
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/tf.launch.yaml
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/message_transforms.launch.py
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.sh
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.dsv
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/package_run_dependencies/message_transforms
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/parent_prefix_path/message_transforms
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.sh
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.dsv
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.sh
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.dsv
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.bash
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.sh
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.zsh
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.dsv
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.dsv
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/packages/message_transforms
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/rclcpp_components/message_transforms
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport.cmake
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport-noconfig.cmake
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig.cmake
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig-version.cmake
+-- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.xml

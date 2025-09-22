@@ -1,0 +1,11 @@
+[INFO] [1758494850.461116516] [robot_state_publisher]: got segment base_footprint
+[INFO] [1758494850.461527631] [robot_state_publisher]: got segment base_link
+[INFO] [1758494850.461619240] [robot_state_publisher]: got segment camera_link
+[INFO] [1758494850.461630245] [robot_state_publisher]: got segment camera_mount_link
+[INFO] [1758494850.461703967] [robot_state_publisher]: got segment thruster1
+[INFO] [1758494850.461715629] [robot_state_publisher]: got segment thruster2
+[INFO] [1758494850.461723077] [robot_state_publisher]: got segment thruster3
+[INFO] [1758494850.461730130] [robot_state_publisher]: got segment thruster4
+[INFO] [1758494850.461737450] [robot_state_publisher]: got segment thruster5
+[INFO] [1758494850.461744519] [robot_state_publisher]: got segment thruster6
+[INFO] [1758495792.207461583] [rclcpp]: signal_handler(signum=2)

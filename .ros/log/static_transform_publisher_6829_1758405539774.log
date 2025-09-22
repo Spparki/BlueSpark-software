@@ -1,0 +1,5 @@
+[INFO] [1758405539.957535460] [odom_to_odom_ned]: Spinning until stopped - publishing transform
+translation: ('0.000000', '0.000000', '0.000000')
+rotation: ('1.000000', '0.000000', '-0.000000', '-0.000283')
+from 'odom' to 'odom_ned'
+[INFO] [1758405623.247364624] [rclcpp]: signal_handler(signum=2)

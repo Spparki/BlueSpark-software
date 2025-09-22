@@ -1,0 +1,6 @@
+Invoking command in '/home/blue/ws_blue/build/auv_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/auv_control_msgs -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/auv_control_msgs
+Invoked command in '/home/blue/ws_blue/build/auv_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/auv_control_msgs -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/auv_control_msgs
+Invoking command in '/home/blue/ws_blue/build/auv_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/auv_control_msgs -- -j4 -l4
+Invoked command in '/home/blue/ws_blue/build/auv_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/auv_control_msgs -- -j4 -l4
+Invoking command in '/home/blue/ws_blue/build/auv_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/auv_control_msgs
+Invoked command in '/home/blue/ws_blue/build/auv_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/auv_control_msgs

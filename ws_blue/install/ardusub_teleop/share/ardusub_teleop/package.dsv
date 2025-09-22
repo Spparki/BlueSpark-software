@@ -1,0 +1,8 @@
+source;share/ardusub_teleop/hook/cmake_prefix_path.ps1
+source;share/ardusub_teleop/hook/cmake_prefix_path.dsv
+source;share/ardusub_teleop/hook/cmake_prefix_path.sh
+source;share/ardusub_teleop/local_setup.bash
+source;share/ardusub_teleop/local_setup.dsv
+source;share/ardusub_teleop/local_setup.ps1
+source;share/ardusub_teleop/local_setup.sh
+source;share/ardusub_teleop/local_setup.zsh

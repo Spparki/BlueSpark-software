@@ -1,0 +1,32 @@
+1758129473.2963474 [INFO] [launch]: All log files can be found below /home/blue/.ros/log/2025-09-17-17-17-53-291983-18169955d345-907
+1758129473.2970550 [INFO] [launch]: Default logging verbosity is set to INFO
+1758129474.1403413 [INFO] [message_transforms-1]: process started with pid [938]
+1758129474.1407669 [INFO] [ros2_control_node-2]: process started with pid [940]
+1758129474.1410155 [INFO] [spawner-3]: process started with pid [942]
+1758129474.4742382 [ros2_control_node-2] [INFO] [1758129474.472404543] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+1758129474.4746599 [ros2_control_node-2] [INFO] [1758129474.473013297] [controller_manager]: update rate is 100 Hz
+1758129474.4752345 [ros2_control_node-2] [WARN] [1758129474.473596169] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1758129474.4961410 [ros2_control_node-2] [INFO] [1758129474.494604230] [controller_manager]: Received robot description from topic.
+1758129474.4965982 [ros2_control_node-2] [ERROR] [1758129474.495316213] [controller_manager]: The published robot description file (urdf) seems not to be genuine. The following error was caught:no ros2_control tag
+1758129475.3061008 [spawner-3] [INFO] [1758129475.304811309] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129488.3238068 [spawner-3] [WARN] [1758129488.318383409] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129488.3245580 [spawner-3] [INFO] [1758129488.318940188] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129498.4241211 [spawner-3] [WARN] [1758129498.423554946] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129498.4248765 [spawner-3] [INFO] [1758129498.424416202] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129508.5074265 [spawner-3] [WARN] [1758129508.506000575] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129508.5087681 [spawner-3] [INFO] [1758129508.507208636] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129518.6136909 [spawner-3] [WARN] [1758129518.610533261] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129518.6142621 [spawner-3] [INFO] [1758129518.612790189] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129531.6237359 [spawner-3] [WARN] [1758129531.618857579] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129531.6243131 [spawner-3] [INFO] [1758129531.619538401] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129541.7095418 [spawner-3] [WARN] [1758129541.706102967] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129541.7100141 [spawner-3] [INFO] [1758129541.708153657] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129551.7959642 [spawner-3] [WARN] [1758129551.795405881] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129551.7985134 [spawner-3] [INFO] [1758129551.795915799] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129564.8243237 [spawner-3] [WARN] [1758129564.823863568] [spawner_thruster1_controller]: Could not contact service /controller_manager/list_controllers
+1758129564.8260605 [spawner-3] [INFO] [1758129564.825674755] [spawner_thruster1_controller]: waiting for service /controller_manager/list_controllers to become available...
+1758129568.7967727 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1758129568.9984283 [INFO] [ros2_control_node-2]: process has finished cleanly [pid 940]
+1758129568.9988573 [ros2_control_node-2] [INFO] [1758129568.796433307] [rclcpp]: signal_handler(signum=2)
+1758129569.0084858 [INFO] [message_transforms-1]: process has finished cleanly [pid 938]
+1758129569.0656605 [INFO] [spawner-3]: process has finished cleanly [pid 942]

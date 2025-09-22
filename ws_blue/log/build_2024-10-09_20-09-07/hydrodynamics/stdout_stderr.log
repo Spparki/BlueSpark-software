@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blue/ws_blue/build/hydrodynamics
+[ 50%] Building CXX object CMakeFiles/hydrodynamics.dir/src/hydrodynamics.cpp.o
+[100%] Linking CXX shared library libhydrodynamics.so
+[100%] Built target hydrodynamics
+-- Install configuration: ""
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics/eigen.hpp
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/include/hydrodynamics/hydrodynamics/hydrodynamics.hpp
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/lib/libhydrodynamics.so
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/library_path.sh
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/library_path.dsv
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/package_run_dependencies/hydrodynamics
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/parent_prefix_path/hydrodynamics
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/ament_prefix_path.sh
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/ament_prefix_path.dsv
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/path.sh
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/environment/path.dsv
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.bash
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.sh
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.zsh
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/local_setup.dsv
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/package.dsv
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/ament_index/resource_index/packages/hydrodynamics
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/export_hydrodynamicsExport.cmake
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/export_hydrodynamicsExport-noconfig.cmake
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/hydrodynamicsConfig.cmake
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/cmake/hydrodynamicsConfig-version.cmake
+-- Installing: /home/blue/ws_blue/install/hydrodynamics/share/hydrodynamics/package.xml

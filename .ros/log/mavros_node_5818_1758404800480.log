@@ -1,0 +1,162 @@
+[INFO] [1758404800.628641931] [mavros_node]: Starting mavros_node container
+[INFO] [1758404800.630165732] [mavros_node]: FCU URL: 
+[INFO] [1758404800.630175997] [mavros_node]: GCS URL: 
+[INFO] [1758404800.630180774] [mavros_node]: UAS Prefix: /uas1
+[INFO] [1758404800.630185206] [mavros_node]: Starting mavros router node
+[INFO] [1758404800.751550988] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758404800.751678578] [mavros_router]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758404800.751696046] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758404800.751702539] [mavros_router]: MAVROS Router started
+[INFO] [1758404800.751743198] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1758404800.751769043] [mavros_router]: Endpoint link[1000] created
+[INFO] [1758404800.763782692] [mavros_router]: link[1000] opened successfully
+[INFO] [1758404800.764023131] [mavros_node]: Starting mavros uas node
+[INFO] [1758404800.881822984] [mavros]: UAS Executor started, threads: 16
+[INFO] [1758404800.931245902] [mavros]: Plugin actuator_control created
+[INFO] [1758404800.931346420] [mavros]: Plugin actuator_control initialized
+[INFO] [1758404800.994278307] [mavros]: Plugin adsb created
+[INFO] [1758404800.994468688] [mavros]: Plugin adsb initialized
+[INFO] [1758404801.043616376] [mavros]: Plugin altitude created
+[INFO] [1758404801.043752609] [mavros]: Plugin altitude initialized
+[INFO] [1758404801.141055882] [mavros]: Plugin cam_imu_sync created
+[INFO] [1758404801.141218685] [mavros]: Plugin cam_imu_sync initialized
+[INFO] [1758404801.175398074] [mavros]: Plugin camera created
+[INFO] [1758404801.175514280] [mavros]: Plugin camera initialized
+[INFO] [1758404801.232864743] [mavros]: Plugin cellular_status created
+[INFO] [1758404801.232933454] [mavros]: Plugin cellular_status initialized
+[INFO] [1758404801.311891648] [mavros]: Plugin command created
+[INFO] [1758404801.312031902] [mavros]: Plugin command initialized
+[INFO] [1758404801.353004195] [mavros]: Plugin companion_process_status created
+[INFO] [1758404801.353113925] [mavros]: Plugin companion_process_status initialized
+[INFO] [1758404801.416454072] [mavros]: Plugin debug_value created
+[INFO] [1758404801.416573532] [mavros]: Plugin debug_value initialized
+[INFO] [1758404801.464828607] [mavros.distance_sensor]: DS: Plugin not configured!
+[INFO] [1758404801.465484753] [mavros]: Plugin distance_sensor created
+[INFO] [1758404801.465550391] [mavros]: Plugin distance_sensor initialized
+[INFO] [1758404801.603232899] [mavros]: Plugin esc_status created
+[INFO] [1758404801.603423223] [mavros]: Plugin esc_status initialized
+[INFO] [1758404801.647589148] [mavros]: Plugin esc_telemetry created
+[INFO] [1758404801.647671075] [mavros]: Plugin esc_telemetry initialized
+[INFO] [1758404801.693106883] [mavros]: Plugin fake_gps created
+[INFO] [1758404801.693224526] [mavros]: Plugin fake_gps initialized
+[INFO] [1758404801.766379980] [mavros]: Plugin ftp created
+[INFO] [1758404801.766467558] [mavros]: Plugin ftp initialized
+[INFO] [1758404801.823606262] [mavros]: Plugin geofence created
+[INFO] [1758404801.823700498] [mavros]: Plugin geofence initialized
+[INFO] [1758404802.102100960] [mavros]: Plugin gimbal_control created
+[INFO] [1758404802.102218561] [mavros]: Plugin gimbal_control initialized
+[INFO] [1758404802.170100742] [mavros]: Plugin global_position created
+[INFO] [1758404802.170255446] [mavros]: Plugin global_position initialized
+[INFO] [1758404802.298627167] [mavros]: Plugin gps_input created
+[INFO] [1758404802.298727206] [mavros]: Plugin gps_input initialized
+[INFO] [1758404802.350255714] [mavros]: Plugin gps_rtk created
+[INFO] [1758404802.350350685] [mavros]: Plugin gps_rtk initialized
+[INFO] [1758404802.402809652] [mavros]: Plugin gps_status created
+[INFO] [1758404802.402939786] [mavros]: Plugin gps_status initialized
+[INFO] [1758404802.461001294] [mavros]: Plugin guided_target created
+[INFO] [1758404802.461113883] [mavros]: Plugin guided_target initialized
+[INFO] [1758404802.533802132] [mavros]: Plugin hil created
+[INFO] [1758404802.533899007] [mavros]: Plugin hil initialized
+[INFO] [1758404802.595202353] [mavros]: Plugin home_position created
+[INFO] [1758404802.595340841] [mavros]: Plugin home_position initialized
+[INFO] [1758404802.654234112] [mavros]: Plugin imu created
+[INFO] [1758404802.654412484] [mavros]: Plugin imu initialized
+[INFO] [1758404802.710847241] [mavros]: Plugin landing_target created
+[INFO] [1758404802.710938472] [mavros]: Plugin landing_target initialized
+[INFO] [1758404802.770161033] [mavros]: Plugin local_position created
+[INFO] [1758404802.770385455] [mavros]: Plugin local_position initialized
+[INFO] [1758404802.830298643] [mavros]: Plugin log_transfer created
+[INFO] [1758404802.830446846] [mavros]: Plugin log_transfer initialized
+[INFO] [1758404802.910934370] [mavros]: Plugin mag_calibration_status created
+[INFO] [1758404802.911055486] [mavros]: Plugin mag_calibration_status initialized
+[INFO] [1758404802.983434617] [mavros]: Plugin manual_control created
+[INFO] [1758404802.983631555] [mavros]: Plugin manual_control initialized
+[INFO] [1758404803.055192719] [mavros]: Plugin mocap_pose_estimate created
+[INFO] [1758404803.055497850] [mavros]: Plugin mocap_pose_estimate initialized
+[INFO] [1758404803.150298406] [mavros]: Plugin mount_control created
+[INFO] [1758404803.150488741] [mavros]: Plugin mount_control initialized
+[INFO] [1758404803.240909494] [mavros]: Plugin nav_controller_output created
+[INFO] [1758404803.241024075] [mavros]: Plugin nav_controller_output initialized
+[INFO] [1758404803.316541308] [mavros]: Plugin obstacle_distance created
+[INFO] [1758404803.316827264] [mavros]: Plugin obstacle_distance initialized
+[INFO] [1758404803.388188885] [mavros]: Plugin odometry created
+[INFO] [1758404803.388356679] [mavros]: Plugin odometry initialized
+[INFO] [1758404803.460054836] [mavros]: Plugin onboard_computer_status created
+[INFO] [1758404803.460183627] [mavros]: Plugin onboard_computer_status initialized
+[INFO] [1758404803.540898728] [mavros]: Plugin optical_flow created
+[INFO] [1758404803.541055824] [mavros]: Plugin optical_flow initialized
+[INFO] [1758404803.616866946] [mavros]: Plugin param created
+[INFO] [1758404803.616977434] [mavros]: Plugin param initialized
+[INFO] [1758404803.695143028] [mavros]: Plugin play_tune created
+[INFO] [1758404803.695243756] [mavros]: Plugin play_tune initialized
+[INFO] [1758404803.785165283] [mavros]: Plugin px4flow created
+[INFO] [1758404803.785296322] [mavros]: Plugin px4flow initialized
+[INFO] [1758404803.889396936] [mavros]: Plugin rallypoint created
+[INFO] [1758404803.889567078] [mavros]: Plugin rallypoint initialized
+[INFO] [1758404803.963176295] [mavros]: Plugin rangefinder created
+[INFO] [1758404803.963268801] [mavros]: Plugin rangefinder initialized
+[INFO] [1758404804.046117414] [mavros]: Plugin rc_io created
+[INFO] [1758404804.046223323] [mavros]: Plugin rc_io initialized
+[INFO] [1758404804.123995251] [mavros]: Plugin setpoint_accel created
+[INFO] [1758404804.124088003] [mavros]: Plugin setpoint_accel initialized
+[INFO] [1758404804.206791998] [mavros]: Plugin setpoint_attitude created
+[INFO] [1758404804.206932472] [mavros]: Plugin setpoint_attitude initialized
+[INFO] [1758404804.300386488] [mavros]: Plugin setpoint_position created
+[INFO] [1758404804.300485602] [mavros]: Plugin setpoint_position initialized
+[INFO] [1758404804.388980250] [mavros]: Plugin setpoint_raw created
+[INFO] [1758404804.389137289] [mavros]: Plugin setpoint_raw initialized
+[INFO] [1758404804.497113676] [mavros]: Plugin setpoint_trajectory created
+[INFO] [1758404804.497219355] [mavros]: Plugin setpoint_trajectory initialized
+[INFO] [1758404804.573983752] [mavros]: Plugin setpoint_velocity created
+[INFO] [1758404804.574074271] [mavros]: Plugin setpoint_velocity initialized
+[INFO] [1758404804.721959570] [mavros]: Plugin sys_status created
+[INFO] [1758404804.722512443] [mavros]: Plugin sys_status initialized
+[INFO] [1758404804.825161269] [mavros.time]: TM: Timesync mode: MAVLINK
+[INFO] [1758404804.854932750] [mavros]: Plugin sys_time created
+[INFO] [1758404804.855223998] [mavros]: Plugin sys_time initialized
+[INFO] [1758404804.958780705] [mavros]: Plugin tdr_radio created
+[INFO] [1758404804.959030037] [mavros]: Plugin tdr_radio initialized
+[INFO] [1758404805.040654167] [mavros]: Plugin terrain created
+[INFO] [1758404805.040854795] [mavros]: Plugin terrain initialized
+[INFO] [1758404805.121856334] [mavros]: Plugin trajectory created
+[INFO] [1758404805.121995083] [mavros]: Plugin trajectory initialized
+[INFO] [1758404805.201129364] [mavros]: Plugin tunnel created
+[INFO] [1758404805.201313610] [mavros]: Plugin tunnel initialized
+[INFO] [1758404805.276927430] [mavros]: Plugin vfr_hud created
+[INFO] [1758404805.277118840] [mavros]: Plugin vfr_hud initialized
+[INFO] [1758404805.377169959] [mavros]: Plugin vibration created
+[INFO] [1758404805.377609138] [mavros]: Plugin vibration initialized
+[INFO] [1758404805.479097698] [mavros]: Plugin vision_pose created
+[INFO] [1758404805.479188920] [mavros]: Plugin vision_pose initialized
+[INFO] [1758404805.571889481] [mavros]: Plugin vision_speed created
+[INFO] [1758404805.572005488] [mavros]: Plugin vision_speed initialized
+[INFO] [1758404805.713904127] [mavros]: Plugin waypoint created
+[INFO] [1758404805.714052109] [mavros]: Plugin waypoint initialized
+[INFO] [1758404805.824253049] [mavros]: Plugin wheel_odometry created
+[INFO] [1758404805.824387717] [mavros]: Plugin wheel_odometry initialized
+[INFO] [1758404805.901265214] [mavros]: Plugin wind_estimation created
+[INFO] [1758404805.901914731] [mavros]: Plugin wind_estimation initialized
+[INFO] [1758404805.906160317] [mavros]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758404805.906205893] [mavros]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758404805.906212672] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758404805.906217462] [mavros]: MAVROS UAS via /uas1 started. MY ID 1.191, TARGET ID 1.1
+[INFO] [1758404806.666404896] [mavros_router]: link[1000] detected remote address 1.191
+[WARN] [1758404806.743515176] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[WARN] [1758404807.750188264] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[WARN] [1758404808.741451559] [mavros.sys]: VER: unicast request timeout, retries left 2
+[WARN] [1758404809.756262213] [mavros.sys]: VER: unicast request timeout, retries left 1
+[WARN] [1758404810.822938638] [mavros.sys]: VER: unicast request timeout, retries left 0
+[WARN] [1758404811.741170606] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+[WARN] [1758404862.843551655] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[WARN] [1758404921.001104009] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[ERROR] [1758404969.382745064] [mavros]: MODE: Unsupported FCU
+[WARN] [1758404984.618352949] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[ERROR] [1758405010.767403264] [mavros]: MODE: Unsupported FCU
+[WARN] [1758405047.256684815] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[WARN] [1758405108.577948027] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[WARN] [1758405168.050801526] [mavros_router]: Message dropped: msgid: 0, source: 1.191, target: 0.0
+[WARN] [1758405232.358486770] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[WARN] [1758405297.385240764] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[WARN] [1758405361.338073636] [mavros_router]: Message dropped: msgid: 102, source: 1.191, target: 0.0
+[INFO] [1758405408.262366924] [rclcpp]: signal_handler(signum=2)
+[WARN] [1758405408.272024974] [mavros]: UAS Executor terminated

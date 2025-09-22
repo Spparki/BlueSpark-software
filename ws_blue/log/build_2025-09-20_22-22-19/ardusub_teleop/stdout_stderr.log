@@ -1,0 +1,22 @@
+[100%] Built target joy_interface
+-- Install configuration: ""
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config/joy_teleop.yaml
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch/teleop.launch.yaml
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/package_run_dependencies/ardusub_teleop
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/parent_prefix_path/ardusub_teleop
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.bash
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.sh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.zsh
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.dsv
+-- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.dsv
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/packages/ardusub_teleop
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig.cmake
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig-version.cmake
+-- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.xml

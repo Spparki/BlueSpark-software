@@ -1,0 +1,26 @@
+[0.124s] Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_teleop -- -j18 -l18
+[0.451s] [100%] Built target joy_interface
+[0.476s] Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/ardusub_teleop -- -j18 -l18
+[0.652s] Invoking command in '/home/blue/ws_blue/build/ardusub_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_teleop
+[0.687s] -- Install configuration: ""
+[0.688s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/lib/ardusub_teleop/joy_interface
+[0.688s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config
+[0.688s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/config/joy_teleop.yaml
+[0.688s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/launch/teleop.launch.yaml
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/package_run_dependencies/ardusub_teleop
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/parent_prefix_path/ardusub_teleop
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.sh
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/ament_prefix_path.dsv
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.sh
+[0.689s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/environment/path.dsv
+[0.690s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.bash
+[0.690s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.sh
+[0.690s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.zsh
+[0.691s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/local_setup.dsv
+[0.691s] -- Installing: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.dsv
+[0.691s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ament_index/resource_index/packages/ardusub_teleop
+[0.691s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig.cmake
+[0.691s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/cmake/ardusub_teleopConfig-version.cmake
+[0.692s] -- Up-to-date: /home/blue/ws_blue/install/ardusub_teleop/share/ardusub_teleop/package.xml
+[0.786s] Invoked command in '/home/blue/ws_blue/build/ardusub_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/ardusub_teleop

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: blue_localization
+Version: 0.0.1
+Summary: Localization interface used to provide visual odometry estimates to the ArduPilot EKF.
+Maintainer: Evan Palmer
+Maintainer-email: evanp922@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: transforms3d
+Requires-Dist: opencv-python
+Requires-Dist: qtm

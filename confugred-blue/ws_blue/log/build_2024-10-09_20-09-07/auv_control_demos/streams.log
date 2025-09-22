@@ -1,0 +1,56 @@
+[0.036s] Invoking command in '/home/blue/ws_blue/build/auv_control_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/auv_control_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/auv_control_demos
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.437s] -- The CXX compiler identification is GNU 11.4.0
+[0.470s] -- Detecting C compiler ABI info
+[0.792s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.811s] -- Detecting C compile features
+[0.811s] -- Detecting C compile features - done
+[0.823s] -- Detecting CXX compiler ABI info
+[0.955s] -- Detecting CXX compiler ABI info - done
+[0.961s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.962s] -- Detecting CXX compile features
+[0.963s] -- Detecting CXX compile features - done
+[0.992s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.488s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.738s] -- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)
+[1.946s] -- Configuring done
+[1.952s] -- Generating done
+[1.965s] -- Build files have been written to: /home/blue/ws_blue/build/auv_control_demos
+[1.996s] Invoked command in '/home/blue/ws_blue/build/auv_control_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/blue/ws_blue/src/auv_controllers/auv_control_demos -DCMAKE_INSTALL_PREFIX=/home/blue/ws_blue/install/auv_control_demos
+[1.996s] Invoking command in '/home/blue/ws_blue/build/auv_control_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/auv_control_demos -- -j4 -l4
+[2.114s] Invoked command in '/home/blue/ws_blue/build/auv_control_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/auv_control_demos -- -j4 -l4
+[2.330s] Invoking command in '/home/blue/ws_blue/build/auv_control_demos': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/auv_control_demos
+[2.345s] -- Install configuration: ""
+[2.345s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch
+[2.345s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch/individual.launch.py
+[2.346s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config
+[2.346s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config/individual_controller.yaml
+[2.346s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro
+[2.346s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_ros2_control.xacro
+[2.347s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_urdf.xacro
+[2.347s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_config.xacro
+[2.347s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch
+[2.348s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch/chaining.launch.py
+[2.348s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config
+[2.348s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config/chained_controllers.yaml
+[2.348s] -- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro
+[2.348s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_config.xacro
+[2.349s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_urdf.xacro
+[2.349s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_ros2_control.xacro
+[2.350s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/package_run_dependencies/auv_control_demos
+[2.350s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/parent_prefix_path/auv_control_demos
+[2.350s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/ament_prefix_path.sh
+[2.351s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/ament_prefix_path.dsv
+[2.351s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/path.sh
+[2.364s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/path.dsv
+[2.364s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.bash
+[2.364s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.sh
+[2.365s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.zsh
+[2.365s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.dsv
+[2.365s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/package.dsv
+[2.366s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/packages/auv_control_demos
+[2.366s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/cmake/auv_control_demosConfig.cmake
+[2.367s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/cmake/auv_control_demosConfig-version.cmake
+[2.367s] -- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/package.xml
+[2.375s] Invoked command in '/home/blue/ws_blue/build/auv_control_demos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/auv_control_demos

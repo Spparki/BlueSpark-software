@@ -1,0 +1,5 @@
+[INFO] [1758406576.094372753] [base_link_to_thruster5]: Spinning until stopped - publishing transform
+translation: ('0.000000', '-0.109000', '0.077000')
+rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+from 'base_link' to 'thruster5'
+[INFO] [1758406640.590857951] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,8 @@
+setup.py
+auv_control_msgs/__init__.py
+auv_control_msgs.egg-info/PKG-INFO
+auv_control_msgs.egg-info/SOURCES.txt
+auv_control_msgs.egg-info/dependency_links.txt
+auv_control_msgs.egg-info/top_level.txt
+auv_control_msgs/msg/__init__.py
+auv_control_msgs/msg/_multi_actuator_state_stamped.py

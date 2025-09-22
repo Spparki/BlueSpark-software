@@ -1,0 +1,140 @@
+[INFO] [1758131943.944598755] [mavros_node]: Starting mavros_node container
+[INFO] [1758131943.944818561] [mavros_node]: FCU URL: tcp://localhost
+[INFO] [1758131943.944841071] [mavros_node]: GCS URL: udp://@localhost:14550
+[INFO] [1758131943.944894501] [mavros_node]: UAS Prefix: /uas1
+[INFO] [1758131943.944919535] [mavros_node]: Starting mavros router node
+[INFO] [1758131944.019731613] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758131944.019877483] [mavros_router]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758131944.019926049] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758131944.019938586] [mavros_router]: MAVROS Router started
+[INFO] [1758131944.019989426] [mavros_router]: Requested to add endpoint: type: 0, url: tcp://localhost
+[INFO] [1758131944.020014259] [mavros_router]: Endpoint link[1000] created
+[INFO] [1758131944.020855281] [mavros_router]: link[1000] opened successfully
+[INFO] [1758131944.021447626] [mavros_router]: Requested to add endpoint: type: 1, url: udp://@localhost:14550
+[INFO] [1758131944.021523585] [mavros_router]: Endpoint link[1001] created
+[INFO] [1758131944.024530655] [mavros_router]: link[1001] opened successfully
+[INFO] [1758131944.025895150] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1758131944.025977799] [mavros_router]: Endpoint link[1002] created
+[INFO] [1758131944.038177292] [mavros_router]: link[1002] opened successfully
+[INFO] [1758131944.038399642] [mavros_node]: Starting mavros uas node
+[INFO] [1758131944.272238079] [mavros]: Plugin actuator_control ignored
+[INFO] [1758131944.272340487] [mavros]: Plugin adsb ignored
+[INFO] [1758131944.272349492] [mavros]: Plugin altitude ignored
+[INFO] [1758131944.272353215] [mavros]: Plugin cam_imu_sync ignored
+[INFO] [1758131944.272359914] [mavros]: Plugin camera ignored
+[INFO] [1758131944.272380022] [mavros]: Plugin cellular_status ignored
+[INFO] [1758131944.272266408] [mavros]: UAS Executor started, threads: 16
+[INFO] [1758131944.359496229] [mavros]: Plugin command created
+[INFO] [1758131944.359812238] [mavros]: Plugin command initialized
+[INFO] [1758131944.359914117] [mavros]: Plugin companion_process_status ignored
+[INFO] [1758131944.359934628] [mavros]: Plugin debug_value ignored
+[INFO] [1758131944.359945768] [mavros]: Plugin distance_sensor ignored
+[INFO] [1758131944.359955066] [mavros]: Plugin esc_status ignored
+[INFO] [1758131944.359963779] [mavros]: Plugin esc_telemetry ignored
+[INFO] [1758131944.359972396] [mavros]: Plugin fake_gps ignored
+[INFO] [1758131944.359981000] [mavros]: Plugin ftp ignored
+[INFO] [1758131944.359989738] [mavros]: Plugin geofence ignored
+[INFO] [1758131944.359998173] [mavros]: Plugin gimbal_control ignored
+[INFO] [1758131944.430692451] [mavros]: Plugin global_position created
+[INFO] [1758131944.430932415] [mavros]: Plugin global_position initialized
+[INFO] [1758131944.430970038] [mavros]: Plugin gps_input ignored
+[INFO] [1758131944.430981645] [mavros]: Plugin gps_rtk ignored
+[INFO] [1758131944.430990599] [mavros]: Plugin gps_status ignored
+[INFO] [1758131944.430999141] [mavros]: Plugin guided_target ignored
+[INFO] [1758131944.431007707] [mavros]: Plugin hil ignored
+[INFO] [1758131944.431016253] [mavros]: Plugin home_position ignored
+[INFO] [1758131944.486101805] [mavros]: Plugin imu created
+[INFO] [1758131944.486297005] [mavros]: Plugin imu initialized
+[INFO] [1758131944.486323703] [mavros]: Plugin landing_target ignored
+[INFO] [1758131944.541271185] [mavros]: Plugin local_position created
+[INFO] [1758131944.541479958] [mavros]: Plugin local_position initialized
+[INFO] [1758131944.541526767] [mavros]: Plugin log_transfer ignored
+[INFO] [1758131944.541538390] [mavros]: Plugin mag_calibration_status ignored
+[INFO] [1758131944.541547603] [mavros]: Plugin manual_control ignored
+[INFO] [1758131944.541556619] [mavros]: Plugin mocap_pose_estimate ignored
+[INFO] [1758131944.541565322] [mavros]: Plugin mount_control ignored
+[INFO] [1758131944.541582833] [mavros]: Plugin nav_controller_output ignored
+[INFO] [1758131944.541705449] [mavros]: Plugin obstacle_distance ignored
+[INFO] [1758131944.541722050] [mavros]: Plugin odometry ignored
+[INFO] [1758131944.541732652] [mavros]: Plugin onboard_computer_status ignored
+[INFO] [1758131944.541742670] [mavros]: Plugin optical_flow ignored
+[INFO] [1758131944.653237541] [mavros]: Plugin param created
+[INFO] [1758131944.653418961] [mavros]: Plugin param initialized
+[INFO] [1758131944.653448538] [mavros]: Plugin play_tune ignored
+[INFO] [1758131944.653459675] [mavros]: Plugin px4flow ignored
+[INFO] [1758131944.653468615] [mavros]: Plugin rallypoint ignored
+[INFO] [1758131944.653477185] [mavros]: Plugin rangefinder ignored
+[INFO] [1758131944.699227751] [mavros]: Plugin rc_io created
+[INFO] [1758131944.699508291] [mavros]: Plugin rc_io initialized
+[INFO] [1758131944.699544648] [mavros]: Plugin setpoint_accel ignored
+[INFO] [1758131944.699555052] [mavros]: Plugin setpoint_attitude ignored
+[INFO] [1758131944.699563765] [mavros]: Plugin setpoint_position ignored
+[INFO] [1758131944.699572547] [mavros]: Plugin setpoint_raw ignored
+[INFO] [1758131944.699581030] [mavros]: Plugin setpoint_trajectory ignored
+[INFO] [1758131944.699589150] [mavros]: Plugin setpoint_velocity ignored
+[INFO] [1758131944.772207731] [mavros]: Plugin sys_status created
+[INFO] [1758131944.772409892] [mavros]: Plugin sys_status initialized
+[INFO] [1758131944.772427198] [mavros]: Plugin sys_time ignored
+[INFO] [1758131944.772431231] [mavros]: Plugin tdr_radio ignored
+[INFO] [1758131944.772434368] [mavros]: Plugin terrain ignored
+[INFO] [1758131944.772437652] [mavros]: Plugin trajectory ignored
+[INFO] [1758131944.772441052] [mavros]: Plugin tunnel ignored
+[INFO] [1758131944.772444229] [mavros]: Plugin vfr_hud ignored
+[INFO] [1758131944.772447134] [mavros]: Plugin vibration ignored
+[INFO] [1758131944.869412685] [mavros]: Plugin vision_pose created
+[INFO] [1758131944.869558540] [mavros]: Plugin vision_pose initialized
+[INFO] [1758131944.962019255] [mavros]: Plugin vision_speed created
+[INFO] [1758131944.962145275] [mavros]: Plugin vision_speed initialized
+[INFO] [1758131944.962181087] [mavros]: Plugin waypoint ignored
+[INFO] [1758131944.962196806] [mavros]: Plugin wheel_odometry ignored
+[INFO] [1758131944.962206659] [mavros]: Plugin wind_estimation ignored
+[INFO] [1758131945.005868062] [mavros]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1758131945.005938783] [mavros]: Built-in MAVLink package version: 2024.10.10
+[INFO] [1758131945.005945920] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1758131945.005951441] [mavros]: MAVROS UAS via /uas1 started. MY ID 255.191, TARGET ID 1.1
+[INFO] [1758131945.739826042] [mavros_router]: link[1002] detected remote address 255.191
+[WARN] [1758131949.727680775] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[WARN] [1758131950.729053525] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[WARN] [1758131951.728400524] [mavros.sys]: VER: unicast request timeout, retries left 2
+[WARN] [1758131952.728594437] [mavros.sys]: VER: unicast request timeout, retries left 1
+[INFO] [1758131953.068826910] [mavros_router]: link[1000] detected remote address 1.1
+[INFO] [1758131953.291276569] [mavros.sys]: FCU: Calibrating barometer
+[WARN] [1758131953.760428859] [mavros.sys]: VER: unicast request timeout, retries left 0
+[WARN] [1758131954.797433676] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+[INFO] [1758131956.361929251] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[INFO] [1758131956.362899945] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000f9e7
+[INFO] [1758131956.362947070] [mavros.sys]: VER: 1.1: Flight software:     04060000 (92693e02)
+[INFO] [1758131956.362953329] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[INFO] [1758131956.362958310] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[INFO] [1758131956.362962759] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[INFO] [1758131956.362966515] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[INFO] [1758131956.362970334] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[INFO] [1758131958.757101598] [mavros.sys]: FCU: Barometer 1 calibration complete
+[INFO] [1758131958.763066157] [mavros.sys]: FCU: Barometer 2 calibration complete
+[INFO] [1758131958.780000419] [mavros.sys]: FCU: ArduPilot Ready
+[INFO] [1758131958.780155706] [mavros.sys]: FCU: AHRS: DCM active
+[INFO] [1758131959.716530841] [mavros.rc]: RC_CHANNELS message detected!
+[INFO] [1758131959.716884737] [mavros.imu]: IMU: Raw IMU message used.
+[INFO] [1758131965.434030321] [mavros.sys]: FCU: EKF3 IMU0 initialised
+[INFO] [1758131965.434547262] [mavros.sys]: FCU: EKF3 IMU1 initialised
+[INFO] [1758131965.434590876] [mavros.sys]: FCU: AHRS: EKF3 active
+[INFO] [1758131966.387255513] [mavros.sys]: FCU: ArduSub V4.6.0-dev (92693e02)
+[INFO] [1758131966.387423155] [mavros.sys]: FCU: e44de74ebc794be39dcc3db8339bc5f2
+[INFO] [1758131966.387452894] [mavros.sys]: FCU: Frame: VECTORED
+[INFO] [1758131967.234383930] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[INFO] [1758131967.234658490] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[INFO] [1758131968.882679809] [mavros.param]: PR: parameters list received
+[INFO] [1758131968.883473025] [mavros.imu]: IMU: Attitude quaternion IMU detected!
+[INFO] [1758131970.596805637] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+[INFO] [1758131970.597124883] [mavros.sys]: FCU: EKF3 IMU1 is using external nav data
+[INFO] [1758131970.597611695] [mavros.sys]: FCU: EKF3 IMU1 initial pos NED = 1.3,-0.1,0.5 (m)
+[INFO] [1758131970.603937354] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+[INFO] [1758131970.604211944] [mavros.sys]: FCU: EKF3 IMU0 is using external nav data
+[INFO] [1758131970.604422573] [mavros.sys]: FCU: EKF3 IMU0 initial pos NED = 1.3,-0.1,0.5 (m)
+[INFO] [1758131970.659509590] [mavros.sys]: FCU: EKF3 IMU1 yaw aligned
+[INFO] [1758131970.664413179] [mavros.sys]: FCU: EKF3 IMU0 yaw aligned
+[INFO] [1758131986.402501217] [mavros.sys]: FCU: GPS 1: probing for u-blox at 230400 baud
+[INFO] [1758131986.454997058] [mavros.sys]: FCU: GPS 1: detected u-blox
+[WARN] [1758132024.878834609] [mavros.sys]: FCU: No such mode 5
+[INFO] [1758132086.130400992] [mavros.sys]: FCU: Arming motors
+[INFO] [1758133951.791028747] [rclcpp]: signal_handler(signum=2)

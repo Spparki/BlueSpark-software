@@ -1,0 +1,41 @@
+[0.544s] Invoking command in '/home/blue/ws_blue/build/message_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/message_transforms -- -j18 -l18
+[0.782s] [ 16%] Built target message_transforms_parameters
+[0.905s] [ 50%] Built target message_transforms
+[0.943s] [100%] Built target message_transforms_library
+[1.209s] Invoked command in '/home/blue/ws_blue/build/message_transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --build /home/blue/ws_blue/build/message_transforms -- -j18 -l18
+[1.511s] Invoking command in '/home/blue/ws_blue/build/message_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/message_transforms
+[1.538s] -- Install configuration: ""
+[1.539s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters
+[1.539s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms_parameters/message_transforms_parameters.hpp
+[1.539s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/lib/message_transforms/message_transforms
+[1.540s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms
+[1.540s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms
+[1.540s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/message_transforms_node.hpp
+[1.541s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/include/message_transforms/message_transforms/transforms.hpp
+[1.541s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/lib/libmessage_transforms_library.so
+[1.541s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch
+[1.541s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/message_transforms.launch.py
+[1.542s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/launch/tf.launch.yaml
+[1.543s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.sh
+[1.546s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/library_path.dsv
+[1.549s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/package_run_dependencies/message_transforms
+[1.549s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/parent_prefix_path/message_transforms
+[1.550s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.sh
+[1.550s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/ament_prefix_path.dsv
+[1.550s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.sh
+[1.550s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/environment/path.dsv
+[1.551s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.bash
+[1.551s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.sh
+[1.551s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.zsh
+[1.551s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/local_setup.dsv
+[1.551s] -- Installing: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.dsv
+[1.552s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/packages/message_transforms
+[1.552s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/ament_index/resource_index/rclcpp_components/message_transforms
+[1.552s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport.cmake
+[1.553s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/export_message_transforms_libraryExport-noconfig.cmake
+[1.553s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_targets-extras.cmake
+[1.553s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.553s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig.cmake
+[1.554s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/cmake/message_transformsConfig-version.cmake
+[1.554s] -- Up-to-date: /home/blue/ws_blue/install/message_transforms/share/message_transforms/package.xml
+[1.676s] Invoked command in '/home/blue/ws_blue/build/message_transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blue/ws_blue/install/blue_localization:/opt/ros/iron /usr/bin/cmake --install /home/blue/ws_blue/build/message_transforms

@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blue/ws_blue/build/auv_control_demos
+-- Install configuration: ""
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch/individual.launch.py
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config/individual_controller.yaml
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_ros2_control.xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_urdf.xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/individual_config.xacro
+-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/launch/chaining.launch.py
+-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/config/chained_controllers.yaml
+-- Up-to-date: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_config.xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_urdf.xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/xacro/chained_ros2_control.xacro
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/package_run_dependencies/auv_control_demos
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/parent_prefix_path/auv_control_demos
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/ament_prefix_path.sh
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/ament_prefix_path.dsv
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/path.sh
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/environment/path.dsv
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.bash
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.sh
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.zsh
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/local_setup.dsv
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/package.dsv
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/ament_index/resource_index/packages/auv_control_demos
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/cmake/auv_control_demosConfig.cmake
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/cmake/auv_control_demosConfig-version.cmake
+-- Installing: /home/blue/ws_blue/install/auv_control_demos/share/auv_control_demos/package.xml

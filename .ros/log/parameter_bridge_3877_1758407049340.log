@@ -1,0 +1,2 @@
+[INFO] [1758407049.490611245] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/image_raw (gz.msgs.Image) -> /camera/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[INFO] [1758407354.656336139] [rclcpp]: signal_handler(signum=2)

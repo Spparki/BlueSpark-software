@@ -1,0 +1,5 @@
+setuptools
+numpy
+transforms3d
+opencv-python
+qtm

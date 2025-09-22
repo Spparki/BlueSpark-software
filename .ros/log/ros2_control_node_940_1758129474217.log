@@ -1,0 +1,6 @@
+[INFO] [1758129474.472404543] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[INFO] [1758129474.473013297] [controller_manager]: update rate is 100 Hz
+[WARN] [1758129474.473596169] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1758129474.494604230] [controller_manager]: Received robot description from topic.
+[ERROR] [1758129474.495316213] [controller_manager]: The published robot description file (urdf) seems not to be genuine. The following error was caught:no ros2_control tag
+[INFO] [1758129568.796433307] [rclcpp]: signal_handler(signum=2)

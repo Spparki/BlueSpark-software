@@ -1,0 +1,5 @@
+[INFO] [1758405744.459258575] [map_to_map_ned]: Spinning until stopped - publishing transform
+translation: ('0.000000', '0.000000', '0.000000')
+rotation: ('1.000000', '0.000000', '-0.000000', '-0.000283')
+from 'map' to 'map_ned'
+[INFO] [1758406440.982185662] [rclcpp]: signal_handler(signum=2)

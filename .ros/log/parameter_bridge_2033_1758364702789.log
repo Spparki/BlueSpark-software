@@ -1,0 +1,2 @@
+[INFO] [1758364702.929937092] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/bluerov2/odometry (gz.msgs.Odometry) -> /model/bluerov2/odometry (nav_msgs/msg/Odometry)] (Lazy 0)
+[INFO] [1758365421.044007227] [rclcpp]: signal_handler(signum=2)

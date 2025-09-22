@@ -1,0 +1,17 @@
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/launch/demo.launch.yaml
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/config/demo.yaml
+/home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/package_run_dependencies/message_transforms_demos
+/home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/parent_prefix_path/message_transforms_demos
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/ament_prefix_path.sh
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/ament_prefix_path.dsv
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/path.sh
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/environment/path.dsv
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.bash
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.sh
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.zsh
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/local_setup.dsv
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/package.dsv
+/home/blue/ws_blue/install/message_transforms_demos/share/ament_index/resource_index/packages/message_transforms_demos
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/cmake/message_transforms_demosConfig.cmake
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/cmake/message_transforms_demosConfig-version.cmake
+/home/blue/ws_blue/install/message_transforms_demos/share/message_transforms_demos/package.xml

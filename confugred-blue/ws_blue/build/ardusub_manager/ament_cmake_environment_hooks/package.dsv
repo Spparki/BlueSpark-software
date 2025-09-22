@@ -1,0 +1,4 @@
+source;share/ardusub_manager/local_setup.bash
+source;share/ardusub_manager/local_setup.dsv
+source;share/ardusub_manager/local_setup.sh
+source;share/ardusub_manager/local_setup.zsh

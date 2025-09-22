@@ -1,0 +1,12 @@
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/uninstall.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/message_transforms_uninstall.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/message_transforms_parameters.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/message_transforms_library.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/message_transforms.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/test.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/edit_cache.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/rebuild_cache.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/list_install_components.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/install.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/install/local.dir
+/home/blue/ws_blue/build/message_transforms/CMakeFiles/install/strip.dir

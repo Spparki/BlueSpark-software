@@ -1,0 +1,15 @@
+/home/blue/ws_blue/install/auv_controllers/share/ament_index/resource_index/package_run_dependencies/auv_controllers
+/home/blue/ws_blue/install/auv_controllers/share/ament_index/resource_index/parent_prefix_path/auv_controllers
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/ament_prefix_path.sh
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/ament_prefix_path.dsv
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/path.sh
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/environment/path.dsv
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.bash
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.sh
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.zsh
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/local_setup.dsv
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/package.dsv
+/home/blue/ws_blue/install/auv_controllers/share/ament_index/resource_index/packages/auv_controllers
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/cmake/auv_controllersConfig.cmake
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/cmake/auv_controllersConfig-version.cmake
+/home/blue/ws_blue/install/auv_controllers/share/auv_controllers/package.xml

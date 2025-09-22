@@ -1,0 +1,375 @@
+1758407375.8898838 [INFO] [launch]: All log files can be found below /home/blue/.ros/log/2025-09-20-22-29-35-885245-18169955d345-5822
+1758407375.8901210 [INFO] [launch]: Default logging verbosity is set to INFO
+1758407377.0943031 [INFO] [robot_state_publisher-1]: process started with pid [5854]
+1758407377.0946653 [INFO] [mavros_node-2]: process started with pid [5856]
+1758407377.0947585 [INFO] [parameter_bridge-3]: process started with pid [5858]
+1758407377.0948300 [INFO] [parameter_bridge-4]: process started with pid [5860]
+1758407377.0948985 [INFO] [parameter_bridge-5]: process started with pid [5862]
+1758407377.0949638 [INFO] [create-6]: process started with pid [5864]
+1758407377.0950277 [INFO] [ardusub-7]: process started with pid [5868]
+1758407377.0951614 [INFO] [ruby $(which gz) sim-8]: process started with pid [5870]
+1758407377.0952423 [INFO] [ardusub_manager-9]: process started with pid [5872]
+1758407377.0953088 [INFO] [gazebo_localizer-10]: process started with pid [5875]
+1758407377.0953734 [INFO] [static_transform_publisher-11]: process started with pid [5878]
+1758407377.0954340 [INFO] [static_transform_publisher-12]: process started with pid [5880]
+1758407377.0954959 [INFO] [static_transform_publisher-13]: process started with pid [5882]
+1758407377.0955579 [INFO] [static_transform_publisher-14]: process started with pid [5884]
+1758407377.0956151 [INFO] [static_transform_publisher-15]: process started with pid [5890]
+1758407377.0956740 [INFO] [static_transform_publisher-16]: process started with pid [5892]
+1758407377.0957301 [INFO] [static_transform_publisher-17]: process started with pid [5896]
+1758407377.0957904 [INFO] [static_transform_publisher-18]: process started with pid [5900]
+1758407377.0958474 [INFO] [static_transform_publisher-19]: process started with pid [5903]
+1758407377.0970504 [ardusub-7] Starting SITL: JSON
+1758407377.0971367 [ardusub-7] Home: 44.658700 -124.065560 alt=0.000000m hdg=270.000000
+1758407377.0971720 [ardusub-7] JSON control interface set to 127.0.0.1:9002
+1758407377.0972006 [ardusub-7] Starting sketch 'ArduSub'
+1758407377.0972269 [ardusub-7] Starting SITL input
+1758407377.0972514 [ardusub-7] Using Irlock at port : 9005
+1758407377.0972741 [ardusub-7] Waiting for connection ....
+1758407377.1025972 [ardusub-7] bind port 5760 for SERIAL0
+1758407377.1027870 [ardusub-7] SERIAL0 on TCP port 5760
+1758407377.1517951 [mavros_node-2] [INFO] [1758407377.150830561] [mavros_node]: Starting mavros_node container
+1758407377.1522777 [mavros_node-2] [INFO] [1758407377.150931041] [mavros_node]: FCU URL: tcp://localhost
+1758407377.1523707 [mavros_node-2] [INFO] [1758407377.150946085] [mavros_node]: GCS URL: udp://@localhost:14550
+1758407377.1524286 [mavros_node-2] [INFO] [1758407377.150951254] [mavros_node]: UAS Prefix: /uas1
+1758407377.1528039 [mavros_node-2] [INFO] [1758407377.150955527] [mavros_node]: Starting mavros router node
+1758407377.2186592 [parameter_bridge-4] [INFO] [1758407377.215042659] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/image_raw (gz.msgs.Image) -> /camera/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+1758407377.2268989 [static_transform_publisher-18] [INFO] [1758407377.216519784] [map_to_map_ned]: Spinning until stopped - publishing transform
+1758407377.2275691 [static_transform_publisher-18] translation: ('0.000000', '0.000000', '0.000000')
+1758407377.2299626 [static_transform_publisher-18] rotation: ('1.000000', '0.000000', '-0.000000', '-0.000283')
+1758407377.2301378 [static_transform_publisher-18] from 'map' to 'map_ned'
+1758407377.2456586 [create-6] [INFO] [1758407377.232289748] [ros_gz_sim]: Requesting list of world names.
+1758407377.2566736 [static_transform_publisher-12] [INFO] [1758407377.255100660] [base_link_to_thruster2]: Spinning until stopped - publishing transform
+1758407377.2570121 [static_transform_publisher-12] translation: ('0.140000', '0.092000', '0.000000')
+1758407377.2575557 [static_transform_publisher-12] rotation: ('0.270535', '0.653308', '-0.270401', '0.653363')
+1758407377.2576673 [static_transform_publisher-12] from 'base_link' to 'thruster2'
+1758407377.2628338 [parameter_bridge-3] [INFO] [1758407377.256798892] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+1758407377.2634869 [static_transform_publisher-14] [INFO] [1758407377.258814594] [base_link_to_thruster4]: Spinning until stopped - publishing transform
+1758407377.2636375 [static_transform_publisher-14] translation: ('-0.150000', '0.092000', '0.000000')
+1758407377.2638662 [static_transform_publisher-14] rotation: ('-0.653308', '-0.270535', '0.653253', '-0.270668')
+1758407377.2639658 [static_transform_publisher-14] from 'base_link' to 'thruster4'
+1758407377.2676511 [robot_state_publisher-1] [INFO] [1758407377.266967075] [robot_state_publisher]: got segment base_footprint
+1758407377.2679241 [robot_state_publisher-1] [INFO] [1758407377.267134863] [robot_state_publisher]: got segment base_link
+1758407377.2680407 [robot_state_publisher-1] [INFO] [1758407377.267147139] [robot_state_publisher]: got segment camera_link
+1758407377.2681134 [robot_state_publisher-1] [INFO] [1758407377.267152204] [robot_state_publisher]: got segment camera_mount_link
+1758407377.2682235 [robot_state_publisher-1] [INFO] [1758407377.267156392] [robot_state_publisher]: got segment thruster1
+1758407377.2682972 [robot_state_publisher-1] [INFO] [1758407377.267160106] [robot_state_publisher]: got segment thruster2
+1758407377.2688031 [robot_state_publisher-1] [INFO] [1758407377.267163701] [robot_state_publisher]: got segment thruster3
+1758407377.2694857 [robot_state_publisher-1] [INFO] [1758407377.267168602] [robot_state_publisher]: got segment thruster4
+1758407377.2696033 [robot_state_publisher-1] [INFO] [1758407377.267172182] [robot_state_publisher]: got segment thruster5
+1758407377.2696786 [robot_state_publisher-1] [INFO] [1758407377.267175347] [robot_state_publisher]: got segment thruster6
+1758407377.2797575 [static_transform_publisher-16] [INFO] [1758407377.275527704] [base_link_to_thruster6]: Spinning until stopped - publishing transform
+1758407377.2802758 [static_transform_publisher-16] translation: ('0.000000', '0.109000', '0.077000')
+1758407377.2804518 [static_transform_publisher-16] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1758407377.2805243 [static_transform_publisher-16] from 'base_link' to 'thruster6'
+1758407377.2814691 [static_transform_publisher-19] [INFO] [1758407377.280537290] [odom_to_odom_ned]: Spinning until stopped - publishing transform
+1758407377.2817132 [static_transform_publisher-19] translation: ('0.000000', '0.000000', '0.000000')
+1758407377.2819028 [static_transform_publisher-19] rotation: ('1.000000', '0.000000', '-0.000000', '-0.000283')
+1758407377.2820091 [static_transform_publisher-19] from 'odom' to 'odom_ned'
+1758407377.2835200 [static_transform_publisher-11] [INFO] [1758407377.283195306] [base_link_to_thruster1]: Spinning until stopped - publishing transform
+1758407377.2836690 [static_transform_publisher-11] translation: ('0.140000', '-0.092000', '0.000000')
+1758407377.2837389 [static_transform_publisher-11] rotation: ('-0.270728', '0.653228', '0.270861', '0.653172')
+1758407377.2837913 [static_transform_publisher-11] from 'base_link' to 'thruster1'
+1758407377.2937632 [static_transform_publisher-13] [INFO] [1758407377.292559259] [base_link_to_thruster3]: Spinning until stopped - publishing transform
+1758407377.2940111 [static_transform_publisher-13] translation: ('-0.150000', '-0.092000', '0.000000')
+1758407377.2940905 [static_transform_publisher-13] rotation: ('-0.653228', '0.270728', '0.653283', '0.270595')
+1758407377.2941377 [static_transform_publisher-13] from 'base_link' to 'thruster3'
+1758407377.3086979 [static_transform_publisher-15] [INFO] [1758407377.307263847] [base_link_to_thruster5]: Spinning until stopped - publishing transform
+1758407377.3090150 [static_transform_publisher-15] translation: ('0.000000', '-0.109000', '0.077000')
+1758407377.3093338 [static_transform_publisher-15] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1758407377.3096614 [static_transform_publisher-15] from 'base_link' to 'thruster5'
+1758407377.3103936 [static_transform_publisher-17] [INFO] [1758407377.307522903] [base_link_to_base_link_fsd]: Spinning until stopped - publishing transform
+1758407377.3105457 [static_transform_publisher-17] translation: ('0.000000', '0.000000', '0.000000')
+1758407377.3106306 [static_transform_publisher-17] rotation: ('1.000000', '0.000000', '-0.000000', '-0.000283')
+1758407377.3107038 [static_transform_publisher-17] from 'base_link' to 'base_link_fsd'
+1758407377.3299727 [mavros_node-2] [INFO] [1758407377.326471321] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+1758407377.3305979 [mavros_node-2] [INFO] [1758407377.326527286] [mavros_router]: Built-in MAVLink package version: 2024.10.10
+1758407377.3307083 [mavros_node-2] [INFO] [1758407377.326540716] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+1758407377.3307850 [mavros_node-2] [INFO] [1758407377.326546904] [mavros_router]: MAVROS Router started
+1758407377.3308649 [mavros_node-2] [INFO] [1758407377.326590597] [mavros_router]: Requested to add endpoint: type: 0, url: tcp://localhost
+1758407377.3309646 [mavros_node-2] [INFO] [1758407377.326703580] [mavros_router]: Endpoint link[1000] created
+1758407377.3446891 [ardusub-7] Connection on serial port 5760
+1758407377.3457546 [mavros_node-2] [INFO] [1758407377.342725203] [mavros_router]: link[1000] opened successfully
+1758407377.3471334 [mavros_node-2] [INFO] [1758407377.344860390] [mavros_router]: Requested to add endpoint: type: 1, url: udp://@localhost:14550
+1758407377.3473413 [mavros_node-2] [INFO] [1758407377.345086656] [mavros_router]: Endpoint link[1001] created
+1758407377.3477345 [mavros_node-2] [INFO] [1758407377.345789866] [mavros_router]: link[1001] opened successfully
+1758407377.3480644 [mavros_node-2] [INFO] [1758407377.346056589] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+1758407377.3482056 [mavros_node-2] [INFO] [1758407377.346096723] [mavros_router]: Endpoint link[1002] created
+1758407377.3523653 [ardusub-7] Loaded defaults from /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2/ardusub.parm
+1758407377.3538136 [parameter_bridge-5] [INFO] [1758407377.350620341] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/bluerov2/odometry (gz.msgs.Odometry) -> /model/bluerov2/odometry (nav_msgs/msg/Odometry)] (Lazy 0)
+1758407377.3562176 [mavros_node-2] [INFO] [1758407377.354025056] [mavros_router]: link[1002] opened successfully
+1758407377.3564506 [mavros_node-2] [INFO] [1758407377.354224024] [mavros_node]: Starting mavros uas node
+1758407377.4663093 [mavros_node-2] [INFO] [1758407377.465715751] [mavros]: Plugin actuator_control ignored
+1758407377.4666123 [mavros_node-2] [INFO] [1758407377.465805027] [mavros]: Plugin adsb ignored
+1758407377.4667342 [mavros_node-2] [INFO] [1758407377.465733026] [mavros]: UAS Executor started, threads: 16
+1758407377.5098162 [mavros_node-2] [INFO] [1758407377.509195247] [mavros]: Plugin altitude created
+1758407377.5101259 [mavros_node-2] [INFO] [1758407377.509316649] [mavros]: Plugin altitude initialized
+1758407377.5102928 [mavros_node-2] [INFO] [1758407377.509332983] [mavros]: Plugin cam_imu_sync ignored
+1758407377.5104296 [mavros_node-2] [INFO] [1758407377.509338303] [mavros]: Plugin camera ignored
+1758407377.5113564 [mavros_node-2] [INFO] [1758407377.509342783] [mavros]: Plugin cellular_status ignored
+1758407377.5830734 [mavros_node-2] [INFO] [1758407377.582441858] [mavros]: Plugin command created
+1758407377.5833800 [mavros_node-2] [INFO] [1758407377.582555732] [mavros]: Plugin command initialized
+1758407377.5835617 [mavros_node-2] [INFO] [1758407377.582574031] [mavros]: Plugin companion_process_status ignored
+1758407377.5837781 [mavros_node-2] [INFO] [1758407377.582581062] [mavros]: Plugin debug_value ignored
+1758407377.6547308 [mavros_node-2] [INFO] [1758407377.653314544] [mavros.distance_sensor]: DS: Plugin not configured!
+1758407377.6739280 [mavros_node-2] [INFO] [1758407377.654175618] [mavros]: Plugin distance_sensor created
+1758407377.6745098 [mavros_node-2] [INFO] [1758407377.654252242] [mavros]: Plugin distance_sensor initialized
+1758407377.6747024 [mavros_node-2] [INFO] [1758407377.654268375] [mavros]: Plugin esc_status ignored
+1758407377.6748593 [mavros_node-2] [INFO] [1758407377.654276933] [mavros]: Plugin esc_telemetry ignored
+1758407377.6749310 [mavros_node-2] [INFO] [1758407377.654285293] [mavros]: Plugin fake_gps ignored
+1758407377.6749847 [mavros_node-2] [INFO] [1758407377.654294025] [mavros]: Plugin ftp ignored
+1758407377.6750369 [mavros_node-2] [INFO] [1758407377.654302097] [mavros]: Plugin geofence ignored
+1758407377.6750858 [mavros_node-2] [INFO] [1758407377.654309398] [mavros]: Plugin gimbal_control ignored
+1758407377.7745655 [mavros_node-2] [INFO] [1758407377.773826950] [mavros]: Plugin global_position created
+1758407377.7749858 [mavros_node-2] [INFO] [1758407377.773948769] [mavros]: Plugin global_position initialized
+1758407377.7751079 [mavros_node-2] [INFO] [1758407377.773962432] [mavros]: Plugin gps_input ignored
+1758407377.7751820 [mavros_node-2] [INFO] [1758407377.773966857] [mavros]: Plugin gps_rtk ignored
+1758407377.7752240 [mavros_node-2] [INFO] [1758407377.773970162] [mavros]: Plugin gps_status ignored
+1758407377.7752900 [mavros_node-2] [INFO] [1758407377.773973471] [mavros]: Plugin guided_target ignored
+1758407377.7753682 [mavros_node-2] [INFO] [1758407377.773976757] [mavros]: Plugin hil ignored
+1758407377.7754462 [mavros_node-2] [INFO] [1758407377.773980086] [mavros]: Plugin home_position ignored
+1758407377.8336513 [mavros_node-2] [INFO] [1758407377.833111674] [mavros]: Plugin imu created
+1758407377.8344610 [mavros_node-2] [INFO] [1758407377.833279270] [mavros]: Plugin imu initialized
+1758407377.8346601 [mavros_node-2] [INFO] [1758407377.833310123] [mavros]: Plugin landing_target ignored
+1758407377.9094036 [mavros_node-2] [INFO] [1758407377.908720907] [mavros]: Plugin local_position created
+1758407377.9097223 [mavros_node-2] [INFO] [1758407377.908893958] [mavros]: Plugin local_position initialized
+1758407377.9103909 [mavros_node-2] [INFO] [1758407377.908925402] [mavros]: Plugin log_transfer ignored
+1758407377.9105830 [mavros_node-2] [INFO] [1758407377.908938121] [mavros]: Plugin mag_calibration_status ignored
+1758407377.9107203 [mavros_node-2] [INFO] [1758407377.909061004] [mavros]: Plugin manual_control ignored
+1758407377.9112048 [mavros_node-2] [INFO] [1758407377.909098839] [mavros]: Plugin mocap_pose_estimate ignored
+1758407377.9113441 [mavros_node-2] [INFO] [1758407377.909106349] [mavros]: Plugin mount_control ignored
+1758407377.9114635 [mavros_node-2] [INFO] [1758407377.909111243] [mavros]: Plugin nav_controller_output ignored
+1758407377.9115880 [mavros_node-2] [INFO] [1758407377.909116392] [mavros]: Plugin obstacle_distance ignored
+1758407377.9116561 [mavros_node-2] [INFO] [1758407377.909120990] [mavros]: Plugin odometry ignored
+1758407377.9117103 [mavros_node-2] [INFO] [1758407377.909125902] [mavros]: Plugin onboard_computer_status ignored
+1758407377.9118130 [mavros_node-2] [INFO] [1758407377.909130661] [mavros]: Plugin optical_flow ignored
+1758407377.9541228 [mavros_node-2] [INFO] [1758407377.953529587] [mavros]: Plugin param created
+1758407377.9544642 [mavros_node-2] [INFO] [1758407377.953672506] [mavros]: Plugin param initialized
+1758407377.9550426 [mavros_node-2] [INFO] [1758407377.953684823] [mavros]: Plugin play_tune ignored
+1758407377.9552217 [mavros_node-2] [INFO] [1758407377.953689036] [mavros]: Plugin px4flow ignored
+1758407377.9553549 [mavros_node-2] [INFO] [1758407377.953692631] [mavros]: Plugin rallypoint ignored
+1758407378.0083385 [mavros_node-2] [INFO] [1758407378.006489647] [mavros]: Plugin rangefinder created
+1758407378.0086238 [mavros_node-2] [INFO] [1758407378.006978634] [mavros]: Plugin rangefinder initialized
+1758407378.0634212 [mavros_node-2] [INFO] [1758407378.062923501] [mavros]: Plugin rc_io created
+1758407378.0636997 [mavros_node-2] [INFO] [1758407378.063039727] [mavros]: Plugin rc_io initialized
+1758407378.1099582 [mavros_node-2] [INFO] [1758407378.109585816] [mavros]: Plugin setpoint_accel created
+1758407378.1101792 [mavros_node-2] [INFO] [1758407378.109662226] [mavros]: Plugin setpoint_accel initialized
+1758407378.2402725 [mavros_node-2] [INFO] [1758407378.239650837] [mavros]: Plugin setpoint_attitude created
+1758407378.2405922 [mavros_node-2] [INFO] [1758407378.239762551] [mavros]: Plugin setpoint_attitude initialized
+1758407378.2895386 [mavros_node-2] [INFO] [1758407378.289070174] [mavros]: Plugin setpoint_position created
+1758407378.2900014 [mavros_node-2] [INFO] [1758407378.289215878] [mavros]: Plugin setpoint_position initialized
+1758407378.3017788 [create-6] [INFO] [1758407378.301187348] [ros_gz_sim]: Waiting messages on topic [robot_description].
+1758407378.3478911 [mavros_node-2] [INFO] [1758407378.347403338] [mavros]: Plugin setpoint_raw created
+1758407378.3481801 [mavros_node-2] [INFO] [1758407378.347496824] [mavros]: Plugin setpoint_raw initialized
+1758407378.3969350 [mavros_node-2] [INFO] [1758407378.396389166] [mavros]: Plugin setpoint_trajectory created
+1758407378.3972256 [mavros_node-2] [INFO] [1758407378.396470000] [mavros]: Plugin setpoint_trajectory initialized
+1758407378.4001153 [create-6] [INFO] [1758407378.399610592] [ros_gz_sim]: Requested creation of entity.
+1758407378.4003875 [create-6] [INFO] [1758407378.399701202] [ros_gz_sim]: OK creation of entity.
+1758407378.4543388 [ardusub-7] No JSON sensor message received, resending servos
+1758407378.4563034 [mavros_node-2] [INFO] [1758407378.454261067] [mavros]: Plugin setpoint_velocity created
+1758407378.4565809 [mavros_node-2] [INFO] [1758407378.454341977] [mavros]: Plugin setpoint_velocity initialized
+1758407378.5345430 [INFO] [create-6]: process has finished cleanly [pid 5864]
+1758407378.6806178 [mavros_node-2] [INFO] [1758407378.679298681] [mavros]: Plugin sys_status created
+1758407378.6809635 [mavros_node-2] [INFO] [1758407378.679409753] [mavros]: Plugin sys_status initialized
+1758407378.6811326 [mavros_node-2] [INFO] [1758407378.679427117] [mavros]: Plugin sys_time ignored
+1758407378.6812625 [mavros_node-2] [INFO] [1758407378.679432675] [mavros]: Plugin tdr_radio ignored
+1758407378.6814220 [mavros_node-2] [INFO] [1758407378.679437542] [mavros]: Plugin terrain ignored
+1758407378.6816351 [mavros_node-2] [INFO] [1758407378.679441827] [mavros]: Plugin trajectory ignored
+1758407378.6817718 [mavros_node-2] [INFO] [1758407378.679446234] [mavros]: Plugin tunnel ignored
+1758407378.6818955 [mavros_node-2] [INFO] [1758407378.679450464] [mavros]: Plugin vfr_hud ignored
+1758407378.6820164 [mavros_node-2] [INFO] [1758407378.679454756] [mavros]: Plugin vibration ignored
+1758407378.7295821 [mavros_node-2] [INFO] [1758407378.728958649] [mavros]: Plugin vision_pose created
+1758407378.7297952 [mavros_node-2] [INFO] [1758407378.729052847] [mavros]: Plugin vision_pose initialized
+1758407378.7727854 [mavros_node-2] [INFO] [1758407378.772223831] [mavros]: Plugin vision_speed created
+1758407378.7731342 [mavros_node-2] [INFO] [1758407378.772322829] [mavros]: Plugin vision_speed initialized
+1758407378.7733083 [mavros_node-2] [INFO] [1758407378.772336640] [mavros]: Plugin waypoint ignored
+1758407378.7734427 [mavros_node-2] [INFO] [1758407378.772340766] [mavros]: Plugin wheel_odometry ignored
+1758407378.7735631 [mavros_node-2] [INFO] [1758407378.772344076] [mavros]: Plugin wind_estimation ignored
+1758407378.7785096 [mavros_node-2] [INFO] [1758407378.777976059] [mavros]: Built-in SIMD instructions: SSE, SSE2
+1758407378.7788436 [mavros_node-2] [INFO] [1758407378.778033296] [mavros]: Built-in MAVLink package version: 2024.10.10
+1758407378.7790079 [mavros_node-2] [INFO] [1758407378.778038215] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+1758407378.7790735 [mavros_node-2] [INFO] [1758407378.778041279] [mavros]: MAVROS UAS via /uas1 started. MY ID 255.191, TARGET ID 1.1
+1758407379.5563927 [ardusub-7] No JSON sensor message received, resending servos
+1758407379.6170828 [mavros_node-2] [INFO] [1758407379.616281032] [mavros_router]: link[1002] detected remote address 255.191
+1758407380.6577902 [ardusub-7] No JSON sensor message received, resending servos
+1758407380.6876180 [mavros_node-2] [WARN] [1758407380.687031492] [mavros.sys]: VER: broadcast request timeout, retries left 4
+1758407381.6845708 [mavros_node-2] [WARN] [1758407381.683609628] [mavros.sys]: VER: broadcast request timeout, retries left 3
+1758407381.7595935 [ardusub-7] No JSON sensor message received, resending servos
+1758407382.6861329 [mavros_node-2] [WARN] [1758407382.685489733] [mavros.sys]: VER: unicast request timeout, retries left 2
+1758407382.8616450 [ardusub-7] No JSON sensor message received, resending servos
+1758407383.1298106 [ardusub-7] 
+1758407383.1301122 [ardusub-7] JSON received:
+1758407383.1301978 [ardusub-7] 	timestamp
+1758407383.1303186 [ardusub-7] 	imu: gyro
+1758407383.1306953 [ardusub-7] 	imu: accel_body
+1758407383.1308906 [ardusub-7] 	position
+1758407383.1310682 [ardusub-7] 	quaternion
+1758407383.1312096 [ardusub-7] 	velocity
+1758407383.1323521 [ardusub-7] 
+1758407383.1397913 [ardusub-7] bind port 5762 for SERIAL1
+1758407383.1400898 [ardusub-7] SERIAL1 on TCP port 5762
+1758407383.1402340 [ardusub-7] bind port 5763 for SERIAL2
+1758407383.1402962 [ardusub-7] SERIAL2 on TCP port 5763
+1758407383.1461573 [ardusub-7] validate_structures:514: Validating structures
+1758407383.1543844 [ardusub-7] Loaded defaults from /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2/ardusub.parm
+1758407383.1832201 [mavros_node-2] [INFO] [1758407383.182622870] [mavros_router]: link[1000] detected remote address 1.1
+1758407383.4210694 [mavros_node-2] [INFO] [1758407383.417747697] [mavros.sys]: FCU: Calibrating barometer
+1758407383.7052732 [mavros_node-2] [WARN] [1758407383.704730979] [mavros.sys]: VER: unicast request timeout, retries left 1
+1758407384.6919494 [mavros_node-2] [WARN] [1758407384.691268084] [mavros.sys]: VER: unicast request timeout, retries left 0
+1758407385.7069449 [mavros_node-2] [WARN] [1758407385.706457221] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+1758407386.7099178 [mavros_node-2] [INFO] [1758407386.709158305] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+1758407386.7107420 [mavros_node-2] [INFO] [1758407386.710383871] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000f9e7
+1758407386.7108941 [mavros_node-2] [INFO] [1758407386.710431582] [mavros.sys]: VER: 1.1: Flight software:     04060000 (92693e02)
+1758407386.7109716 [mavros_node-2] [INFO] [1758407386.710466755] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+1758407386.7110233 [mavros_node-2] [INFO] [1758407386.710482757] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+1758407386.7113373 [mavros_node-2] [INFO] [1758407386.710492968] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+1758407386.7114165 [mavros_node-2] [INFO] [1758407386.710501220] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+1758407386.7114670 [mavros_node-2] [INFO] [1758407386.710509027] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+1758407389.3558140 [mavros_node-2] [INFO] [1758407389.348231435] [mavros.sys]: FCU: Barometer 1 calibration complete
+1758407389.3561819 [mavros_node-2] [INFO] [1758407389.348406203] [mavros.sys]: FCU: Barometer 2 calibration complete
+1758407389.4007623 [mavros_node-2] [INFO] [1758407389.396405575] [mavros.sys]: FCU: ArduPilot Ready
+1758407389.4012368 [mavros_node-2] [INFO] [1758407389.396595471] [mavros.sys]: FCU: AHRS: DCM active
+1758407390.3820891 [mavros_node-2] [ERROR] [1758407390.381229757] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407390.3831599 [mavros_node-2] [INFO] [1758407390.382660957] [mavros.rc]: RC_CHANNELS message detected!
+1758407390.3837194 [mavros_node-2] [INFO] [1758407390.383032111] [mavros.imu]: IMU: Raw IMU message used.
+1758407391.5915174 [mavros_node-2] [ERROR] [1758407391.590863170] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407392.7509160 [mavros_node-2] [ERROR] [1758407392.750180231] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407396.8482699 [mavros_node-2] [ERROR] [1758407396.844630772] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407397.9422669 [mavros_node-2] [ERROR] [1758407397.941701508] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407399.0362024 [mavros_node-2] [ERROR] [1758407399.035079212] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407399.2480071 [mavros_node-2] [INFO] [1758407399.247332521] [mavros.sys]: FCU: EKF3 IMU0 initialised
+1758407399.2491021 [mavros_node-2] [INFO] [1758407399.247585851] [mavros.sys]: FCU: EKF3 IMU1 initialised
+1758407399.2506537 [mavros_node-2] [INFO] [1758407399.250212033] [mavros.sys]: FCU: AHRS: EKF3 active
+1758407399.6241858 [mavros_node-2] [INFO] [1758407399.623760843] [mavros.sys]: FCU: ArduSub V4.6.0-dev (92693e02)
+1758407399.6248481 [mavros_node-2] [INFO] [1758407399.624035368] [mavros.sys]: FCU: e44de74ebc794be39dcc3db8339bc5f2
+1758407399.6250074 [mavros_node-2] [INFO] [1758407399.624213018] [mavros.sys]: FCU: Frame: VECTORED
+1758407400.5013683 [mavros_node-2] [INFO] [1758407400.497142955] [mavros.sys]: FCU: EKF3 IMU0 origin set
+1758407400.5025010 [mavros_node-2] [INFO] [1758407400.500907845] [mavros.sys]: FCU: EKF3 IMU1 origin set
+1758407402.1530719 [mavros_node-2] [INFO] [1758407402.149455457] [mavros.param]: PR: parameters list received
+1758407402.1549358 [mavros_node-2] [ERROR] [1758407402.150813293] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407402.1551483 [mavros_node-2] [INFO] [1758407402.151025338] [mavros.imu]: IMU: Attitude quaternion IMU detected!
+1758407403.2593429 [mavros_node-2] [ERROR] [1758407403.258520418] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407404.3383625 [mavros_node-2] [ERROR] [1758407404.337454185] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407404.5806670 [mavros_node-2] [INFO] [1758407404.579868355] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+1758407404.5810940 [mavros_node-2] [INFO] [1758407404.580022132] [mavros.sys]: FCU: EKF3 IMU1 is using external nav data
+1758407404.5819480 [mavros_node-2] [INFO] [1758407404.580051583] [mavros.sys]: FCU: EKF3 IMU1 initial pos NED = 1.3,-0.1,0.5 (m)
+1758407404.5834739 [mavros_node-2] [INFO] [1758407404.583043639] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+1758407404.5846398 [mavros_node-2] [INFO] [1758407404.583157964] [mavros.sys]: FCU: EKF3 IMU0 is using external nav data
+1758407404.5847902 [mavros_node-2] [INFO] [1758407404.583182258] [mavros.sys]: FCU: EKF3 IMU0 initial pos NED = 1.3,-0.1,0.5 (m)
+1758407404.7260146 [mavros_node-2] [INFO] [1758407404.721718825] [mavros.sys]: FCU: EKF3 IMU0 yaw aligned
+1758407404.7266326 [mavros_node-2] [INFO] [1758407404.721854305] [mavros.sys]: FCU: EKF3 IMU1 yaw aligned
+1758407405.4163921 [mavros_node-2] [ERROR] [1758407405.415503672] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407406.5452905 [mavros_node-2] [ERROR] [1758407406.544407742] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407407.6400938 [mavros_node-2] [ERROR] [1758407407.639298576] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407408.8212476 [mavros_node-2] [ERROR] [1758407408.820481541] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407410.1115570 [mavros_node-2] [ERROR] [1758407410.110507724] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407411.1778605 [mavros_node-2] [ERROR] [1758407411.177049331] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407412.4064894 [mavros_node-2] [ERROR] [1758407412.405737603] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407413.5730500 [mavros_node-2] [ERROR] [1758407413.572459216] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407414.6743908 [mavros_node-2] [ERROR] [1758407414.673563428] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407415.7590570 [mavros_node-2] [ERROR] [1758407415.758100022] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407416.8988917 [mavros_node-2] [ERROR] [1758407416.897900275] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407417.5926516 [mavros_node-2] [INFO] [1758407417.587379223] [mavros.sys]: FCU: GPS 1: probing for u-blox at 230400 baud
+1758407417.6498783 [mavros_node-2] [INFO] [1758407417.649395462] [mavros.sys]: FCU: GPS 1: detected u-blox
+1758407418.0081713 [mavros_node-2] [ERROR] [1758407418.007377349] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407419.1949487 [mavros_node-2] [ERROR] [1758407419.194056376] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407420.3270519 [mavros_node-2] [ERROR] [1758407420.326115780] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407421.4660225 [mavros_node-2] [ERROR] [1758407421.460924834] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407422.6947458 [mavros_node-2] [ERROR] [1758407422.693871753] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407424.0085125 [mavros_node-2] [ERROR] [1758407424.007679968] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407425.3044155 [mavros_node-2] [ERROR] [1758407425.303225839] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407427.0845015 [mavros_node-2] [ERROR] [1758407427.083026963] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407428.2668171 [mavros_node-2] [ERROR] [1758407428.266161165] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407429.6772313 [mavros_node-2] [ERROR] [1758407429.676269510] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407430.8580768 [mavros_node-2] [ERROR] [1758407430.857247118] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407432.1030366 [mavros_node-2] [ERROR] [1758407432.098817983] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407433.2786160 [mavros_node-2] [ERROR] [1758407433.277816522] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407434.4402533 [mavros_node-2] [ERROR] [1758407434.439145618] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407435.6765757 [mavros_node-2] [ERROR] [1758407435.675344603] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407436.7985671 [mavros_node-2] [ERROR] [1758407436.797714966] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407437.9893444 [mavros_node-2] [ERROR] [1758407437.988777335] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407439.3228447 [mavros_node-2] [ERROR] [1758407439.322196800] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407440.5451930 [mavros_node-2] [ERROR] [1758407440.544596986] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407441.7948403 [mavros_node-2] [ERROR] [1758407441.794177602] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407443.0940168 [mavros_node-2] [ERROR] [1758407443.082748639] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407448.6932397 [mavros_node-2] [ERROR] [1758407448.692735044] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407449.8731968 [mavros_node-2] [ERROR] [1758407449.872461342] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407451.1295965 [mavros_node-2] [ERROR] [1758407451.128501991] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407452.3676691 [mavros_node-2] [ERROR] [1758407452.366862817] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407453.6240487 [mavros_node-2] [ERROR] [1758407453.622137131] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407455.0461581 [mavros_node-2] [ERROR] [1758407455.045355460] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407456.3784776 [mavros_node-2] [ERROR] [1758407456.377990904] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407457.8161988 [mavros_node-2] [ERROR] [1758407457.815426402] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407459.0927427 [mavros_node-2] [ERROR] [1758407459.089116668] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407460.4001422 [mavros_node-2] [ERROR] [1758407460.399303627] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407461.7399235 [mavros_node-2] [ERROR] [1758407461.737178403] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407463.1697948 [mavros_node-2] [ERROR] [1758407463.169071326] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407464.4325292 [mavros_node-2] [ERROR] [1758407464.431834798] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407465.7683423 [mavros_node-2] [ERROR] [1758407465.767625090] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407467.0401652 [mavros_node-2] [ERROR] [1758407467.039001740] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407468.2777352 [mavros_node-2] [ERROR] [1758407468.277030215] [mavros.distance_sensor]: DS: no mapping for sensor id: 0, type: 4, orientation: 25
+1758407468.7917137 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1758407469.1047351 [mavros_node-2] [INFO] [1758407468.791072525] [rclcpp]: signal_handler(signum=2)
+1758407469.1054068 [ERROR] [ardusub-7]: process has died [pid 5868, exit code -2, cmd 'ardusub -S -w -M JSON --defaults /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2/ardusub.parm -IO --home 44.65870,-124.06556,0.0,270.0'].
+1758407469.1058433 [INFO] [static_transform_publisher-17]: process has finished cleanly [pid 5896]
+1758407469.1061020 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 5854]
+1758407469.1062305 [INFO] [static_transform_publisher-12]: process has finished cleanly [pid 5880]
+1758407469.1063170 [INFO] [static_transform_publisher-14]: process has finished cleanly [pid 5884]
+1758407469.1063945 [INFO] [static_transform_publisher-18]: process has finished cleanly [pid 5900]
+1758407469.1064689 [INFO] [static_transform_publisher-15]: process has finished cleanly [pid 5890]
+1758407469.1065364 [INFO] [static_transform_publisher-16]: process has finished cleanly [pid 5892]
+1758407469.1066008 [INFO] [static_transform_publisher-13]: process has finished cleanly [pid 5882]
+1758407469.1066618 [INFO] [static_transform_publisher-19]: process has finished cleanly [pid 5903]
+1758407469.1067281 [INFO] [ardusub_manager-9]: process has finished cleanly [pid 5872]
+1758407469.1067946 [INFO] [static_transform_publisher-11]: process has finished cleanly [pid 5878]
+1758407469.1068747 [ERROR] [gazebo_localizer-10]: process has died [pid 5875, exit code -2, cmd '/home/blue/ws_blue/install/blue_localization/lib/blue_localization/gazebo_localizer --ros-args -r __node:=gazebo_localizer --params-file /home/blue/ws_blue/install/blue_description/share/blue_description/config/bluerov2/localization.yaml --params-file /tmp/launch_params_17dvp43b'].
+1758407469.1074631 [robot_state_publisher-1] [INFO] [1758407468.791091027] [rclcpp]: signal_handler(signum=2)
+1758407469.1079104 [static_transform_publisher-18] [INFO] [1758407468.791089017] [rclcpp]: signal_handler(signum=2)
+1758407469.1082368 [static_transform_publisher-15] [INFO] [1758407468.791194647] [rclcpp]: signal_handler(signum=2)
+1758407469.1085048 [static_transform_publisher-13] [INFO] [1758407468.791263615] [rclcpp]: signal_handler(signum=2)
+1758407469.1087444 [static_transform_publisher-11] [INFO] [1758407468.791360356] [rclcpp]: signal_handler(signum=2)
+1758407469.1150734 [parameter_bridge-5] [INFO] [1758407468.791674104] [rclcpp]: signal_handler(signum=2)
+1758407469.1158304 [parameter_bridge-5] cannot publish data, at ./src/rmw_publish.cpp:62 during '__function__'
+1758407469.1161985 [parameter_bridge-5] Fail in delete datareader, at ./src/rmw_service.cpp:100 during '__function__'
+1758407469.1181071 [static_transform_publisher-16] [INFO] [1758407468.791958734] [rclcpp]: signal_handler(signum=2)
+1758407469.1189694 [gazebo_localizer-10] Traceback (most recent call last):
+1758407469.1191216 [gazebo_localizer-10]   File "/home/blue/ws_blue/install/blue_localization/lib/blue_localization/gazebo_localizer", line 33, in <module>
+1758407469.1192231 [gazebo_localizer-10]     sys.exit(load_entry_point('blue-localization==0.0.1', 'console_scripts', 'gazebo_localizer')())
+1758407469.1193185 [gazebo_localizer-10]   File "/home/blue/ws_blue/install/blue_localization/lib/python3.10/site-packages/blue_localization/localizer.py", line 671, in main_gazebo
+1758407469.1194148 [gazebo_localizer-10]     rclpy.spin(node, executor)
+1758407469.1194744 [gazebo_localizer-10]   File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/__init__.py", line 228, in spin
+1758407469.1195219 [gazebo_localizer-10]     executor.spin_once()
+1758407469.1195650 [gazebo_localizer-10]   File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 852, in spin_once
+1758407469.1196074 [gazebo_localizer-10]     self._spin_once_impl(timeout_sec)
+1758407469.1196477 [gazebo_localizer-10]   File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 833, in _spin_once_impl
+1758407469.1196880 [gazebo_localizer-10]     handler, entity, node = self.wait_for_ready_callbacks(
+1758407469.1197276 [gazebo_localizer-10]   File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 762, in wait_for_ready_callbacks
+1758407469.1198037 [gazebo_localizer-10]     return next(self._cb_iter)
+1758407469.1198640 [gazebo_localizer-10]   File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 666, in _wait_for_ready_callbacks
+1758407469.1199114 [gazebo_localizer-10]     wait_set.wait(timeout_nsec)
+1758407469.1199541 [gazebo_localizer-10] KeyboardInterrupt
+1758407469.1202934 [parameter_bridge-4] [INFO] [1758407468.796289813] [rclcpp]: signal_handler(signum=2)
+1758407469.1203804 [parameter_bridge-4] cannot publish data, at ./src/rmw_publish.cpp:62 during '__function__'
+1758407469.1204262 [parameter_bridge-4] Fail in delete datareader, at ./src/rmw_service.cpp:100 during '__function__'
+1758407469.1206484 [parameter_bridge-3] [INFO] [1758407468.796424291] [rclcpp]: signal_handler(signum=2)
+1758407469.1207063 [parameter_bridge-3] Failed to delete datawriter, at ./src/publisher.cpp:45 during '__function__'
+1758407469.1207480 [parameter_bridge-3] cannot publish data, at ./src/rmw_publish.cpp:62 during '__function__'
+1758407469.1208317 [parameter_bridge-3] Fail in delete datareader, at ./src/rmw_service.cpp:100 during '__function__'
+1758407469.1210582 [static_transform_publisher-14] [INFO] [1758407468.797045527] [rclcpp]: signal_handler(signum=2)
+1758407469.1212974 [static_transform_publisher-17] [INFO] [1758407468.797756014] [rclcpp]: signal_handler(signum=2)
+1758407469.1215265 [static_transform_publisher-19] [INFO] [1758407468.797829650] [rclcpp]: signal_handler(signum=2)
+1758407469.1218238 [mavros_node-2] Error:   mavconn: tcp0: receive: End of file
+1758407469.1219106 [mavros_node-2]          at line 283 in ./src/tcp.cpp
+1758407469.1219635 [mavros_node-2] [WARN] [1758407468.805275471] [mavros]: UAS Executor terminated
+1758407469.1221361 [static_transform_publisher-12] [INFO] [1758407468.799950260] [rclcpp]: signal_handler(signum=2)
+1758407469.2950587 [mavros_node-2] cannot publish data, at ./src/rmw_publish.cpp:62 during '__function__'
+1758407469.2953415 [mavros_node-2] Fail in delete datareader, at ./src/rmw_service.cpp:100 during '__function__'
+1758407469.9059515 [ERROR] [ruby $(which gz) sim-8]: process has died [pid 5870, exit code -2, cmd 'ruby $(which gz) sim -v 4 -r /home/blue/ws_blue/install/blue_description/share/blue_description/gazebo/worlds/underwater.world --force-version 8'].
+1758407469.9066763 [INFO] [launch]: process[ruby $(which gz) sim-8] was required: shutting down launched system
+1758407469.9080565 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Cannot shutdown a ROS adapter that is not running
+1758407470.8855972 [ERROR] [parameter_bridge-4]: process has died [pid 5860, exit code -11, cmd '/opt/ros/iron/lib/ros_gz_bridge/parameter_bridge /camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image --ros-args'].
+1758407471.9910738 [ERROR] [parameter_bridge-3]: process has died [pid 5858, exit code -11, cmd '/opt/ros/iron/lib/ros_gz_bridge/parameter_bridge /clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock --ros-args'].
+1758407473.1498685 [ERROR] [parameter_bridge-5]: process has died [pid 5862, exit code -11, cmd '/opt/ros/iron/lib/ros_gz_bridge/parameter_bridge /model/bluerov2/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry --ros-args'].
+1758407474.1058364 [ERROR] [mavros_node-2]: process[mavros_node-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1758407474.1081920 [INFO] [mavros_node-2]: sending signal 'SIGTERM' to process[mavros_node-2]
+1758407477.1113977 [ERROR] [mavros_node-2]: process has died [pid 5856, exit code -11, cmd '/opt/ros/iron/lib/mavros/mavros_node --ros-args --params-file /home/blue/ws_blue/install/blue_description/share/blue_description/config/ardusub/mavros.yaml --params-file /tmp/launch_params_r14ohby7'].

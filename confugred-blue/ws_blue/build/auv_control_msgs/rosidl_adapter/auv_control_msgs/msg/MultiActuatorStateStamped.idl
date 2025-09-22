@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auv_control_msgs/msg/MultiActuatorStateStamped.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module auv_control_msgs {
+  module msg {
+    struct MultiActuatorStateStamped {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "The joint names for the reference values.")
+      sequence<string> reference_names;
+
+      @verbatim (language="comment", text=
+        "The controller reference values.")
+      sequence<double> reference;
+
+      @verbatim (language="comment", text=
+        "The names of the actuators.")
+      sequence<string> output_names;
+
+      @verbatim (language="comment", text=
+        "Current output of the controller.")
+      sequence<double> output;
+
+      @verbatim (language="comment", text=
+        "Time between two consecutive updates/execution of the control law.")
+      double time_step;
+    };
+  };
+};
