@@ -6,6 +6,7 @@ It has been slightly upgraded and adjusted to the needs of KN SPA i BLSPS.
 ### Instruction of running bluespark-software package on your computer:
 1. Download the image using: docker pull ghcr.io/spparki/bluespark-software:latest
 2. Create a docker-compose.yaml file with this pattern:
+ '''bash
     version: "3.8"
   
     services:
@@ -27,7 +28,7 @@ It has been slightly upgraded and adjusted to the needs of KN SPA i BLSPS.
                   capabilities: [gpu]
         stdin_open: true                         # Keep stdin open for terminal
         tty: true                                # Allocate a pseudo-TTY
-
+'''
   --------------------------------------------------------------------------------------------------------------
   A) Note that its important if you use GPU or CPU. It has to be declared in docker-compose.yaml. 
   B) The file above works on linux installed natively. For docker-compose.yaml for WSL2 on Windows go to the fixed-blue branch of this repository. 
